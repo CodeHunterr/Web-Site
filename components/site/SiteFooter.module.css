@@ -1,0 +1,130 @@
+.footer {
+  padding: var(--section-space) 0 40px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(32px, 4vw, 44px);
+  border: 1px solid var(--line-soft);
+  border-radius: calc(var(--radius-panel) + 2px);
+  background: var(--gradient-panel);
+  box-shadow: var(--shadow-card);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(11, 27, 61, 0.95), rgba(11, 27, 61, 0.16), transparent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(220px, 0.72fr) minmax(300px, 0.96fr);
+  gap: clamp(24px, 3vw, 38px);
+}
+
+.brandBlock,
+.linkBlock,
+.contactBlock {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+}
+
+.eyebrow,
+.contactLabel {
+  margin: 0;
+  color: var(--color-soft);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.brandName {
+  color: var(--color-ink);
+  font-size: clamp(30px, 3.6vw, 38px);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.summary {
+  max-width: 560px;
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.blockTitle {
+  color: var(--color-ink);
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.linkList,
+.contactList {
+  display: grid;
+  gap: 12px;
+}
+
+.link,
+.contactLink {
+  color: var(--color-muted);
+  line-height: 1.72;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+  overflow-wrap: anywhere;
+}
+
+.link:hover,
+.contactLink:hover {
+  color: var(--color-navy);
+  transform: translateX(2px);
+}
+
+.contactItem {
+  display: grid;
+  gap: 8px;
+  padding: 16px 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.contactValue {
+  color: var(--color-ink);
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.bottomBar {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-soft);
+  color: var(--color-soft);
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: var(--section-space-tight);
+  }
+
+  .card {
+    border-radius: calc(var(--radius-panel) - 6px);
+  }
+}

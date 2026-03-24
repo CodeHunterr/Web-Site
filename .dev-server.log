@@ -1,0 +1,660 @@
+
+> minimal-next15-ts@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.34.191.56:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1696ms
+ ○ Compiling /api/forms/contact ...
+ ✓ Compiled /api/forms/contact in 692ms (352 modules)
+ POST /api/forms/contact 200 in 3294ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 1035ms (867 modules)
+ GET /en 200 in 1843ms
+ ✓ Compiled /[locale]/contact in 296ms (808 modules)
+ GET /en/contact 200 in 850ms
+ POST /api/forms/contact 200 in 2524ms
+ GET /en 200 in 141ms
+ GET /tr 200 in 80ms
+ GET /zh 200 in 95ms
+ GET /ru 200 in 93ms
+ GET /en/contact 200 in 100ms
+ GET /tr/contact 200 in 84ms
+ GET /zh/contact 200 in 76ms
+ GET /ru/contact 200 in 80ms
+ POST /api/forms/contact 400 in 17ms
+ GET /en/contact 200 in 127ms
+ POST /api/forms/contact 200 in 2173ms
+ GET /tr/contact 200 in 43ms
+ POST /api/forms/contact 200 in 403ms
+ GET /en/contact 200 in 45ms
+ GET /zh/contact 200 in 44ms
+ GET /tr/contact 200 in 38ms
+ GET /ru/contact 200 in 39ms
+ GET /tr/contact 200 in 41ms
+ GET /zh/contact 200 in 41ms
+ GET /tr/contact 200 in 44ms
+ GET /tr/contact 200 in 42ms
+ GET /tr/contact 200 in 36ms
+ GET /tr/contact 200 in 38ms
+ ✓ Compiled /[locale]/kaolin in 353ms (740 modules)
+ GET /tr/kaolin 200 in 917ms
+ ✓ Compiled /[locale]/applications in 346ms (749 modules)
+ GET /tr/applications 200 in 910ms
+ GET /tr/kaolin 200 in 53ms
+ GET /tr/kaolin 200 in 51ms
+ GET /tr/kaolin 200 in 218ms
+ ⨯ ./content/en/kaolin.ts
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\hilal.oguzhan\Desktop\WebPage\content\en\kaolin.ts[0m:52:1]
+ [2m49[0m |     },
+ [2m50[0m |   ],
+ [2m51[0m | } satisfies KaolinPageContent;
+ [2m52[0m |     ],
+    : [35;1m    ^[0m
+ [2m53[0m |   },
+ [2m54[0m |   futureGradesSection: {
+ [2m55[0m |     heading: {
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./content/en/kaolin.ts
+./content/index.ts
+./app/layout.tsx
+ ○ Compiling /_error ...
+ ⨯ ./content/en/kaolin.ts
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\hilal.oguzhan\Desktop\WebPage\content\en\kaolin.ts[0m:52:1]
+ [2m49[0m |     },
+ [2m50[0m |   ],
+ [2m51[0m | } satisfies KaolinPageContent;
+ [2m52[0m |     ],
+    : [35;1m    ^[0m
+ [2m53[0m |   },
+ [2m54[0m |   futureGradesSection: {
+ [2m55[0m |     heading: {
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./content/en/kaolin.ts
+./content/index.ts
+./app/layout.tsx
+ GET /tr/kaolin 500 in 3691ms
+ GET /tr/kaolin 500 in 28ms
+ GET /tr/kaolin 500 in 29ms
+ GET /tr/kaolin 500 in 89ms
+ GET /tr/kaolin 500 in 24ms
+ GET /tr/kaolin 500 in 20ms
+ GET /tr/kaolin 500 in 21ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_error in 303ms (655 modules)
+ GET /tr/kaolin 200 in 515ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 616ms (1090 modules)
+ GET /images/kaolin-hero.jpg 404 in 803ms
+ GET /en/kaolin 200 in 121ms
+ GET /tr/kaolin 200 in 62ms
+ GET /zh/kaolin 200 in 58ms
+ GET /ru/kaolin 200 in 66ms
+ ✓ Compiled in 578ms (1095 modules)
+ GET /tr/kaolin 200 in 138ms
+ GET /tr/kaolin 200 in 153ms
+ GET /en/kaolin 200 in 56ms
+ ✓ Compiled in 372ms (1095 modules)
+ GET /tr/kaolin 200 in 148ms
+ GET /tr/kaolin 200 in 166ms
+ ✓ Compiled in 154ms (655 modules)
+ GET /tr/kaolin 200 in 141ms
+ GET /tr/kaolin 200 in 126ms
+ ✓ Compiled /_not-found in 398ms (1090 modules)
+ GET /images/kaolin-hero.jpg 404 in 616ms
+ GET /tr/kaolin 200 in 71ms
+ GET /images/kaolin-hero.jpg 404 in 34ms
+ GET /tr/kaolin 200 in 109ms
+ GET /images/kaolin-hero.jpg 404 in 49ms
+ ✓ Compiled in 176ms (656 modules)
+ GET /tr/kaolin 200 in 137ms
+ GET /tr/kaolin 200 in 129ms
+ ✓ Compiled in 148ms (655 modules)
+ GET /tr/kaolin 200 in 102ms
+ GET /tr/kaolin 200 in 130ms
+ ✓ Compiled in 236ms (655 modules)
+ GET /tr/kaolin 200 in 117ms
+ GET /tr/kaolin 200 in 133ms
+ ✓ Compiled in 223ms (655 modules)
+ GET /tr/kaolin 200 in 108ms
+ GET /tr/kaolin 200 in 146ms
+ ✓ Compiled in 432ms (1095 modules)
+ GET /tr/kaolin 200 in 158ms
+ GET /tr/kaolin 200 in 135ms
+ GET /en/kaolin 200 in 59ms
+ GET /tr/kaolin 200 in 89ms
+ ✓ Compiled in 270ms (655 modules)
+ GET /tr/kaolin 200 in 103ms
+ GET /tr/kaolin 200 in 131ms
+ GET /en/kaolin 200 in 57ms
+ ✓ Compiled in 742ms (1085 modules)
+ GET /tr/kaolin 200 in 165ms
+ GET /tr/kaolin 200 in 138ms
+ GET /en/kaolin 200 in 53ms
+ ✓ Compiled in 336ms (1095 modules)
+ GET /tr/kaolin 200 in 160ms
+ GET /tr/kaolin 200 in 145ms
+ GET /tr/kaolin 200 in 110ms
+ ✓ Compiled in 382ms (1095 modules)
+ GET /tr/kaolin 200 in 155ms
+ GET /tr/kaolin 200 in 156ms
+ GET /en/kaolin 200 in 69ms
+ GET /tr/kaolin 200 in 118ms
+ GET /tr/kaolin 200 in 607ms
+ ✓ Compiled in 410ms (1095 modules)
+ GET /tr/kaolin 200 in 138ms
+ GET /tr/kaolin 200 in 154ms
+ GET /tr/kaolin 200 in 118ms
+ GET /tr/kaolin 200 in 115ms
+ GET /en/kaolin 200 in 34ms
+ GET /tr/kaolin 200 in 44ms
+ ✓ Compiled in 200ms (655 modules)
+ GET /tr/kaolin 200 in 109ms
+ GET /en/kaolin 200 in 148ms
+ GET /zh/kaolin 200 in 194ms
+ GET /tr/kaolin 200 in 216ms
+ GET /ru/kaolin 200 in 233ms
+ GET /en/kaolin 200 in 96ms
+ GET /ru/kaolin 200 in 238ms
+ GET /tr/kaolin 200 in 260ms
+ GET /zh/kaolin 200 in 277ms
+ GET /zh/kaolin 200 in 156ms
+ GET /ru/kaolin 200 in 169ms
+ GET /en/kaolin 200 in 251ms
+ GET /tr/kaolin 200 in 182ms
+ GET /tr/kaolin 200 in 119ms
+ GET /tr/kaolin 200 in 110ms
+ GET /en/kaolin 200 in 39ms
+ GET /zh/kaolin 200 in 44ms
+ GET /ru/kaolin 200 in 51ms
+ GET /tr/kaolin 200 in 47ms
+ GET /tr/applications 200 in 56ms
+ GET /tr/kaolin 200 in 32ms
+ GET /tr/applications 200 in 42ms
+ GET /en/applications 200 in 52ms
+ GET /tr/applications 200 in 45ms
+ ✓ Compiled /[locale] in 319ms (660 modules)
+ GET /tr 200 in 441ms
+ GET /tr 200 in 43ms
+ ✓ Compiled /_not-found in 502ms (1095 modules)
+ GET /images/home-hero.jpg 404 in 653ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr 200 in 80ms
+ GET /tr/contact 200 in 134ms
+ GET /en/contact 200 in 43ms
+ GET /tr/contact 200 in 37ms
+ ✓ Compiled in 407ms (660 modules)
+ GET /tr/contact 200 in 147ms
+ GET /tr/contact 200 in 179ms
+ GET /en/contact 200 in 90ms
+ GET /tr/contact 200 in 167ms
+ GET /tr/contact 200 in 80ms
+ GET /tr/contact 200 in 93ms
+ GET /en/contact 200 in 37ms
+ GET /zh/contact 200 in 41ms
+ GET /ru/contact 200 in 38ms
+ GET /tr/contact 200 in 35ms
+ ○ Compiling /[locale]/media ...
+ ✓ Compiled /[locale]/media in 670ms (1124 modules)
+ GET /tr/media 200 in 1265ms
+ ✓ Compiled /_not-found in 294ms (1110 modules)
+ GET /images/quarry-1.jpg 404 in 728ms
+ GET /images/stock-1.jpg 404 in 731ms
+ GET /images/quarry-3.jpg 404 in 733ms
+ GET /images/quarry-2.jpg 404 in 735ms
+ GET /images/stock-2.jpg 404 in 737ms
+ GET /videos/operations-overview.mp4 404 in 805ms
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /images/media-hero.jpg 404 in 65ms
+ GET /images/stock-3.jpg 404 in 64ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ GET /tr/media 200 in 131ms
+ GET /images/process-3.jpg 404 in 69ms
+ GET /images/process-2.jpg 404 in 70ms
+ GET /images/process-1.jpg 404 in 73ms
+ ⨯ The requested resource isn't a valid image for /images/process-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/process-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/process-1.jpg received null
+ GET /tr/applications 200 in 62ms
+ GET /tr/media 200 in 46ms
+ GET /videos/operations-overview.mp4 404 in 69ms
+ GET /images/media-hero.jpg 404 in 166ms
+ GET /images/quarry-1.jpg 404 in 168ms
+ GET /images/quarry-2.jpg 404 in 170ms
+ GET /images/quarry-3.jpg 404 in 172ms
+ GET /images/stock-1.jpg 404 in 175ms
+ GET /images/stock-2.jpg 404 in 176ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /images/stock-3.jpg 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ GET /en/media 200 in 48ms
+ GET /videos/operations-overview.mp4 404 in 65ms
+ GET /images/media-hero.jpg 404 in 168ms
+ GET /images/quarry-1.jpg 404 in 170ms
+ GET /images/quarry-2.jpg 404 in 171ms
+ GET /images/quarry-3.jpg 404 in 172ms
+ GET /images/stock-1.jpg 404 in 174ms
+ GET /images/stock-2.jpg 404 in 174ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /images/stock-3.jpg 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ GET /tr/media 200 in 73ms
+ GET /images/media-hero.jpg 404 in 250ms
+ GET /images/quarry-1.jpg 404 in 246ms
+ GET /images/quarry-2.jpg 404 in 245ms
+ GET /images/quarry-3.jpg 404 in 248ms
+ GET /images/stock-1.jpg 404 in 248ms
+ GET /images/stock-2.jpg 404 in 249ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /videos/operations-overview.mp4 404 in 60ms
+ GET /images/stock-3.jpg 404 in 60ms
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ GET /zh/media 200 in 54ms
+ GET /videos/operations-overview.mp4 404 in 41ms
+ GET /images/media-hero.jpg 404 in 191ms
+ GET /images/quarry-1.jpg 404 in 193ms
+ GET /images/quarry-2.jpg 404 in 195ms
+ GET /images/quarry-3.jpg 404 in 194ms
+ GET /images/stock-1.jpg 404 in 195ms
+ GET /images/stock-2.jpg 404 in 194ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /images/stock-3.jpg 404 in 35ms
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ GET /tr/media 200 in 54ms
+ GET /videos/operations-overview.mp4 404 in 52ms
+ GET /images/media-hero.jpg 404 in 174ms
+ GET /images/quarry-1.jpg 404 in 176ms
+ GET /images/quarry-2.jpg 404 in 178ms
+ GET /images/quarry-3.jpg 404 in 180ms
+ GET /images/stock-1.jpg 404 in 182ms
+ GET /images/stock-2.jpg 404 in 183ms
+ ⨯ The requested resource isn't a valid image for /images/media-hero.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-2.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/quarry-3.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-1.jpg received null
+ ⨯ The requested resource isn't a valid image for /images/stock-2.jpg received null
+ GET /images/stock-3.jpg 404 in 37ms
+ ⨯ The requested resource isn't a valid image for /images/stock-3.jpg received null
+ ✓ Compiled in 518ms (1115 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/media 200 in 402ms
+ GET /tr/media 200 in 218ms
+ ✓ Compiled in 369ms (669 modules)
+ GET /tr/media 200 in 140ms
+ GET /en/media 200 in 214ms
+ GET /tr/media 200 in 138ms
+ GET /zh/media 200 in 146ms
+ GET /ru/media 200 in 158ms
+ GET /tr/media 200 in 765ms
+ GET /favicon.ico 404 in 99ms
+ ✓ Compiled in 341ms (669 modules)
+ GET /tr/media 200 in 114ms
+ GET /tr/media 200 in 156ms
+ GET /en/media 200 in 84ms
+ GET /tr/media 200 in 130ms
+ GET /en/media 200 in 57ms
+ GET /zh/media 200 in 51ms
+ GET /tr/media 200 in 48ms
+ GET /ru/media 200 in 46ms
+ GET /en/media 200 in 56ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 509ms (1115 modules)
+ GET /en/media 200 in 523ms
+ GET /en/media 200 in 882ms
+ GET /zh/media 200 in 89ms
+ GET /tr/media 200 in 250ms
+ GET /en/media 200 in 268ms
+ GET /ru/media 200 in 289ms
+ GET /en/media 200 in 185ms
+ GET /tr/media 200 in 51ms
+ GET /zh/media 200 in 49ms
+ GET /en/media 200 in 49ms
+ GET /en/applications 200 in 75ms
+ GET /tr/applications 200 in 44ms
+ GET /tr/media 200 in 37ms
+ GET /tr/applications 200 in 40ms
+ GET /tr/kaolin 200 in 68ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 571ms (1123 modules)
+ GET /tr/about 200 in 1251ms
+ GET /tr/kaolin 200 in 39ms
+ GET /tr/applications 200 in 49ms
+ GET /tr/about 200 in 44ms
+ GET /tr 200 in 66ms
+ ✓ Compiled /_not-found in 499ms (1110 modules)
+ GET /images/home-hero.jpg 404 in 688ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr 200 in 89ms
+ ✓ Compiled /[locale]/contact in 234ms (675 modules)
+ GET /tr/contact 200 in 526ms
+ GET /tr 200 in 48ms
+ GET /images/home-hero.jpg 404 in 45ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/kaolin 200 in 92ms
+ GET /tr 200 in 55ms
+ GET /images/home-hero.jpg 404 in 41ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/contact 200 in 97ms
+ GET /tr 200 in 43ms
+ GET /images/home-hero.jpg 404 in 37ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/about 200 in 51ms
+ GET /tr 200 in 40ms
+ GET /images/home-hero.jpg 404 in 41ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/about 200 in 42ms
+ GET /tr/about 200 in 44ms
+ GET /tr/kaolin 200 in 40ms
+ GET /zh/kaolin 200 in 64ms
+ GET /en/kaolin 200 in 44ms
+ GET /ru/kaolin 200 in 46ms
+ GET /tr/kaolin 200 in 46ms
+ GET /zh/kaolin 200 in 44ms
+ GET /en/kaolin 200 in 41ms
+ GET /zh/kaolin 200 in 43ms
+ GET /tr/kaolin 200 in 42ms
+ GET /tr/kaolin 200 in 31ms
+ GET /ru/kaolin 200 in 42ms
+ GET /ru/about 200 in 38ms
+ GET /tr/about 200 in 47ms
+ GET /tr 200 in 129ms
+ GET /images/home-hero.jpg 404 in 95ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/contact 200 in 151ms
+ GET /tr 200 in 52ms
+ GET /images/home-hero.jpg 404 in 45ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/kaolin 200 in 149ms
+ GET /tr/about 200 in 41ms
+ GET /tr/applications 200 in 73ms
+ GET /en/applications 200 in 254ms
+ GET /tr/applications 200 in 55ms
+ GET /ru/applications 200 in 55ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/media 200 in 67ms
+ GET /tr/applications 200 in 47ms
+ ✓ Compiled in 574ms (1118 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/applications 200 in 417ms
+ GET /tr/applications 200 in 441ms
+ GET /en/media 200 in 171ms
+ GET /tr/media 200 in 181ms
+ GET /tr/media 200 in 43ms
+ GET /tr/applications 200 in 45ms
+ GET /tr/kaolin 200 in 59ms
+ GET /tr/applications 200 in 46ms
+ GET /tr/about 200 in 60ms
+ GET /tr/kaolin 200 in 39ms
+ GET /tr/applications 200 in 40ms
+ GET /tr/about 200 in 61ms
+ GET /tr/kaolin 200 in 52ms
+ GET /tr/about 200 in 46ms
+ GET /tr/media 200 in 47ms
+ GET /tr/applications 200 in 47ms
+ ✓ Compiled in 460ms (669 modules)
+ GET /tr/applications 200 in 126ms
+ ✓ Compiled in 492ms (1118 modules)
+ GET /tr/applications 200 in 190ms
+ GET /en/applications 200 in 236ms
+ GET /ru/applications 200 in 259ms
+ GET /tr/applications 200 in 162ms
+ GET /zh/applications 200 in 188ms
+ GET /tr/applications 200 in 50ms
+ GET /tr/contact 200 in 111ms
+ GET /tr/about 200 in 49ms
+ GET /tr/applications 200 in 41ms
+ GET /tr/kaolin 200 in 49ms
+ GET /tr/contact 200 in 41ms
+ GET /tr/media 200 in 50ms
+ GET /zh/media 200 in 50ms
+ GET /tr/media 200 in 47ms
+ GET /tr/media 200 in 149ms
+ GET /en/media 200 in 53ms
+ GET /tr/media 200 in 48ms
+ GET /tr/applications 200 in 53ms
+ GET /tr/kaolin 200 in 40ms
+ GET /tr/about 200 in 40ms
+ ✓ Compiled /[locale] in 230ms (674 modules)
+ GET /tr 200 in 450ms
+ GET /tr 200 in 50ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 687ms (1118 modules)
+ GET /images/home-hero.jpg 404 in 851ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr 200 in 178ms
+ GET /tr/media 200 in 54ms
+ GET /tr/applications 200 in 65ms
+ GET /tr 200 in 42ms
+ GET /images/home-hero.jpg 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /en 200 in 49ms
+ GET /images/home-hero.jpg 404 in 40ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr 200 in 49ms
+ GET /images/home-hero.jpg 404 in 39ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ ✓ Compiled in 454ms (670 modules)
+ ✓ Compiled in 544ms (670 modules)
+ GET /tr 200 in 894ms
+ GET /tr 200 in 44ms
+ GET /en/media 200 in 238ms
+ GET /zh/media 200 in 249ms
+ GET /ru/media 200 in 164ms
+ GET /tr/media 200 in 183ms
+ GET /tr/applications 200 in 58ms
+ GET /tr/media 200 in 38ms
+ GET /ru/media 200 in 45ms
+ GET /zh/media 200 in 40ms
+ GET /en/media 200 in 44ms
+ GET /zh/media 200 in 43ms
+ GET /en/media 200 in 53ms
+ GET /en 200 in 66ms
+ GET /images/home-hero.jpg 404 in 62ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr 200 in 50ms
+ GET /images/home-hero.jpg 404 in 55ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/kaolin 200 in 58ms
+ GET /tr/applications 200 in 52ms
+ GET /tr 200 in 44ms
+ GET /images/home-hero.jpg 404 in 42ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/media 200 in 48ms
+ GET /tr/applications 200 in 53ms
+ GET /tr/kaolin 200 in 43ms
+ GET /tr 200 in 45ms
+ GET /images/home-hero.jpg 404 in 48ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/contact 200 in 54ms
+ GET /tr 200 in 40ms
+ GET /images/home-hero.jpg 404 in 38ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ ✓ Compiled /[locale]/about in 285ms (675 modules)
+ GET /tr/about 200 in 501ms
+ GET /tr/about 200 in 47ms
+ GET /tr 200 in 45ms
+ GET /images/home-hero.jpg 404 in 97ms
+ ⨯ The requested resource isn't a valid image for /images/home-hero.jpg received null
+ GET /tr/about 200 in 34ms
+ ✓ Compiled in 415ms (666 modules)
+ GET /tr/about 200 in 115ms
+ ✓ Compiled in 163ms (666 modules)
+ GET /tr/about 200 in 107ms
+ ✓ Compiled in 332ms (666 modules)
+ GET /tr/about 200 in 104ms
+ ✓ Compiled in 171ms (666 modules)
+ GET /tr/about 200 in 104ms
+ ✓ Compiled in 173ms (666 modules)
+ GET /tr/about 200 in 105ms
+ GET /tr/kaolin 200 in 183ms
+ GET /tr/applications 200 in 74ms
+ GET /ru 200 in 140ms
+ GET /tr 200 in 264ms
+ GET /zh 200 in 279ms
+ GET /en 200 in 297ms
+ GET /tr/about 200 in 43ms
+ GET /tr/applications 200 in 50ms
+ GET /tr/about 200 in 36ms
+ GET /tr 200 in 47ms
+ GET /tr/media 200 in 55ms
+ ✓ Compiled in 774ms (1124 modules)
+ GET /tr/media 200 in 158ms
+ ✓ Compiled in 308ms (1115 modules)
+ GET /tr/media 200 in 112ms
+ GET /tr/applications 200 in 54ms
+ ✓ Compiled in 387ms (1115 modules)
+ GET /tr/applications 200 in 107ms
+ GET /tr/kaolin 200 in 50ms
+ GET /tr/about 200 in 48ms
+ ✓ Compiled in 196ms (666 modules)
+ GET /tr 200 in 329ms
+ GET /tr 200 in 46ms
+ ✓ Compiled in 330ms (666 modules)
+ GET /tr 200 in 125ms
+ GET /tr/applications 200 in 349ms
+ ✓ Compiled in 351ms (666 modules)
+ GET /tr/applications 200 in 141ms
+ ✓ Compiled in 170ms (666 modules)
+ GET /tr/applications 200 in 116ms
+ ✓ Compiled in 321ms (666 modules)
+ GET /tr/applications 200 in 160ms
+ ✓ Compiled in 200ms (666 modules)
+ GET /tr/applications 200 in 139ms
+ ✓ Compiled in 163ms (666 modules)
+ GET /tr/applications 200 in 116ms
+ ✓ Compiled in 158ms (666 modules)
+ GET /tr/applications 200 in 113ms
+ GET /tr 200 in 210ms
+ GET /tr/about 200 in 349ms
+ GET /ru 200 in 320ms
+ GET /zh 200 in 337ms
+ GET /en 200 in 357ms
+ GET /en/about 200 in 632ms
+ GET /ru/about 200 in 654ms
+ GET /zh/about 200 in 672ms
+ GET /tr 200 in 52ms
+ GET /tr/kaolin 200 in 55ms
+ GET /tr/applications 200 in 51ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 595ms (674 modules)
+ GET /tr/contact 200 in 732ms
+ GET /tr/contact 200 in 50ms
+ GET /tr/media 200 in 57ms
+ GET /tr/applications 200 in 61ms
+ GET /tr/about 200 in 46ms
+ GET /tr/kaolin 200 in 42ms
+ GET /tr 200 in 52ms
+ GET /tr/about 200 in 38ms
+ GET /tr/applications 200 in 50ms
+ GET /tr/kaolin 200 in 39ms
+ GET /tr 200 in 42ms
+ GET /tr/applications 200 in 44ms
+ GET /tr/media 200 in 45ms
+ ✓ Compiled in 722ms (1123 modules)
+ GET /tr/media 200 in 121ms
+ GET /ru/applications 200 in 202ms
+ GET /tr/applications 200 in 252ms
+ GET /zh/applications 200 in 277ms
+ GET /en/applications 200 in 300ms
+ GET /ru/applications 200 in 99ms
+ GET /zh/applications 200 in 218ms
+ GET /tr/applications 200 in 241ms
+ GET /en/applications 200 in 268ms
+ GET /tr/applications 200 in 57ms
+ GET /tr/kaolin 200 in 60ms
+ GET /tr/about 200 in 63ms
+ GET /tr 200 in 78ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/media 200 in 42ms
+ GET /tr/applications 200 in 49ms
+ GET /tr/media 200 in 53ms
+ ✓ Compiled in 378ms (669 modules)
+ GET /tr/media 200 in 120ms
+ ✓ Compiled in 406ms (1118 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/media 200 in 477ms
+ GET /tr/media 200 in 259ms
+ ✓ Compiled in 234ms (669 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'title')
+    at MediaPage (app\[locale]\media\page.tsx:68:45)
+  66 |         notice={pageContent.hero.notice}
+  67 |         actions={heroActions}
+> 68 |         socialTitle={pageContent.heroSocial.title}
+     |                                             ^
+  69 |         socialLinks={pageContent.heroSocial.links}
+  70 |         highlights={pageContent.heroHighlights}
+  71 |         media={pageContent.heroImage} {
+  digest: '1076310735'
+}
+ GET /tr/media 200 in 119ms
+ ✓ Compiled in 178ms (669 modules)
+ GET /tr/media 200 in 287ms
+ ✓ Compiled in 257ms (669 modules)
+ GET /tr/media 200 in 241ms
+ ✓ Compiled in 163ms (669 modules)
+ GET /tr/media 200 in 115ms
+ ✓ Compiled in 190ms (669 modules)
+ GET /tr/media 200 in 111ms
+ GET /zh/media 200 in 181ms
+ GET /en/media 200 in 349ms
+ GET /ru/media 200 in 370ms
+ GET /tr/media 200 in 310ms
+ GET /favicon.ico 404 in 136ms
+ GET /tr/media 200 in 61ms
+ GET /tr 200 in 46ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 572ms (674 modules)
+ GET /tr/about 200 in 728ms
+ GET /tr/about 200 in 40ms
+ ✓ Compiled in 446ms (674 modules)
+ GET /tr/about 200 in 114ms
+ GET /ru/applications 200 in 257ms
+ GET /tr/applications 200 in 314ms
+ GET /en/applications 200 in 335ms
+ GET /zh/applications 200 in 358ms
+ GET /tr/applications 200 in 56ms
+ GET /tr/contact 200 in 122ms
+ GET /en/contact 200 in 50ms
+ GET /tr/contact 200 in 44ms
