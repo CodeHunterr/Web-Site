@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { AnimatedSectionBackground } from "../../../components/site/AnimatedSectionBackground";
 import { FeatureListCard } from "../../../components/site/FeatureListCard";
 import { PageHero } from "../../../components/site/PageHero";
 import { SectionHeading } from "../../../components/site/SectionHeading";
@@ -55,86 +56,120 @@ export default async function ApplicationsPage({
 
   return (
     <main className={styles.page}>
-      <PageHero
-        eyebrow={pageContent.hero.eyebrow}
-        titleLine1={pageContent.hero.titleLine1}
-        titleLine2={pageContent.hero.titleLine2}
-        description={pageContent.hero.description}
-        notice={pageContent.hero.notice}
-        actions={heroActions}
-        highlights={pageContent.heroHighlights}
-        titleClassName={styles.heroTitle}
-      />
+      <AnimatedSectionBackground
+        alt="Pluto Enerji applications hero background"
+        className={styles.heroStage}
+        overlayClassName={styles.heroOverlay}
+        priority
+        src="/images/Application/app-1.png"
+      >
+        <PageHero
+          eyebrow={pageContent.hero.eyebrow}
+          titleLine1={pageContent.hero.titleLine1}
+          titleLine2={pageContent.hero.titleLine2}
+          description={pageContent.hero.description}
+          notice={pageContent.hero.notice}
+          actions={heroActions}
+          highlights={pageContent.heroHighlights}
+          frameless
+          cardClassName={styles.heroSurface}
+          titleClassName={styles.heroTitle}
+        />
+      </AnimatedSectionBackground>
 
-      <SiteShell>
-        <section className={styles.section} id="development-approach">
-          <SectionHeading
-            eyebrow={pageContent.developmentApproach.eyebrow}
-            title={pageContent.developmentApproach.title}
-            description={pageContent.developmentApproach.description}
-            className={styles.sectionHeadingCentered}
-          />
-        </section>
-
-        <section className={styles.section} id="applications-grid">
-          <div className={styles.cardGrid}>
-            {pageContent.sectors.map((item) => (
-              <FeatureListCard
-                key={item.title}
-                title={item.title}
-                description={item.description}
-                features={item.features}
-                className={styles.applicationCard}
-                titleClassName={styles.cardTitle}
-                descriptionClassName={styles.cardDescription}
-                listClassName={styles.featureList}
-                itemClassName={styles.featureItem}
-              />
-            ))}
-          </div>
-        </section>
-
-        <section className={styles.section} id="raw-kaolin-supply">
-          <div className={styles.supplyBlock}>
-            <div className={styles.supplyMain}>
+      <section className={styles.section} id="applications-grid">
+        <AnimatedSectionBackground
+          alt="Pluto Enerji applications content background"
+          className={styles.applicationsStage}
+          overlayClassName={styles.applicationsOverlay}
+          sizes="100vw"
+          src="/images/Application/app-2.png"
+        >
+          <SiteShell>
+            <div className={styles.applicationsStageContent}>
               <SectionHeading
-                eyebrow={pageContent.supplyHighlight.section.eyebrow}
-                title={pageContent.supplyHighlight.section.title}
-                description={pageContent.supplyHighlight.section.description}
-                className={styles.supplyHeading}
-                titleClassName={styles.supplyTitle}
-                descriptionClassName={styles.supplyDescription}
+                eyebrow={pageContent.developmentApproach.eyebrow}
+                title={pageContent.developmentApproach.title}
+                description={pageContent.developmentApproach.description}
+                className={styles.approachHeading}
+                eyebrowClassName={styles.stageEyebrow}
+                titleClassName={styles.stageTitle}
+                descriptionClassName={styles.stageDescription}
               />
 
-              <p className={styles.supplyIntro}>
-                {pageContent.supplyHighlight.intro}
-              </p>
-            </div>
-
-            <div className={styles.supplyAside}>
-              <p className={styles.supplyLead}>
-                {pageContent.supplyHighlight.supportLead}
-              </p>
-
-              <ul className={styles.supplyList}>
-                {pageContent.supplyHighlight.supports.map((item) => (
-                  <li key={item} className={styles.supplyItem}>
-                    {item}
-                  </li>
+              <div className={styles.cardGrid}>
+                {pageContent.sectors.map((item) => (
+                  <FeatureListCard
+                    key={item.title}
+                    title={item.title}
+                    description={item.description}
+                    features={item.features}
+                    className={styles.applicationCard}
+                    titleClassName={styles.cardTitle}
+                    descriptionClassName={styles.cardDescription}
+                    listClassName={styles.featureList}
+                    itemClassName={styles.featureItem}
+                  />
                 ))}
-              </ul>
-
-              <p className={styles.supplyClosing}>
-                {pageContent.supplyHighlight.closing}
-              </p>
-
-              <a className={styles.supplyCta} href={supplyContactHref}>
-                {pageContent.supplyHighlight.ctaLabel}
-              </a>
+              </div>
             </div>
-          </div>
-        </section>
-      </SiteShell>
+          </SiteShell>
+        </AnimatedSectionBackground>
+      </section>
+
+      <section className={styles.section} id="raw-kaolin-supply">
+        <AnimatedSectionBackground
+          alt="Pluto Enerji raw kaolin supply background"
+          className={styles.supplyStage}
+          overlayClassName={styles.supplyOverlay}
+          sizes="100vw"
+          src="/images/Application/app-3.png"
+        >
+          <SiteShell>
+            <div className={styles.supplyStageContent}>
+              <div className={styles.supplyBlock}>
+                <div className={styles.supplyMain}>
+                <SectionHeading
+                    eyebrow=""
+                    title={pageContent.supplyHighlight.section.title}
+                    description={pageContent.supplyHighlight.section.description}
+                    className={styles.supplyHeading}
+                    eyebrowClassName={styles.stageEyebrow}
+                    titleClassName={`${styles.supplyTitle} ${styles.stageTitle}`}
+                    descriptionClassName={`${styles.supplyDescription} ${styles.stageDescription}`}
+                  />
+
+                  <p className={styles.supplyIntro}>
+                    {pageContent.supplyHighlight.intro}
+                  </p>
+                </div>
+
+                <div className={styles.supplyAside}>
+                  <p className={styles.supplyLead}>
+                    {pageContent.supplyHighlight.supportLead}
+                  </p>
+
+                  <ul className={styles.supplyList}>
+                    {pageContent.supplyHighlight.supports.map((item) => (
+                      <li key={item} className={styles.supplyItem}>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <p className={styles.supplyClosing}>
+                    {pageContent.supplyHighlight.closing}
+                  </p>
+
+                  <a className={styles.supplyCta} href={supplyContactHref}>
+                    {pageContent.supplyHighlight.ctaLabel}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </SiteShell>
+        </AnimatedSectionBackground>
+      </section>
     </main>
   );
 }

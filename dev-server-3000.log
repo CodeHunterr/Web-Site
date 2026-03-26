@@ -1,0 +1,154 @@
+
+> minimal-next15-ts@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.34.191.56:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1818ms
+ ○ Compiling /[locale]/kaolin ...
+ ✓ Compiled /[locale]/kaolin in 997ms (665 modules)
+ GET /tr/kaolin 200 in 2329ms
+ ○ Compiling / ...
+ ✓ Compiled / in 821ms (734 modules)
+ GET / 307 in 1004ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 587ms (746 modules)
+ GET /en/contact 200 in 2112ms
+ GET /tr 200 in 1397ms
+ GET /en 200 in 147ms
+ GET /ru 200 in 107ms
+ GET /zh 200 in 84ms
+ GET /tr/contact 200 in 121ms
+ GET /en/contact 200 in 105ms
+ GET /ru/contact 200 in 118ms
+ GET /zh/contact 200 in 277ms
+ GET /en 200 in 110ms
+ ○ Compiling /[locale]/media ...
+ ✓ Compiled /[locale]/media in 861ms (786 modules)
+ GET /en/media 200 in 1890ms
+ GET /tr/applications 200 in 2117ms
+ GET /en/applications 200 in 190ms
+ GET /tr/media 200 in 128ms
+ GET /en/media 200 in 93ms
+ ✓ Compiled /[locale]/about in 263ms (794 modules)
+ GET /tr/about 200 in 1148ms
+ GET /en/about 200 in 141ms
+ GET /tr/media 200 in 63ms
+ GET /tr/media 200 in 256ms
+ GET /tr/contact 200 in 59ms
+ GET /tr/contact 200 in 98ms
+ GET /tr/applications 200 in 71ms
+ GET /tr/contact 200 in 40ms
+ GET /tr/contact 200 in 37ms
+ GET /tr/contact 200 in 44ms
+ GET /tr/contact 200 in 103ms
+ GET /tr/media 200 in 56ms
+ GET /tr/media 200 in 44ms
+ GET /tr/media 200 in 47ms
+ GET /tr/media 200 in 134ms
+ GET /tr/media 200 in 160ms
+ GET /tr/contact 200 in 61ms
+ GET /tr/contact 200 in 91ms
+ GET /tr/contact 200 in 106ms
+ GET /tr/media 200 in 50ms
+ GET /tr/contact 200 in 43ms
+ ✓ Compiled in 1042ms (794 modules)
+ GET /tr/contact 200 in 213ms
+ ✓ Compiled /[locale] in 172ms (493 modules)
+ ✓ Compiled in 1ms (493 modules)
+ GET /tr/media 200 in 615ms
+ ✓ Compiled in 1ms (493 modules)
+ ✓ Compiled in 0ms (493 modules)
+ GET /tr 200 in 1148ms
+ GET /en 200 in 236ms
+ GET /tr/contact 200 in 1374ms
+ GET /ru 200 in 137ms
+ GET /zh 200 in 72ms
+ GET /tr/media 200 in 107ms
+ GET /tr/contact 200 in 80ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 519ms (498 modules)
+ GET /tr/about 200 in 686ms
+ GET /tr/contact 200 in 197ms
+ GET /tr/applications 200 in 141ms
+ GET /tr/kaolin 200 in 109ms
+ GET /tr/contact 200 in 91ms
+ GET /tr/contact 200 in 98ms
+ GET /tr/media 200 in 57ms
+ GET /tr/media 200 in 148ms
+ GET /tr/applications 200 in 70ms
+ GET /tr/kaolin 200 in 47ms
+ GET /tr/about 200 in 63ms
+ GET /tr 200 in 47ms
+ GET /tr/contact 200 in 34ms
+ GET /tr/media 200 in 42ms
+ GET /tr/contact 200 in 42ms
+ GET /tr/media 200 in 44ms
+ GET /tr/applications 200 in 81ms
+ GET /tr/kaolin 200 in 45ms
+ GET /tr/about 200 in 39ms
+ GET /tr 200 in 40ms
+ GET /tr/contact 200 in 59ms
+ GET /tr/applications 200 in 56ms
+ GET /en/applications 200 in 60ms
+ GET /en/kaolin 200 in 49ms
+ GET /en/media 200 in 44ms
+ GET /en/contact 200 in 41ms
+ GET /en/applications 200 in 44ms
+ GET /en/kaolin 200 in 43ms
+ GET /en/about 200 in 39ms
+ GET /tr/about 200 in 49ms
+ GET /en/about 200 in 42ms
+ GET /en 200 in 37ms
+ ✓ Compiled in 730ms (809 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /en 200 in 326ms
+ GET /en 200 in 216ms
+ GET /en/about 200 in 60ms
+ GET /en/kaolin 200 in 65ms
+ GET /en/applications 200 in 66ms
+ GET /tr/contact 200 in 263ms
+ GET /tr/contact 200 in 279ms
+ GET /en/contact 200 in 133ms
+ GET /tr 200 in 150ms
+ GET /en 200 in 117ms
+ GET /en/applications 200 in 229ms
+ GET /en 200 in 41ms
+ GET /en/contact 200 in 38ms
+ GET /tr/contact 200 in 41ms
+ GET /tr/about 200 in 40ms
+ GET /tr/media 200 in 63ms
+ GET /tr/contact 200 in 47ms
+ ✓ Compiled in 325ms (493 modules)
+ GET /tr/contact 200 in 137ms
+ GET /tr 200 in 59ms
+ GET /tr/about 200 in 58ms
+ GET /tr/applications 200 in 95ms
+ ✓ Compiled in 283ms (493 modules)
+ GET /tr/applications 200 in 116ms
+ GET /tr/media 200 in 51ms
+ GET /tr/contact 200 in 54ms
+ ✓ Compiled in 446ms (795 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/contact 200 in 324ms
+ GET /tr/contact 200 in 275ms
+ GET /tr/contact 200 in 107ms
+ GET /tr/contact 200 in 104ms
+ GET /en/contact 200 in 98ms
+ GET /ru/contact 200 in 104ms
+ GET /zh/contact 200 in 117ms
+ GET /tr/contact 200 in 130ms
+ ✓ Compiled in 513ms (804 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/contact 200 in 355ms
+ GET /tr/contact 200 in 188ms
+ GET /tr/contact 200 in 93ms
+ GET /tr/contact 200 in 94ms
+ GET /en/contact 200 in 111ms
+ GET /tr 200 in 129ms
+ GET /en 200 in 103ms
+^C

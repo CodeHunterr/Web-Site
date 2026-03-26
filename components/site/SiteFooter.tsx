@@ -16,7 +16,7 @@ export function SiteFooter({ locale, siteContent }: SiteFooterProps) {
   return (
     <footer className={styles.footer}>
       <SiteShell>
-        <div className={styles.card}>
+        <div className={styles.card} data-reveal="default">
           <div className={styles.grid}>
             <div className={styles.brandBlock}>
               <p className={styles.eyebrow}>{siteContent.brandTagline}</p>

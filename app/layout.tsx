@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { MotionProvider } from "../components/site/MotionProvider";
 import { companyInfo, defaultSiteContent } from "../content";
 import "./globals.css";
 
@@ -15,7 +16,10 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <MotionProvider />
+        {children}
+      </body>
     </html>
   );
 }

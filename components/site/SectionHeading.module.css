@@ -1,4 +1,7 @@
 .root {
+  display: grid;
+  align-content: start;
+  gap: 0;
   max-width: 780px;
 }
 
@@ -14,14 +17,14 @@
 .title {
   color: var(--color-ink);
   font-size: clamp(32px, 4.5vw, 48px);
-  line-height: 1.08;
-  letter-spacing: -0.045em;
+  line-height: 1.06;
+  letter-spacing: -0.05em;
 }
 
 .description {
   max-width: 68ch;
-  margin: var(--space-3) 0 0;
+  margin: var(--space-4) 0 0;
   color: var(--color-muted);
   font-size: clamp(16px, 1.5vw, 18px);
-  line-height: 1.82;
+  line-height: 1.86;
 }

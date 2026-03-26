@@ -22,6 +22,7 @@
   --shadow-soft: 0 20px 48px rgba(15, 23, 42, 0.08);
   --shadow-card: 0 28px 68px rgba(15, 23, 42, 0.12);
   --shadow-hero: 0 36px 96px rgba(15, 23, 42, 0.2);
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
   --radius-panel: 34px;
   --radius-card: 26px;
   --radius-control: 18px;
@@ -58,6 +59,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   font-family: "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
   color: var(--color-ink);
   line-height: 1.6;
@@ -77,6 +79,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 button,
@@ -101,6 +104,8 @@ h3 {
 h1,
 h2,
 h3 {
+  font-weight: 700;
+  letter-spacing: -0.035em;
   text-wrap: balance;
 }
 
@@ -128,4 +133,43 @@ input:focus-visible,
 textarea:focus-visible {
   outline: none;
   box-shadow: 0 0 0 4px rgba(11, 27, 61, 0.12);
+}
+
+html[data-motion-ready="true"] [data-reveal].reveal-ready {
+  transition:
+    opacity 760ms var(--ease-premium),
+    transform 760ms var(--ease-premium),
+    filter 760ms var(--ease-premium);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform, filter;
+}
+
+html[data-motion-ready="true"] [data-reveal].reveal-ready.reveal-pending {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translate3d(0, 26px, 0);
+}
+
+html[data-motion-ready="true"] [data-reveal].reveal-ready.is-visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate3d(0, 0, 0);
+}
+
+[data-parallax] {
+  --parallax-offset: 0px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  html[data-motion-ready="true"] [data-reveal].reveal-ready,
+  html[data-motion-ready="true"] [data-reveal].reveal-ready.reveal-pending {
+    opacity: 1;
+    filter: none;
+    transform: none;
+    transition: none;
+  }
 }

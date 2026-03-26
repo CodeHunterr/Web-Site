@@ -658,3 +658,1013 @@ Import trace for requested module:
  GET /tr/contact 200 in 122ms
  GET /en/contact 200 in 50ms
  GET /tr/contact 200 in 44ms
+ GET /tr 200 in 98ms
+ GET /tr/about 200 in 59ms
+ GET /tr/kaolin 200 in 92ms
+ GET /tr/applications 200 in 61ms
+ GET /ru/applications 200 in 430ms
+ GET /tr/applications 200 in 96ms
+ GET /zh/applications 200 in 103ms
+ GET /en/applications 200 in 289ms
+ GET /en/contact 200 in 55ms
+ GET /en 200 in 78ms
+ GET /tr 200 in 294ms
+ GET /zh 200 in 89ms
+ GET /tr 200 in 101ms
+ GET /tr/media 200 in 284ms
+ GET /favicon.ico 404 in 299ms
+ GET /tr/contact 200 in 50ms
+ GET /tr/applications 200 in 153ms
+ GET /tr/contact 200 in 216ms
+ GET /tr/kaolin 200 in 62ms
+ GET /tr/about 200 in 49ms
+ GET /tr 200 in 43ms
+ GET /tr/media 200 in 45ms
+ GET /tr/applications 200 in 45ms
+ GET /tr/about 200 in 40ms
+ GET /tr 200 in 40ms
+ GET /tr/about 200 in 40ms
+ GET /tr/kaolin 200 in 38ms
+ GET /tr 200 in 51ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/media 200 in 49ms
+ GET /tr/contact 200 in 47ms
+ GET /zh/contact 200 in 59ms
+ GET /ru/contact 200 in 46ms
+ GET /tr/contact 200 in 46ms
+ GET /zh/contact 200 in 47ms
+ GET /en/contact 200 in 40ms
+ GET /tr/contact 200 in 46ms
+ GET /en/contact 200 in 47ms
+ GET /en/applications 200 in 54ms
+ GET /tr/applications 200 in 50ms
+ GET /tr/kaolin 200 in 40ms
+ GET /tr/about 200 in 43ms
+ ✓ Compiled in 2.2s (1131 modules)
+ ✓ Compiled in 624ms (1122 modules)
+ GET /zh 200 in 878ms
+ GET /en 200 in 244ms
+ GET /ru 200 in 260ms
+ GET /tr 200 in 277ms
+ ○ Compiling / ...
+ ✓ Compiled / in 715ms (1116 modules)
+ GET / 307 in 1012ms
+ GET /en 200 in 141ms
+ ○ Compiling /[locale]/kaolin ...
+ ✓ Compiled /[locale]/kaolin in 658ms (680 modules)
+ GET /en/kaolin 200 in 809ms
+ GET /en/kaolin 200 in 47ms
+ GET /en/about 200 in 79ms
+ GET /en 200 in 52ms
+ GET /tr 200 in 60ms
+ GET /tr/about 200 in 46ms
+ GET /tr 200 in 42ms
+ GET /tr/applications 200 in 74ms
+ GET /tr 200 in 47ms
+ GET /tr/applications 200 in 376ms
+ GET /favicon.ico 404 in 1086ms
+ GET /tr 200 in 157ms
+ GET /tr/applications 200 in 160ms
+ GET /tr/applications 200 in 398ms
+ GET /tr 200 in 75ms
+ GET /tr/kaolin 200 in 153ms
+ GET /tr/about 200 in 100ms
+ ✓ Compiled in 2.5s (1121 modules)
+ GET /tr/about 200 in 282ms
+ ○ Compiling /[locale]/applications ...
+ ✓ Compiled /[locale]/applications in 1049ms (1143 modules)
+ GET /zh/applications 200 in 1535ms
+ GET /ru/applications 200 in 1533ms
+ GET /tr/applications 200 in 1553ms
+ GET /en/applications 200 in 1765ms
+ GET /tr/about 200 in 779ms
+ GET /tr/applications 200 in 101ms
+ ✓ Compiled in 343ms (683 modules)
+ GET /tr/applications 200 in 300ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 648ms (1136 modules)
+ GET /tr/applications 200 in 500ms
+ GET /tr/applications 200 in 1143ms
+ GET /en/applications 200 in 189ms
+ GET /tr/applications 200 in 206ms
+ GET /tr/applications 200 in 388ms
+ ✓ Compiled /[locale] in 308ms (690 modules)
+ GET /tr 200 in 674ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 562ms (1134 modules)
+ GET /tr 200 in 463ms
+ GET /tr 200 in 811ms
+ GET /en/applications 200 in 193ms
+ GET /tr/applications 200 in 209ms
+ GET /tr/applications 200 in 69ms
+ GET /tr/about 200 in 74ms
+ GET /tr 200 in 42ms
+ GET /tr/applications 200 in 55ms
+ GET /tr 200 in 52ms
+ GET /tr 200 in 47ms
+ GET /tr/applications 200 in 231ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 2.6s (1134 modules)
+ GET /tr/applications 200 in 817ms
+ GET /tr/applications 200 in 2490ms
+ GET /en 200 in 317ms
+ GET /tr 200 in 328ms
+ GET /zh 200 in 343ms
+ GET /ru 200 in 364ms
+ GET /tr/applications 200 in 545ms
+ GET /tr/applications 200 in 170ms
+ ○ Compiling /[locale]/media ...
+ ✓ Compiled /[locale]/media in 560ms (690 modules)
+ GET /tr/media 200 in 726ms
+ GET /tr/media 200 in 55ms
+ GET /tr 200 in 66ms
+ GET /tr/about 200 in 64ms
+ GET /tr/media 200 in 47ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 813ms (1135 modules)
+ GET /tr/media 200 in 918ms
+ GET /tr/media 200 in 1575ms
+ GET /en/applications 200 in 197ms
+ GET /tr/applications 200 in 218ms
+ GET /tr/applications 200 in 57ms
+ GET /tr 200 in 59ms
+ GET /en 200 in 47ms
+ GET /tr 200 in 51ms
+ GET /tr/media 200 in 57ms
+ ✓ Compiled in 337ms (682 modules)
+ GET /tr/media 200 in 212ms
+ GET /tr/applications 200 in 61ms
+ GET /tr/kaolin 200 in 106ms
+ GET /tr/about 200 in 63ms
+ ✓ Compiled in 337ms (1135 modules)
+ GET /tr/about 200 in 147ms
+ ✓ Compiled in 385ms (682 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at eval (content\en\media.ts:88:39)
+    at <unknown> (rsc)/./content/en/media.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:279:1)
+    at eval (webpack-internal:///(rsc)/./content/index.ts:19:67)
+    at <unknown> (rsc)/./content/index.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:301:1)
+    at eval (webpack-internal:///(rsc)/./app/layout.tsx:8:66)
+    at <unknown> (rsc)/./app/layout.tsx (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:75:1)
+  86 |           description:
+  87 |             "Visual presenting raw kaolin stock structure and on-site material arrangement.",
+> 88 |           src: mediaAssets.stockImages[0].src,
+     |                                       ^
+  89 |           alt: "Pluto Enerji raw material stock area",
+  90 |         },
+  91 |       ],
+ ⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at eval (content\en\media.ts:88:39)
+    at <unknown> (rsc)/./content/en/media.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:279:1)
+    at eval (webpack-internal:///(rsc)/./content/index.ts:19:67)
+    at <unknown> (rsc)/./content/index.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:301:1)
+    at eval (webpack-internal:///(rsc)/./app/layout.tsx:8:66)
+    at <unknown> (rsc)/./app/layout.tsx (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:75:1)
+  86 |           description:
+  87 |             "Visual presenting raw kaolin stock structure and on-site material arrangement.",
+> 88 |           src: mediaAssets.stockImages[0].src,
+     |                                       ^
+  89 |           alt: "Pluto Enerji raw material stock area",
+  90 |         },
+  91 |       ], {
+  page: '/tr/about'
+}
+ ⨯ Failed to generate static paths for /[locale]/about:
+TypeError: Cannot read properties of undefined (reading '0')
+    at eval (content\en\media.ts:88:39)
+    at <unknown> (rsc)/./content/en/media.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:279:1)
+    at eval (webpack-internal:///(rsc)/./content/index.ts:19:67)
+    at <unknown> (rsc)/./content/index.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:301:1)
+    at eval (webpack-internal:///(rsc)/./app/layout.tsx:8:66)
+    at <unknown> (rsc)/./app/layout.tsx (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:75:1)
+  86 |           description:
+  87 |             "Visual presenting raw kaolin stock structure and on-site material arrangement.",
+> 88 |           src: mediaAssets.stockImages[0].src,
+     |                                       ^
+  89 |           alt: "Pluto Enerji raw material stock area",
+  90 |         },
+  91 |       ], {
+  type: 'TypeError'
+}
+ GET /tr/about 500 in 1080ms
+ ⨯ TypeError: Cannot read properties of undefined (reading '0')
+    at eval (content\en\media.ts:88:39)
+    at <unknown> (rsc)/./content/en/media.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:279:1)
+    at eval (webpack-internal:///(rsc)/./content/index.ts:19:67)
+    at <unknown> (rsc)/./content/index.ts (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:301:1)
+    at eval (webpack-internal:///(rsc)/./app/layout.tsx:8:66)
+    at <unknown> (rsc)/./app/layout.tsx (C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js:75:1)
+  86 |           description:
+  87 |             "Visual presenting raw kaolin stock structure and on-site material arrangement.",
+> 88 |           src: mediaAssets.stockImages[0].src,
+     |                                       ^
+  89 |           alt: "Pluto Enerji raw material stock area",
+  90 |         },
+  91 |       ], {
+  type: 'TypeError',
+  page: '/tr/about'
+}
+ GET /tr/about 500 in 784ms
+ ✓ Compiled in 353ms (682 modules)
+ GET /tr/about 200 in 744ms
+ ✓ Compiled in 882ms (1125 modules)
+ GET /tr/about 200 in 259ms
+ GET /tr 200 in 86ms
+ GET /zh/media 200 in 295ms
+ GET /tr/media 200 in 311ms
+ GET /ru/media 200 in 204ms
+ GET /en/media 200 in 230ms
+ GET /tr/applications 200 in 324ms
+ GET /en/media 200 in 132ms
+ GET /tr/media 200 in 58ms
+ GET /en/media 200 in 48ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 538ms (690 modules)
+ GET /en/contact 200 in 672ms
+ GET /en/contact 200 in 53ms
+ GET /tr/contact 200 in 38ms
+ GET /tr 200 in 43ms
+ GET /tr/media 200 in 57ms
+ ✓ Compiled in 691ms (1138 modules)
+ GET /tr/media 200 in 710ms
+ GET /tr/applications 200 in 65ms
+ GET /tr/about 200 in 57ms
+ ✓ Compiled /[locale]/kaolin in 166ms (690 modules)
+ GET /tr/kaolin 200 in 254ms
+ GET /tr/about 200 in 49ms
+ GET /tr 200 in 56ms
+ GET /tr/about 200 in 41ms
+ ✓ Compiled in 583ms (685 modules)
+ GET /tr/about 200 in 96ms
+ GET /ru 200 in 330ms
+ GET /tr 200 in 340ms
+ GET /zh 200 in 353ms
+ GET /en 200 in 450ms
+ GET /tr/media 200 in 67ms
+ GET /tr/applications 200 in 73ms
+ ✓ Compiled /[locale]/kaolin in 277ms (690 modules)
+ GET /tr/kaolin 200 in 444ms
+ GET /tr/kaolin 200 in 68ms
+ GET /tr/about 200 in 58ms
+ GET /tr 200 in 42ms
+ GET /tr/about 200 in 52ms
+ GET /tr/applications 200 in 55ms
+ GET /tr/about 200 in 54ms
+ GET /tr/kaolin 200 in 42ms
+ GET /tr/applications 200 in 49ms
+ GET /tr/kaolin 200 in 38ms
+ GET /tr/about 200 in 43ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/media 200 in 55ms
+ GET /tr/contact 200 in 52ms
+ GET /tr/applications 200 in 61ms
+ ✓ Compiled in 1972ms (1138 modules)
+ GET /tr/applications 200 in 146ms
+ ✓ Compiled in 335ms (685 modules)
+ GET /tr/applications 200 in 644ms
+ ✓ Compiled in 220ms (685 modules)
+ GET /tr/applications 200 in 102ms
+ GET /en/about 200 in 330ms
+ GET /tr/about 200 in 186ms
+ GET /ru/about 200 in 207ms
+ GET /zh/about 200 in 122ms
+ GET /tr/about 200 in 44ms
+ GET /tr 200 in 50ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 1481ms (1147 modules)
+ GET /tr 200 in 481ms
+ GET /tr 200 in 1264ms
+ GET /tr/about 200 in 59ms
+ GET /tr/contact 200 in 51ms
+ GET /tr/media 200 in 59ms
+ GET /tr 200 in 48ms
+ ✓ Compiled in 262ms (685 modules)
+ GET /tr 200 in 115ms
+ ✓ Compiled in 623ms (685 modules)
+ GET /tr 200 in 94ms
+ ✓ Compiled in 234ms (685 modules)
+ GET /tr 200 in 124ms
+ GET /en/applications 200 in 230ms
+ GET /ru/applications 200 in 359ms
+ GET /tr/applications 200 in 392ms
+ GET /zh/applications 200 in 419ms
+ GET /tr/contact 200 in 663ms
+ GET /ru/contact 200 in 679ms
+ GET /zh/contact 200 in 288ms
+ GET /en/contact 200 in 303ms
+ GET /tr/about 200 in 55ms
+ GET /tr/applications 200 in 54ms
+ GET /tr/media 200 in 55ms
+ GET /tr/about 200 in 44ms
+ ○ Compiling /[locale]/kaolin ...
+ ✓ Compiled /[locale]/kaolin in 514ms (690 modules)
+ GET /tr/kaolin 200 in 617ms
+ GET /tr/kaolin 200 in 36ms
+ GET /tr/applications 200 in 56ms
+ GET /tr/about 200 in 46ms
+ GET /tr 200 in 46ms
+ GET /tr/about 200 in 41ms
+ GET /tr/kaolin 200 in 44ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/about 200 in 42ms
+ GET /tr/kaolin 200 in 38ms
+ GET /tr/applications 200 in 45ms
+ GET /tr/media 200 in 69ms
+ GET /tr 200 in 41ms
+ GET /tr/applications 200 in 47ms
+ GET /tr/media 200 in 43ms
+ GET /tr/contact 200 in 68ms
+ GET /tr/contact 200 in 145ms
+ GET /tr/contact 200 in 107ms
+ ✓ Compiled in 578ms (1138 modules)
+ GET /tr/contact 200 in 87ms
+ ✓ Compiled in 994ms (1138 modules)
+ GET /tr/contact 200 in 117ms
+ GET /ru 200 in 302ms
+ GET /en 200 in 314ms
+ GET /zh 200 in 326ms
+ GET /tr 200 in 340ms
+ GET /tr/media 200 in 645ms
+ GET /ru/media 200 in 685ms
+ GET /zh/media 200 in 433ms
+ GET /en/media 200 in 451ms
+ ✓ Compiled /[locale]/about in 267ms (690 modules)
+ GET /tr/about 200 in 623ms
+ GET /tr/about 200 in 60ms
+ GET /tr 200 in 49ms
+ GET /tr/media 200 in 66ms
+ GET /tr 200 in 53ms
+ GET /tr/media 200 in 47ms
+ GET /tr/applications 200 in 81ms
+ GET /tr/kaolin 200 in 91ms
+ GET /tr/about 200 in 38ms
+ GET /tr 200 in 39ms
+ GET /tr/kaolin 200 in 42ms
+ GET /tr/applications 200 in 55ms
+ ✓ Compiled in 780ms (1135 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tr/applications 200 in 984ms
+ GET /tr/applications 200 in 842ms
+ ✓ Compiled /[locale]/contact in 414ms (690 modules)
+ GET /en/contact 200 in 945ms
+ GET /zh/contact 200 in 935ms
+ GET /tr/contact 200 in 934ms
+ GET /ru/contact 200 in 986ms
+ GET /tr/applications 200 in 496ms
+ GET /tr/about 200 in 67ms
+ GET /tr 200 in 61ms
+ GET /tr/kaolin 200 in 57ms
+ GET /tr/applications 200 in 51ms
+ GET /tr/media 200 in 60ms
+ GET /tr/contact 200 in 42ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 3.7s (1235 modules)
+ GET /tr/contact 200 in 829ms
+ GET /tr/contact 200 in 1559ms
+ GET /en 200 in 137ms
+ GET /en/contact 200 in 241ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /tr 500 in 185ms
+ GET /tr 500 in 58ms
+ GET /en/contact 500 in 183ms
+ GET /en/contact 500 in 58ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /en 500 in 187ms
+ GET /en 500 in 32ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /en 500 in 187ms
+ GET /en 500 in 38ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/ru'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/ru'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /ru 500 in 116ms
+ GET /ru 500 in 35ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/zh'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/zh'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /zh 500 in 89ms
+ GET /zh 500 in 38ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /tr/contact 500 in 84ms
+ GET /tr/contact 500 in 34ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/en/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /en/contact 500 in 71ms
+ GET /en/contact 500 in 26ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/ru/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/ru/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /ru/contact 500 in 74ms
+ GET /ru/contact 500 in 28ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/zh/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/zh/contact'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /zh/contact 500 in 81ms
+ GET /zh/contact 500 in 26ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /tr 500 in 310ms
+ GET /tr 500 in 93ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app-paths-manifest.json',
+  page: '/tr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\routes-manifest.json'
+}
+ GET /tr 500 in 140ms
+ GET /tr 500 in 68ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 13s (1136 modules)
+ GET /tr/contact 404 in 13814ms
+ GET /en/contact 404 in 13816ms
+ GET /en 404 in 13822ms
+ ○ Compiling / ...
+ ✓ Compiled / in 916ms (691 modules)
+ GET /en 200 in 1685ms
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET / 500 in 3038ms
+ GET / 500 in 76ms
+ GET /tr 200 in 94ms
+ GET /en/contact 200 in 254ms
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET / 500 in 1311ms
+ GET / 500 in 51ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app\\[locale]\\about\\page.js',
+  page: '/tr/about'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app\\[locale]\\about\\page.js',
+  page: '/tr/about'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET /tr/about 500 in 338ms
+ GET /tr/about 500 in 52ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app\\[locale]\\about\\page.js',
+  page: '/tr/about'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\app\[locale]\about\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\app\\[locale]\\about\\page.js',
+  page: '/tr/about'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET /tr/about 500 in 352ms
+ GET /tr/about 500 in 38ms
+ GET /tr 200 in 130ms
+ GET /tr 200 in 54ms
+ GET /tr 200 in 54ms
+ ○ Compiling /[locale]/kaolin ...
+ ✓ Compiled /[locale]/kaolin in 1456ms (696 modules)
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET /tr/kaolin 500 in 2553ms
+ GET /tr/kaolin 500 in 71ms
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET /tr/kaolin 500 in 1154ms
+ GET /tr/kaolin 500 in 67ms
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ GET /tr/kaolin 500 in 937ms
+ GET /tr/kaolin 500 in 62ms
+ GET /tr/kaolin 200 in 27ms
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ ⨯ [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: '/tr/kaolin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hilal.oguzhan\Desktop\WebPage\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hilal.oguzhan\\Desktop\\WebPage\\.next\\server\\pages\\_document.js'
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+[?25h

@@ -35,8 +35,8 @@ export const contactPageContent = {
   ],
   company: {
     section: {
-      eyebrow: "Company Information",
-      title: "A direct B2B contact point for raw kaolin supply and industrial cooperation.",
+      eyebrow: "",
+      title: "Company Information",
       description:
         `${companyInfo.brandName} supports commercial communication, sample coordination and product discussions through a clear and responsive contact structure.`,
     },
@@ -47,6 +47,11 @@ export const contactPageContent = {
       { label: "Address", value: companyInfo.address },
       { label: "Email", value: companyInfo.email, href: companyInfo.emailHref },
       { label: "Phone", value: companyInfo.phone, href: companyInfo.phoneHref },
+    ],
+    socialTitle: "Social Media",
+    socialLinks: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/company/plutoenerji", platform: "linkedin" },
+      { label: "Instagram", href: "https://www.instagram.com/plutoenerji", platform: "instagram" },
     ],
   },
   form: {

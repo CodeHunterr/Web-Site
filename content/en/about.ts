@@ -4,7 +4,8 @@ import type { AboutPageContent } from "../types";
 export const aboutPageContent = {
   metadata: {
     title: `${companyInfo.brandName} | About`,
-    description: "About Pluto Enerji, a kaolin-focused company positioned around raw kaolin supply and industrial product portfolio.",
+    description:
+      "About Pluto Enerji, a kaolin-focused company positioned around raw kaolin supply and industrial product portfolio.",
   },
   hero: {
     eyebrow: "",
@@ -35,8 +36,8 @@ export const aboutPageContent = {
   ],
   overview: {
     section: {
-      eyebrow: "Company Overview",
-      title: "A kaolin company shaped for supply discussions, technical review and industrial partnerships.",
+      eyebrow: "",
+      title: "A Kaolin Company Focused on Industrial Partnerships",
       description:
         `${companyInfo.brandName} presents its product structure with commercial clarity, giving raw kaolin supply clear visibility while also supporting buyers interested in processed and application-aligned grades.`,
     },
@@ -50,8 +51,8 @@ export const aboutPageContent = {
   },
   portfolio: {
     section: {
-      eyebrow: "Commercial Structure",
-      title: "A portfolio designed to speak clearly to industrial buyers.",
+      eyebrow: "",
+      title: "A Portfolio Structure That Delivers Solutions",
       description:
         "From raw supply to processed grades, the company presents kaolin with a ready and professional B2B narrative rather than a tentative roadmap.",
     },

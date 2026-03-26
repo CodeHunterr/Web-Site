@@ -35,10 +35,10 @@ export const applicationsPageContent = {
     },
   ],
   developmentApproach: {
-    eyebrow: "开发方法",
-    title: "面向不同工业终端用途的结构化高岭土策略。",
+    eyebrow: "",
+    title: "面向不同应用的开发方法",
     description:
-      `${companyInfo.brandName} 从终端性能角度评估高岭土潜力，使矿物开发重点与各行业技术需求相匹配。`,
+      `${companyInfo.brandName} 从终端使用性能角度评估高岭土潜力，并将开发重点与行业需求相匹配。`,
   },
   sectors: [
     {
@@ -111,9 +111,9 @@ export const applicationsPageContent = {
   supplyHighlight: {
     section: {
       eyebrow: "商业供应",
-      title: "原矿高岭土供应",
+      title: "原高岭土供应",
       description:
-        "面向工业采购方的重点商业模块，突出来自矿山运营的一线原矿高岭土供应。",
+        "我们以直接且具备商业优势的模式，为工业采购方提供矿山原生高岭土供应。",
     },
     intro:
       "Pluto Enerji 直接依托矿山运营提供原矿高岭土（tüvenan）供应，为工业采购方提供灵活且具备商业优势的采购模式。",

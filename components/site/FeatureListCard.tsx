@@ -24,7 +24,7 @@ export function FeatureListCard({
   itemClassName,
 }: FeatureListCardProps) {
   return (
-    <article className={joinClasses(className)}>
+    <article className={joinClasses(className)} data-reveal="stagger">
       <h3 className={joinClasses(titleClassName)}>{title}</h3>
       <p className={joinClasses(descriptionClassName)}>{description}</p>
       <ul className={joinClasses(listClassName)}>

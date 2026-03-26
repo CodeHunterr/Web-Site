@@ -22,8 +22,8 @@ export const contactPageContent = {
   ],
   company: {
     section: {
-      eyebrow: "Şirket Bilgileri",
-      title: "Müşteriler ve endüstriyel iş ortakları için doğrudan B2B iletişim noktası.",
+      eyebrow: "",
+      title: "Şirket Bilgileri",
       description:
         `${companyInfo.brandName}, teknik iletişim, numune koordinasyonu ve ticari iş birlikleri için net ve profesyonel bir yanıt yapısı sunar.`,
     },
@@ -33,6 +33,11 @@ export const contactPageContent = {
       { label: "Adres", value: companyInfo.address },
       { label: "E-posta", value: companyInfo.email, href: companyInfo.emailHref },
       { label: "Telefon", value: companyInfo.phone, href: companyInfo.phoneHref },
+    ],
+    socialTitle: "Sosyal Medya",
+    socialLinks: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/company/plutoenerji", platform: "linkedin" },
+      { label: "Instagram", href: "https://www.instagram.com/plutoenerji", platform: "instagram" },
     ],
   },
   form: {

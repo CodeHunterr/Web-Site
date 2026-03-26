@@ -22,8 +22,8 @@ export const contactPageContent = {
   ],
   company: {
     section: {
-      eyebrow: "公司信息",
-      title: "面向客户与工业合作伙伴的直接 B2B 联系窗口。",
+      eyebrow: "",
+      title: "公司信息",
       description:
         `${companyInfo.brandName} 通过清晰专业的响应结构支持技术沟通、样品协调和商务合作。`,
     },
@@ -33,6 +33,11 @@ export const contactPageContent = {
       { label: "地址", value: companyInfo.address },
       { label: "电子邮箱", value: companyInfo.email, href: companyInfo.emailHref },
       { label: "电话", value: companyInfo.phone, href: companyInfo.phoneHref },
+    ],
+    socialTitle: "社交媒体",
+    socialLinks: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/company/plutoenerji", platform: "linkedin" },
+      { label: "Instagram", href: "https://www.instagram.com/plutoenerji", platform: "instagram" },
     ],
   },
   form: {

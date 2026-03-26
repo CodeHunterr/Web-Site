@@ -20,7 +20,7 @@ export function SurfaceCard({
   descriptionClassName,
 }: SurfaceCardProps) {
   return (
-    <article className={joinClasses(styles.root, className)}>
+    <article className={joinClasses(styles.root, className)} data-reveal="stagger">
       <h3 className={joinClasses(styles.title, titleClassName)}>{title}</h3>
       <p className={joinClasses(styles.description, descriptionClassName)}>{description}</p>
     </article>

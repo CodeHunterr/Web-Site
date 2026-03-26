@@ -36,9 +36,8 @@ export const aboutPageContent = {
   ],
   overview: {
     section: {
-      eyebrow: "Şirket Özeti",
-      title:
-        "Tedarik görüşmeleri, teknik değerlendirme ve endüstriyel ortaklıklar için şekillenen bir kaolin şirketi.",
+      eyebrow: "",
+      title: "Endüstriyel Ortaklıklar Odaklı Kaolin Şirketi",
       description:
         `${companyInfo.brandName}, ürün yapısını ticari netlikle sunar; ham kaolin arzını görünür kılarken işlenmiş ve uygulama odaklı ürünleri de profesyonel şekilde konumlandırır.`,
     },
@@ -52,8 +51,8 @@ export const aboutPageContent = {
   },
   portfolio: {
     section: {
-      eyebrow: "Ticari Yapı",
-      title: "Endüstriyel alıcılara net konuşan bir portföy yapısı.",
+      eyebrow: "",
+      title: "Çözümler Sunan Portföy Yapısı",
       description:
         "Ham arzdan işlenmiş kalite ürünlere kadar şirket, kaolini belirsiz bir gelecek diliyle değil hazır ve profesyonel bir B2B anlatımla sunar.",
     },

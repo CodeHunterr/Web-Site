@@ -36,8 +36,8 @@ export const aboutPageContent = {
   ],
   overview: {
     section: {
-      eyebrow: "公司概览",
-      title: "一家面向供货讨论、技术评估与工业合作而构建的高岭土公司。",
+      eyebrow: "",
+      title: "专注工业合作的高岭土公司",
       description:
         `${companyInfo.brandName} 以清晰的商业方式呈现产品结构，在突出原矿高岭土供应的同时，也支持买家了解加工级与应用导向型产品。`,
     },
@@ -51,8 +51,8 @@ export const aboutPageContent = {
   },
   portfolio: {
     section: {
-      eyebrow: "商业结构",
-      title: "为工业买家清晰表达而设计的产品组合。",
+      eyebrow: "",
+      title: "提供解决方案的产品结构",
       description:
         "从原矿供应到加工级产品，公司以现成、专业的 B2B 语言展示高岭土，而不是以模糊的未来计划表达。",
     },
@@ -60,7 +60,7 @@ export const aboutPageContent = {
       {
         title: "原矿高岭土供应",
         description:
-          "可直接用于大宗采购、工业确认和商业合作沟通的原矿高岭土。",
+          "可直接用于大宗采购、工业确认和商务合作沟通的原矿高岭土。",
       },
       {
         title: "加工级产品",

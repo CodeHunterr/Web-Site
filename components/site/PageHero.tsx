@@ -26,7 +26,14 @@ type PageHeroProps = {
   highlights: ReadonlyArray<HighlightItem>;
   media?: GalleryItem;
   lead?: HeroLead;
+  frameless?: boolean;
+  sectionClassName?: string;
+  cardClassName?: string;
   titleClassName?: string;
+  plainHighlights?: boolean;
+  highlightCardClassName?: string;
+  highlightTitleClassName?: string;
+  highlightDescriptionClassName?: string;
 };
 
 function joinClasses(...classNames: Array<string | undefined>) {
@@ -45,7 +52,14 @@ export function PageHero({
   highlights,
   media,
   lead,
+  frameless = false,
+  sectionClassName,
+  cardClassName,
   titleClassName,
+  plainHighlights = false,
+  highlightCardClassName,
+  highlightTitleClassName,
+  highlightDescriptionClassName,
 }: PageHeroProps) {
   const hasTitleLine1 = titleLine1.trim().length > 0;
   const hasTitleLine2 = titleLine2.trim().length > 0;
@@ -100,9 +114,15 @@ export function PageHero({
   };
 
   return (
-    <section className={styles.section}>
+    <section className={joinClasses(styles.section, sectionClassName)}>
       <SiteShell>
-        <div className={styles.card}>
+        <div
+          className={joinClasses(
+            styles.card,
+            frameless ? styles.cardFrameless : undefined,
+            cardClassName,
+          )}
+        >
           <div className={styles.grid}>
             <div className={styles.content}>
               {hasEyebrow ? (
@@ -198,16 +218,43 @@ export function PageHero({
               ) : null}
 
               <div className={styles.highlightGrid}>
-                {highlights.map((item) => (
-                  <SurfaceCard
-                    key={item.title}
-                    title={item.title}
-                    description={item.description}
-                    className={styles.highlightCard}
-                    titleClassName={styles.highlightTitle}
-                    descriptionClassName={styles.highlightDescription}
-                  />
-                ))}
+                {highlights.map((item) =>
+                  plainHighlights ? (
+                    <article
+                      key={item.title}
+                      className={joinClasses(styles.highlightPlain, highlightCardClassName)}
+                    >
+                      <h2
+                        className={joinClasses(
+                          styles.highlightTitle,
+                          highlightTitleClassName,
+                        )}
+                      >
+                        {item.title}
+                      </h2>
+                      <p
+                        className={joinClasses(
+                          styles.highlightDescription,
+                          highlightDescriptionClassName,
+                        )}
+                      >
+                        {item.description}
+                      </p>
+                    </article>
+                  ) : (
+                    <SurfaceCard
+                      key={item.title}
+                      title={item.title}
+                      description={item.description}
+                      className={joinClasses(styles.highlightCard, highlightCardClassName)}
+                      titleClassName={joinClasses(styles.highlightTitle, highlightTitleClassName)}
+                      descriptionClassName={joinClasses(
+                        styles.highlightDescription,
+                        highlightDescriptionClassName,
+                      )}
+                    />
+                  ),
+                )}
               </div>
             </aside>
           </div>

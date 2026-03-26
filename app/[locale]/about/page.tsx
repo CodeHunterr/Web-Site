@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 
 import { PageHero } from "../../../components/site/PageHero";
@@ -5,6 +6,7 @@ import { SectionHeading } from "../../../components/site/SectionHeading";
 import { SiteShell } from "../../../components/site/SiteShell";
 import { SurfaceCard } from "../../../components/site/SurfaceCard";
 import { companyInfo, getAboutPageContent } from "../../../content";
+import { mediaAssets } from "../../../content/media-assets";
 import type { HeroAction } from "../../../content/types";
 import {
   defaultLocale,
@@ -58,16 +60,25 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
   return (
     <main className={styles.page}>
-      <PageHero
-        eyebrow={pageContent.hero.eyebrow}
-        titleLine1={pageContent.hero.titleLine1}
-        titleLine2={pageContent.hero.titleLine2}
-        description={pageContent.hero.description}
-        notice={pageContent.hero.notice}
-        actions={heroActions}
-        highlights={pageContent.heroHighlights}
-        titleClassName={styles.heroTitle}
-      />
+      <div
+        data-parallax
+        className={styles.heroWrap}
+        style={{ "--about-hero-image": `url(${mediaAssets.aboutHeroImage.src})` } as CSSProperties}
+      >
+        <PageHero
+          eyebrow={pageContent.hero.eyebrow}
+          titleLine1={pageContent.hero.titleLine1}
+          titleLine2={pageContent.hero.titleLine2}
+          description={pageContent.hero.description}
+          notice={pageContent.hero.notice}
+          actions={heroActions}
+          highlights={pageContent.heroHighlights}
+          frameless
+          sectionClassName={styles.heroSection}
+          cardClassName={styles.heroCard}
+          titleClassName={styles.heroTitle}
+        />
+      </div>
 
       <SiteShell>
         <section className={styles.section}>
@@ -76,7 +87,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
               eyebrow={pageContent.overview.section.eyebrow}
               title={pageContent.overview.section.title}
               description={pageContent.overview.section.description}
-              className={styles.sectionHeading}
+              className={styles.overviewHeading}
             />
 
             <div className={styles.overviewContent}>
@@ -98,7 +109,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
             eyebrow={pageContent.portfolio.section.eyebrow}
             title={pageContent.portfolio.section.title}
             description={pageContent.portfolio.section.description}
-            className={styles.sectionHeadingCentered}
+            className={styles.portfolioHeading}
           />
 
           <div className={styles.cardGrid}>

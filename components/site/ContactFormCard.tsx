@@ -30,6 +30,8 @@ type ContactFormCardProps = {
   formClassName?: string;
   fieldClassName?: string;
   fieldFullWidthClassName?: string;
+  fieldControlClassName?: string;
+  fieldInvalidClassName?: string;
   labelClassName?: string;
   inputClassName?: string;
   textareaClassName?: string;
@@ -107,6 +109,8 @@ export function ContactFormCard({
   formClassName,
   fieldClassName,
   fieldFullWidthClassName,
+  fieldControlClassName,
+  fieldInvalidClassName,
   labelClassName,
   inputClassName,
   textareaClassName,
@@ -219,7 +223,7 @@ export function ContactFormCard({
   };
 
   return (
-    <div className={joinClasses(className)}>
+    <div className={joinClasses(className)} data-reveal="default">
       <div className={joinClasses(headingClassName)}>
         <h2 className={joinClasses(titleClassName)}>{title}</h2>
         <p className={joinClasses(descriptionClassName)}>{description}</p>
@@ -234,37 +238,44 @@ export function ContactFormCard({
               field.fullWidth ? fieldFullWidthClassName : undefined,
             )}
           >
-            <label className={joinClasses(labelClassName)} htmlFor={field.name}>
-              {field.label}
-            </label>
+            <div
+              className={joinClasses(
+                fieldControlClassName,
+                fieldErrors[field.name] ? fieldInvalidClassName : undefined,
+              )}
+            >
+              {field.type === "textarea" ? (
+                <textarea
+                  autoComplete={getAutoComplete(field.name, field.type)}
+                  aria-invalid={fieldErrors[field.name] ? "true" : undefined}
+                  className={joinClasses(textareaClassName)}
+                  id={field.name}
+                  name={field.name}
+                  placeholder=" "
+                  required={field.required}
+                  rows={field.rows ?? 5}
+                  value={formValues[field.name]}
+                  onChange={handleChange}
+                />
+              ) : (
+                <input
+                  autoComplete={getAutoComplete(field.name, field.type)}
+                  aria-invalid={fieldErrors[field.name] ? "true" : undefined}
+                  className={joinClasses(inputClassName)}
+                  id={field.name}
+                  name={field.name}
+                  type={field.type}
+                  placeholder=" "
+                  required={field.required}
+                  value={formValues[field.name]}
+                  onChange={handleChange}
+                />
+              )}
 
-            {field.type === "textarea" ? (
-              <textarea
-                autoComplete={getAutoComplete(field.name, field.type)}
-                aria-invalid={fieldErrors[field.name] ? "true" : undefined}
-                className={joinClasses(textareaClassName)}
-                id={field.name}
-                name={field.name}
-                placeholder={field.placeholder}
-                required={field.required}
-                rows={field.rows ?? 5}
-                value={formValues[field.name]}
-                onChange={handleChange}
-              />
-            ) : (
-              <input
-                autoComplete={getAutoComplete(field.name, field.type)}
-                aria-invalid={fieldErrors[field.name] ? "true" : undefined}
-                className={joinClasses(inputClassName)}
-                id={field.name}
-                name={field.name}
-                type={field.type}
-                placeholder={field.placeholder}
-                required={field.required}
-                value={formValues[field.name]}
-                onChange={handleChange}
-              />
-            )}
+              <label className={joinClasses(labelClassName)} htmlFor={field.name}>
+                {field.label}
+              </label>
+            </div>
 
             {fieldErrors[field.name] ? (
               <span className={joinClasses(fieldHintClassName)}>

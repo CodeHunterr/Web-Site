@@ -11,9 +11,10 @@
   background: var(--gradient-panel);
   box-shadow: var(--shadow-soft);
   transition:
-    transform 0.24s ease,
-    box-shadow 0.24s ease,
-    border-color 0.24s ease;
+    transform 0.28s var(--ease-premium),
+    box-shadow 0.28s var(--ease-premium),
+    border-color 0.28s var(--ease-premium),
+    background-color 0.28s var(--ease-premium);
 }
 
 .root::before {
@@ -27,9 +28,9 @@
 }
 
 .root:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: var(--line-mid);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 30px 68px rgba(15, 23, 42, 0.14);
 }
 
 .title {

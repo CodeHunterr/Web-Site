@@ -1,0 +1,29 @@
+
+> minimal-next15-ts@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 18768, using available port 3002 instead.
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3002
+   - Network:      http://10.34.191.56:3002
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 1425ms (733 modules)
+ GET /tr 200 in 3203ms
+ GET /en/contact 200 in 3392ms
+ GET /en 200 in 167ms
+ GET /ru 200 in 474ms
+ GET /zh 200 in 180ms
+ GET /tr/contact 200 in 167ms
+ GET /en/contact 200 in 142ms
+ GET /ru/contact 200 in 493ms
+ GET /zh/contact 200 in 150ms
+ GET /en 200 in 95ms
+ ✓ Compiled in 1000ms (288 modules)
+ ✓ Compiled in 356ms (293 modules)
+ ✓ Compiled in 176ms (284 modules)
+ ✓ Compiled in 179ms (293 modules)
+^C

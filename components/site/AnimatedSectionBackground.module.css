@@ -1,0 +1,54 @@
+.wrapper {
+  --parallax-offset: 0px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.mediaLayer,
+.overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.mediaLayer {
+  z-index: 0;
+  transform: translate3d(0, calc(var(--parallax-offset) * 0.6), 0);
+  transition: transform 0.18s linear;
+  will-change: transform;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1);
+  animation: ambientZoom 6s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.overlay {
+  z-index: 1;
+  background: rgba(4, 12, 25, 0.6);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes ambientZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image {
+    animation: none;
+    transform: scale(1.04);
+  }
+}

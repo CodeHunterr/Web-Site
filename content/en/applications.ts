@@ -35,10 +35,10 @@ export const applicationsPageContent = {
     },
   ],
   developmentApproach: {
-    eyebrow: "Application Approach",
-    title: "A professional kaolin portfolio language for different industrial sectors.",
+    eyebrow: "",
+    title: "Development Approach Tailored to Diverse Applications",
     description:
-      `${companyInfo.brandName} presents kaolin not as a generic mineral offer, but as a commercially organized portfolio matched to sector needs and product expectations.`,
+      `${companyInfo.brandName} evaluates kaolin potential from an end-use performance perspective and aligns development priorities with sector-specific requirements.`,
   },
   sectors: [
     {
@@ -113,7 +113,7 @@ export const applicationsPageContent = {
       eyebrow: "Commercial Supply",
       title: "Raw Kaolin Supply",
       description:
-        "A highlighted commercial block for industrial buyers looking for quarry-origin raw kaolin sourcing.",
+        "We provide quarry-origin raw kaolin supply through a direct and commercially strong model for industrial buyers.",
     },
     intro:
       "Pluto Enerji offers direct raw kaolin (tüvenan) supply from its quarry operations, providing a flexible sourcing model for industrial buyers.",

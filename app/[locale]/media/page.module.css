@@ -3,15 +3,34 @@
 }
 
 .heroTitle {
-  font-size: clamp(33px, 5.1vw, 56px);
+  max-width: 12ch;
+  text-wrap: balance;
 }
 
-.heroTitleTr {
-  max-width: none;
-  overflow-wrap: normal;
-  word-break: normal;
-  white-space: nowrap;
-  font-size: clamp(34px, 5.9vw, 67px);
+.heroContent {
+  max-width: 880px;
+}
+
+.heroSocialBlock {
+  max-width: 50rem;
+  padding: 24px 28px;
+  border-radius: 30px;
+  box-shadow: 0 26px 54px rgba(4, 12, 25, 0.18);
+}
+
+.heroInfoGrid {
+  width: min(100%, 340px);
+  grid-template-columns: 1fr;
+  gap: 14px;
+  align-self: end;
+}
+
+.heroInfoCard {
+  padding: 18px 20px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 18px 40px rgba(4, 12, 25, 0.14);
+  backdrop-filter: blur(18px);
 }
 
 .section {
@@ -104,28 +123,17 @@
   border-radius: calc(var(--radius-panel) - 6px);
 }
 
-.videoMeta {
-  margin-top: var(--space-5);
-  max-width: 680px;
-}
-
-.videoTitle {
-  display: block;
-  color: var(--color-ink);
-  font-size: clamp(24px, 2vw, 26px);
-  line-height: 1.14;
-  letter-spacing: -0.02em;
-}
-
-.videoDescription {
-  margin: 10px 0 0;
-  color: var(--color-muted);
-  line-height: 1.8;
-}
-
 @media (max-width: 1024px) {
   .galleryGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .heroTitle {
+    max-width: 13ch;
+  }
+
+  .heroInfoGrid {
+    width: min(100%, 420px);
   }
 }
 
@@ -134,8 +142,17 @@
     padding-top: var(--section-space-tight);
   }
 
-  .heroTitleTr {
-    font-size: clamp(32px, 8.6vw, 42px);
+  .heroTitle {
+    max-width: none;
+  }
+
+  .heroSocialBlock {
+    padding: 20px 22px;
+    border-radius: 26px;
+  }
+
+  .heroInfoGrid {
+    width: 100%;
   }
 
   .galleryGrid {

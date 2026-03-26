@@ -22,7 +22,7 @@
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   flex: 0 1 252px;
   min-width: 0;
   color: inherit;
@@ -33,24 +33,21 @@
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   overflow: hidden;
-  border: 1px solid rgba(11, 27, 61, 0.1);
-  border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    0 10px 24px rgba(11, 27, 61, 0.14);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .brandImage {
   display: block;
   width: 100%;
   height: 100%;
-  padding: 4px;
   object-fit: contain;
-  transform: scale(1.18);
+  transform: scale(1.14);
   transform-origin: center;
 }
 
@@ -109,6 +106,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   min-height: 40px;
   padding: 0 clamp(8px, 0.7vw, 11px);
   border-radius: var(--radius-pill);
@@ -128,6 +126,23 @@
   color: var(--color-muted);
 }
 
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 8px;
+  height: 1.5px;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0;
+  transform: scaleX(0.35);
+  transform-origin: left center;
+  transition:
+    opacity 0.24s ease,
+    transform 0.24s ease;
+}
+
 .localeLink {
   min-width: 44px;
   border: 1px solid var(--line-soft);
@@ -140,6 +155,12 @@
 .localeLink:hover {
   color: var(--color-navy);
   transform: translateY(-1px);
+}
+
+.navLink:hover::after,
+.navLinkActive::after {
+  opacity: 0.92;
+  transform: scaleX(1);
 }
 
 .navLink:hover {
@@ -215,6 +236,11 @@
   .localeLink {
     padding: 0 8px;
   }
+
+  .brandMark {
+    width: 52px;
+    height: 52px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -229,6 +255,11 @@
 
   .brand {
     flex-basis: auto;
+  }
+
+  .brandMark {
+    width: 48px;
+    height: 48px;
   }
 
   .menuToggle {
@@ -280,5 +311,14 @@
 @media (max-width: 640px) {
   .shell {
     width: min(var(--shell-wide), calc(100% - var(--shell-gutter-mobile)));
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .brandMark {
+    width: 44px;
+    height: 44px;
   }
 }

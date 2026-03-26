@@ -5,109 +5,123 @@ import type { MediaPageContent } from "../types";
 export const mediaPageContent = {
   metadata: {
     title: `${companyInfo.brandName} | Medya`,
-    description: "Kurumsal sunum için saha, stok ve proses görselleri.",
+    description: "Ocak, laboratuvar ve operasyon görsellerinin kurumsal sunumu.",
   },
   hero: {
     eyebrow: "",
     titleLine1: "Operasyonlarımız",
     titleLine2: "ve Medya",
-    description: "",
+    description:
+      "Ocak görselleri, laboratuvar kayıtları ve operasyon medyası, Pluto Enerji'nin sahadaki üretim disiplinini ve teknik görünürlüğünü yansıtır.",
     notice: "",
-    primaryLabel: "Medya dosyası iste",
-    secondaryLabel: "Galeriyi gör",
+    primaryLabel: "",
+    secondaryLabel: "Galeriyi Gör",
   },
+  heroSlides: mediaAssets.mediaHeroSlides,
+  heroSupportCards: [
+    {
+      title: "Saha Görselleri",
+      description: "Ocak ölçeğini, saha sürekliliğini ve üretim bağlamını yansıtan seçili görseller.",
+    },
+    {
+      title: "Laboratuvar Kayıtları",
+      description: "Numune inceleme, analiz ve teknik gözlem süreçlerini destekleyen kontrollü laboratuvar görselleri.",
+    },
+    {
+      title: "Operasyon Medyası",
+      description: "Kurumsal sunum ve endüstriyel iletişim için düzenlenmiş operasyon medya varlıkları.",
+    },
+  ],
   heroSocial: {
     title: "Sosyal Medya Adreslerimiz",
     links: [
       {
-        label: "LinkedIn :",
+        label: "LinkedIn",
         href: "https://www.linkedin.com/company/plutoenerji",
         platform: "linkedin",
       },
       {
-        label: "Instagram :",
+        label: "Instagram",
         href: "https://www.instagram.com/plutoenerji",
         platform: "instagram",
       },
     ],
   },
-  heroImage: {
-    title: "Saha Görünümü",
-    description: "",
-    src: mediaAssets.mediaHeroImage.src,
-    alt: "Pluto Enerji saha görünümü",
-  },
-  heroHighlights: [
-    {
-      title: "Saha görünürlüğü",
-      description:
-        "Ocak alanı, ulaşım yolları ve aktif saha koşullarını gösteren görsel yapı.",
-    },
-    {
-      title: "Malzeme şeffaflığı",
-      description:
-        "Ham kaolin stok alanı, mineral dokusu ve malzeme akışının net sunumu.",
-    },
-    {
-      title: "Operasyonel bağlam",
-      description:
-        "Proses, lojistik ve tesis iletişimi için hazırlanan profesyonel medya katmanı.",
-    },
-  ],
   sections: {
     quarry: {
-      eyebrow: "Ocak ve Madencilik Alanı (Quarry & Mining Area)",
-      title: "Saha ve çıkarım görünürlüğü için hazırlanan görseller.",
+      eyebrow: "",
+      title: "Ocak ve Madencilik Alanı (Quarry & Mining Area)",
       description: "",
       galleryImages: [
         {
           title: "Ocak Panoraması",
           description:
-            "Sahanın genel görünümünü ve aktif çalışma alanını gösteren geniş açı görüntü.",
+            "Sahanın genel yapısını ve aktif çıkarım alanını gösteren geniş açılı görünüm.",
           src: mediaAssets.quarryImages[0].src,
           alt: "Pluto Enerji ocak panoraması",
         },
         {
           title: "Saha Erişimi",
           description:
-            "Ocak içi ulaşım yollarını ve operasyonel saha erişimini gösteren görüntü.",
+            "Ocak içi erişim yollarını ve operasyonel saha hareketini yansıtan görünüm.",
           src: mediaAssets.quarryImages[1].src,
-          alt: "Pluto Enerji saha erişim alanı",
+          alt: "Pluto Enerji saha erişimi",
+        },
+        {
+          title: "Üretim Sahası",
+          description:
+            "Aktif madencilik alanını ve üretim sürekliliğini gösteren saha görseli.",
+          src: mediaAssets.quarryImages[2].src,
+          alt: "Pluto Enerji üretim sahası",
+        },
+        {
+          title: "Çalışma Zonları",
+          description:
+            "Sahanın derinliğini ve operasyonel ölçeyi hissettiren aktif çalışma zonu görünümü.",
+          src: mediaAssets.quarryImages[3].src,
+          alt: "Pluto Enerji çalışma zonları",
+        },
+        {
+          title: "Kazı Görünümü",
+          description:
+            "Kazı dokusunu ve mineral alan karakterini öne çıkaran detaylı saha görseli.",
+          src: mediaAssets.quarryImages[4].src,
+          alt: "Pluto Enerji kazı görünümü",
         },
       ],
     },
     stock: {
-      eyebrow: "Stok ve Malzeme (Stock & Material)",
-      title: "Kaolin stok ve besleme sunumu için malzeme odaklı görseller.",
+      eyebrow: "",
+      title: "Kaolin Minerali İşleme",
       description: "",
       galleryImages: [
         {
-          title: "Hammadde Stok Sahası",
+          title: "Laboratuvar İncelemesi",
           description:
-            "Ham kaolin malzemesinin stok yapısını ve saha düzenini yansıtan görsel.",
-          src: mediaAssets.stockImages[0].src,
-          alt: "Pluto Enerji hammadde stok sahası",
+            "Numune değerlendirme ve mineral kalite gözlemi için hazırlanan laboratuvar görseli.",
+          src: mediaAssets.labImages[0].src,
+          alt: "Pluto Enerji laboratuvar incelemesi",
         },
-      ],
-    },
-    operations: {
-      eyebrow: "Operasyon ve Proses (Operations & Process)",
-      title: "Proses görünürlüğü ve tesis iletişimi için operasyon görselleri.",
-      description: "",
-      galleryImages: [
         {
-          title: "Operasyon Hattı",
+          title: "Proses Takibi",
           description:
-            "Saha içi operasyon akışını ve proses düzenini destekleyen genel görünüm.",
-          src: mediaAssets.operationsImages[0].src,
-          alt: "Pluto Enerji operasyon hattı",
+            "Kaolin işleme akışını ve kontrollü teknik gözlemi destekleyen laboratuvar görünümü.",
+          src: mediaAssets.labImages[1].src,
+          alt: "Pluto Enerji proses takibi",
+        },
+        {
+          title: "Malzeme Değerlendirmesi",
+          description:
+            "Mineral analizi ve işleme uygunluğu için kullanılan değerlendirme aşamasını gösteren görsel.",
+          src: mediaAssets.labImages[2].src,
+          alt: "Pluto Enerji malzeme değerlendirmesi",
         },
       ],
     },
   },
   video: {
-    eyebrow: "Video",
-    title: "Media sayfasına entegre edilmiş operasyon videosu.",
+    eyebrow: "",
+    title: "Laboratuvar ve Operasyon Videosu",
     description: "",
     embedLabel: "Laboratuvar ve Operasyon Videosu",
     embedDescription: "",

@@ -110,6 +110,7 @@ export type HomePageContent = {
   metadata: PageMetadata;
   hero: HeroContent;
   heroImage: GalleryItem;
+  heroSlides: GalleryItem[];
   heroAside: {
     kicker: string;
     description: string;
@@ -172,16 +173,15 @@ export type ApplicationsPageContent = {
 export type MediaPageContent = {
   metadata: PageMetadata;
   hero: HeroContent;
+  heroSlides: GalleryItem[];
+  heroSupportCards: TextCard[];
   heroSocial: {
     title: string;
     links: HeroSocialLink[];
   };
-  heroImage: GalleryItem;
-  heroHighlights: HighlightItem[];
   sections: {
     quarry: SectionContent & { galleryImages: GalleryItem[] };
     stock: SectionContent & { galleryImages: GalleryItem[] };
-    operations: SectionContent & { galleryImages: GalleryItem[] };
   };
   video: {
     eyebrow: string;
@@ -201,6 +201,8 @@ export type ContactPageContent = {
     section: SectionContent;
     summary: string;
     details: ContactDetailItem[];
+    socialTitle: string;
+    socialLinks: HeroSocialLink[];
   };
   form: {
     title: string;

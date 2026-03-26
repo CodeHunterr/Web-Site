@@ -35,8 +35,8 @@ export const applicationsPageContent = {
     },
   ],
   developmentApproach: {
-    eyebrow: "Geliştirme Yaklaşımı",
-    title: "Farklı endüstriyel son kullanımlar için yapılandırılmış kaolin stratejisi.",
+    eyebrow: "",
+    title: "Farklı Kullanımlara Uygun Geliştirme Yaklaşımı",
     description:
       `${companyInfo.brandName}, kaolin potansiyelini son kullanım performansı açısından değerlendirir ve geliştirme önceliklerini sektör ihtiyaçlarıyla eşleştirir.`,
   },
@@ -111,7 +111,7 @@ export const applicationsPageContent = {
   supplyHighlight: {
     section: {
       eyebrow: "Ticari Tedarik",
-      title: "Tüvenan Kaolin Tedariki",
+      title: "Tüvenan Kaolin Tedariği",
       description:
         "Ocak çıkışlı ham kaolin arzını endüstriyel alıcılar için doğrudan ve ticari olarak güçlü bir modelle sunuyoruz.",
     },

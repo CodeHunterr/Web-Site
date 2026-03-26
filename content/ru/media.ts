@@ -5,109 +5,123 @@ import type { MediaPageContent } from "../types";
 export const mediaPageContent = {
   metadata: {
     title: `${companyInfo.brandName} | Медиа`,
-    description: "Визуальные материалы по карьеру, складам и процессу для корпоративной презентации.",
+    description: "Корпоративная медиапрезентация карьера, лаборатории и операционной среды.",
   },
   hero: {
     eyebrow: "",
     titleLine1: "Наши операции",
     titleLine2: "и медиа",
-    description: "",
+    description:
+      "Визуалы карьера, лабораторные материалы и операционные медиа отражают производственную дисциплину и техническую прозрачность Pluto Enerji.",
     notice: "",
-    primaryLabel: "Запросить медиаматериалы",
+    primaryLabel: "",
     secondaryLabel: "Смотреть галерею",
   },
+  heroSlides: mediaAssets.mediaHeroSlides,
+  heroSupportCards: [
+    {
+      title: "Материалы по карьеру",
+      description: "Подборка изображений, передающих масштаб участка, непрерывность добычи и производственный контекст.",
+    },
+    {
+      title: "Лабораторные записи",
+      description: "Контролируемые лабораторные материалы для оценки образцов, анализа и технического наблюдения.",
+    },
+    {
+      title: "Операционные медиа",
+      description: "Подготовленные медиа-материалы для корпоративной презентации и промышленной коммуникации.",
+    },
+  ],
   heroSocial: {
     title: "Наши социальные сети",
     links: [
       {
-        label: "LinkedIn :",
+        label: "LinkedIn",
         href: "https://www.linkedin.com/company/plutoenerji",
         platform: "linkedin",
       },
       {
-        label: "Instagram :",
+        label: "Instagram",
         href: "https://www.instagram.com/plutoenerji",
         platform: "instagram",
       },
     ],
   },
-  heroImage: {
-    title: "Обзор площадки",
-    description: "",
-    src: mediaAssets.mediaHeroImage.src,
-    alt: "Pluto Enerji обзор площадки",
-  },
-  heroHighlights: [
-    {
-      title: "Видимость площадки",
-      description:
-        "Визуальный слой, показывающий карьер, подъездные пути и текущее состояние рабочей зоны.",
-    },
-    {
-      title: "Прозрачность материала",
-      description:
-        "Четкая презентация складской зоны сырого каолина, текстуры минерала и потока материала.",
-    },
-    {
-      title: "Операционный контекст",
-      description:
-        "Профессиональный медийный слой для процесса, логистики и коммуникации по площадке.",
-    },
-  ],
   sections: {
     quarry: {
-      eyebrow: "Карьер и добыча (Quarry & Mining Area)",
-      title: "Изображения для демонстрации площадки и процесса добычи.",
+      eyebrow: "",
+      title: "Карьер и зона добычи (Quarry & Mining Area)",
       description: "",
       galleryImages: [
         {
           title: "Панорама карьера",
           description:
-            "Широкий обзор, показывающий общую структуру карьера и активную рабочую зону.",
+            "Широкий обзор, показывающий общую структуру карьера и активную зону добычи.",
           src: mediaAssets.quarryImages[0].src,
           alt: "Pluto Enerji панорама карьера",
         },
         {
-          title: "Подъезд к участку",
+          title: "Доступ к участку",
           description:
-            "Изображение внутренних дорог и условий доступа в зоне карьера.",
+            "Изображение внутренних дорог и условий движения по карьерной площадке.",
           src: mediaAssets.quarryImages[1].src,
-          alt: "Pluto Enerji подъезд к карьеру",
+          alt: "Pluto Enerji доступ к участку",
+        },
+        {
+          title: "Производственная зона",
+          description:
+            "Визуал активной добычи, отражающий производственный ритм и масштаб участка.",
+          src: mediaAssets.quarryImages[2].src,
+          alt: "Pluto Enerji производственная зона",
+        },
+        {
+          title: "Рабочие контуры",
+          description:
+            "Снимок активной рабочей зоны, подчеркивающий глубину и пространственный контекст карьера.",
+          src: mediaAssets.quarryImages[3].src,
+          alt: "Pluto Enerji рабочие контуры",
+        },
+        {
+          title: "Вид добычи",
+          description:
+            "Детальный кадр, передающий фактуру выемки и характер минерального поля.",
+          src: mediaAssets.quarryImages[4].src,
+          alt: "Pluto Enerji вид добычи",
         },
       ],
     },
     stock: {
-      eyebrow: "Склад и материал (Stock & Material)",
-      title: "Визуальные материалы для представления складов и подачи каолина.",
+      eyebrow: "",
+      title: "Переработка каолинового минерала",
       description: "",
       galleryImages: [
         {
-          title: "Склад сырья",
+          title: "Лабораторный обзор",
           description:
-            "Изображение, отражающее структуру складирования сырого каолина и размещение материала на площадке.",
-          src: mediaAssets.stockImages[0].src,
-          alt: "Pluto Enerji склад сырья",
+            "Лабораторный визуал для оценки образцов и наблюдения за качеством минерала.",
+          src: mediaAssets.labImages[0].src,
+          alt: "Pluto Enerji лабораторный обзор",
         },
-      ],
-    },
-    operations: {
-      eyebrow: "Операции и процесс (Operations & Process)",
-      title: "Визуальные материалы для показа процесса и коммуникации по площадке.",
-      description: "",
-      galleryImages: [
         {
-          title: "Производственная линия",
+          title: "Контроль процесса",
           description:
-            "Общий вид, поддерживающий презентацию процессного потока и операционной активности на площадке.",
-          src: mediaAssets.operationsImages[0].src,
-          alt: "Pluto Enerji производственная линия",
+            "Изображение контролируемого этапа обработки для технического наблюдения за каолином.",
+          src: mediaAssets.labImages[1].src,
+          alt: "Pluto Enerji контроль процесса",
+        },
+        {
+          title: "Оценка материала",
+          description:
+            "Лабораторный кадр, отражающий этап анализа минерала и оценки технологической пригодности.",
+          src: mediaAssets.labImages[2].src,
+          alt: "Pluto Enerji оценка материала",
         },
       ],
     },
   },
   video: {
-    eyebrow: "Видео",
-    title: "Операционное видео, встроенное в страницу Media.",
+    eyebrow: "",
+    title: "Видео лаборатории и операций",
     description: "",
     embedLabel: "Видео лаборатории и операций",
     embedDescription: "",

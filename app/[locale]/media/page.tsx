@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
+import { HomeHeroSlider } from "../../../components/site/HomeHeroSlider";
 import { MediaGallerySection } from "../../../components/site/MediaGallerySection";
 import { MediaVideoEmbed } from "../../../components/site/MediaVideoEmbed";
-import { PageHero } from "../../../components/site/PageHero";
 import { SectionHeading } from "../../../components/site/SectionHeading";
 import { SiteShell } from "../../../components/site/SiteShell";
 import { getMediaPageContent } from "../../../content";
@@ -50,26 +50,26 @@ export default async function MediaPage({ params }: MediaPageProps) {
       variant: "secondary",
     },
   ] satisfies HeroAction[];
-  const hasVideoDescription = pageContent.video.embedDescription.trim().length > 0;
-  const mediaHeroTitleClassName =
-    safeLocale === "tr"
-      ? `${styles.heroTitle} ${styles.heroTitleTr}`
-      : styles.heroTitle;
 
   return (
     <main className={styles.page}>
-      <PageHero
-        eyebrow={pageContent.hero.eyebrow}
+      <HomeHeroSlider
         titleLine1={pageContent.hero.titleLine1}
         titleLine2={pageContent.hero.titleLine2}
         description={pageContent.hero.description}
         notice={pageContent.hero.notice}
         actions={heroActions}
+        infoItems={pageContent.heroSupportCards}
         socialTitle={pageContent.heroSocial.title}
         socialLinks={pageContent.heroSocial.links}
-        highlights={pageContent.heroHighlights}
-        media={pageContent.heroImage}
-        titleClassName={mediaHeroTitleClassName}
+        slides={pageContent.heroSlides}
+        slideDurationSeconds={2}
+        titleClassName={styles.heroTitle}
+        contentClassName={styles.heroContent}
+        socialBlockClassName={styles.heroSocialBlock}
+        infoGridClassName={styles.heroInfoGrid}
+        infoCardClassName={styles.heroInfoCard}
+        splitLayout
       />
 
       <SiteShell>
@@ -103,21 +103,6 @@ export default async function MediaPage({ params }: MediaPageProps) {
           cardDescriptionClassName={styles.cardDescription}
         />
 
-        <MediaGallerySection
-          id="operations"
-          eyebrow={pageContent.sections.operations.eyebrow}
-          title={pageContent.sections.operations.title}
-          description={pageContent.sections.operations.description}
-          items={pageContent.sections.operations.galleryImages}
-          sectionClassName={styles.section}
-          headingClassName={styles.sectionHeading}
-          gridClassName={styles.galleryGrid}
-          cardClassName={styles.galleryCard}
-          visualClassName={styles.mediaVisual}
-          cardTitleClassName={styles.cardTitle}
-          cardDescriptionClassName={styles.cardDescription}
-        />
-
         <section className={styles.section} id="video">
           <div className={styles.videoSection}>
             <SectionHeading
@@ -133,13 +118,6 @@ export default async function MediaPage({ params }: MediaPageProps) {
               src={pageContent.videoUrl}
               title={pageContent.video.embedLabel}
             />
-
-            <div className={styles.videoMeta}>
-              <strong className={styles.videoTitle}>{pageContent.video.embedLabel}</strong>
-              {hasVideoDescription ? (
-                <p className={styles.videoDescription}>{pageContent.video.embedDescription}</p>
-              ) : null}
-            </div>
           </div>
         </section>
       </SiteShell>

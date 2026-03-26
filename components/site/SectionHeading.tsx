@@ -27,7 +27,7 @@ export function SectionHeading({
   const hasDescription = description.trim().length > 0;
 
   return (
-    <div className={joinClasses(styles.root, className)}>
+    <div className={joinClasses(styles.root, className)} data-reveal="default">
       {hasEyebrow ? (
         <p className={joinClasses(styles.eyebrow, eyebrowClassName)}>{eyebrow}</p>
       ) : null}

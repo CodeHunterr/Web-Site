@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
-import { PageHero } from "../../components/site/PageHero";
+import { HomeHeroSlider } from "../../components/site/HomeHeroSlider";
 import { SectionHeading } from "../../components/site/SectionHeading";
 import { SiteShell } from "../../components/site/SiteShell";
 import { SurfaceCard } from "../../components/site/SurfaceCard";
-import { companyInfo, getHomePageContent } from "../../content";
+import { getHomePageContent } from "../../content";
 import type { HeroAction } from "../../content/types";
 import {
   defaultLocale,
@@ -58,16 +58,15 @@ export default async function LocalePage({ params }: LocalePageProps) {
 
   return (
     <main className={styles.page}>
-      <PageHero
-        eyebrow={pageContent.hero.eyebrow}
+      <HomeHeroSlider
         titleLine1={pageContent.hero.titleLine1}
         titleLine2={pageContent.hero.titleLine2}
         description={pageContent.hero.description}
         notice={pageContent.hero.notice}
         actions={heroActions}
-        highlights={pageContent.heroInfoItems}
-        titleClassName={styles.heroTitle}
+        slides={pageContent.heroSlides}
         lead={pageContent.heroAside}
+        infoItems={pageContent.heroInfoItems}
       />
 
       <SiteShell>
@@ -146,37 +145,6 @@ export default async function LocalePage({ params }: LocalePageProps) {
                 className={styles.applicationCard}
               />
             ))}
-          </div>
-        </section>
-
-        <section className={styles.section} id="contact">
-          <div className={styles.contactCta}>
-            <SectionHeading
-              eyebrow={pageContent.contact.section.eyebrow}
-              title={pageContent.contact.section.title}
-              description={pageContent.contact.section.description}
-              className={styles.sectionHeading}
-            />
-
-            <div className={styles.contactActions}>
-              <a className={`${styles.actionLink} ${styles.actionPrimary}`} href={companyInfo.emailHref}>
-                {pageContent.contact.primaryLabel}
-              </a>
-              <a className={`${styles.actionLink} ${styles.actionSecondary}`} href={companyInfo.phoneHref}>
-                {pageContent.contact.secondaryLabel}
-              </a>
-            </div>
-
-            <div className={styles.contactGrid}>
-              {pageContent.contact.cards.map((item) => (
-                <SurfaceCard
-                  key={item.title}
-                  title={item.title}
-                  description={item.description}
-                  className={styles.contactCard}
-                />
-              ))}
-            </div>
           </div>
         </section>
       </SiteShell>

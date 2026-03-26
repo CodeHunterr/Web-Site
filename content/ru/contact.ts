@@ -22,8 +22,8 @@ export const contactPageContent = {
   ],
   company: {
     section: {
-      eyebrow: "Информация о компании",
-      title: "Прямая B2B точка контакта для клиентов и промышленных партнеров.",
+      eyebrow: "",
+      title: "Информация о компании",
       description:
         `${companyInfo.brandName} поддерживает техническое общение, координацию образцов и деловое сотрудничество в четкой и профессиональной форме.`,
     },
@@ -33,6 +33,11 @@ export const contactPageContent = {
       { label: "Адрес", value: companyInfo.address },
       { label: "Email", value: companyInfo.email, href: companyInfo.emailHref },
       { label: "Телефон", value: companyInfo.phone, href: companyInfo.phoneHref },
+    ],
+    socialTitle: "Социальные сети",
+    socialLinks: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/company/plutoenerji", platform: "linkedin" },
+      { label: "Instagram", href: "https://www.instagram.com/plutoenerji", platform: "instagram" },
     ],
   },
   form: {

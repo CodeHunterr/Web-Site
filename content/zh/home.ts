@@ -13,11 +13,12 @@ export const homePageContent = {
     titleLine2: "",
     description:
       `${companyInfo.brandName} 是一家专注高岭土的供应商与商业合作伙伴，提供可直接供应的原矿高岭土，并同时展示精选、微粉化及工业级高岭土产品结构。`,
-    notice: "原矿高岭土供应、样品申请和商务洽谈均已开放。",
+    notice: "原高岭土供应、样品需求与商务洽谈正在进行中。",
     primaryLabel: "联系我们",
     secondaryLabel: "查看应用领域",
   },
   heroImage: mediaAssets.homeHeroImage,
+  heroSlides: mediaAssets.homeHeroSlides,
   heroAside: {
     kicker: "供应定位",
     description:
@@ -42,13 +43,13 @@ export const homePageContent = {
   ],
   supply: {
     section: {
-      eyebrow: "原矿高岭土供应",
-      title: "面向商业需求、样品申请与合作洽谈的现货原矿高岭土供应。",
+      eyebrow: "",
+      title: "原高岭土供应",
       description:
         "Pluto Enerji 将原矿高岭土供应作为清晰可见的商业报价，支持大宗采购、工业评估、样品申请与 B2B 合作沟通。",
     },
-    primaryLabel: "发送原矿询盘",
-    secondaryLabel: "查看产品组合",
+    primaryLabel: "申请高岭土供应",
+    secondaryLabel: "查看产品信息",
     cards: [
       {
         title: "现货供应",
@@ -70,8 +71,8 @@ export const homePageContent = {
   },
   about: {
     section: {
-      eyebrow: "关于我们",
-      title: "一家具有清晰商业定位与工业方向的高岭土公司。",
+      eyebrow: "",
+      title: "专注工业的高岭土公司",
       description:
         `${companyInfo.brandName} 将现货原矿高岭土供应与加工级、工业级产品的专业呈现结合在一起。`,
     },
@@ -85,8 +86,8 @@ export const homePageContent = {
   },
   applications: {
     section: {
-      eyebrow: "产品组合",
-      title: "面向工业客户的现有高岭土产品结构。",
+      eyebrow: "",
+      title: "工业用高岭土产品结构",
       description:
         "从原矿供应到加工级及工业级产品，整体产品组合以清晰专业的商业方式呈现。",
     },

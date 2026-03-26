@@ -55,7 +55,7 @@ export function MediaGallerySection({
 
       <div className={joinClasses(gridClassName)}>
         {items.map((item) => (
-          <article key={item.title} className={joinClasses(cardClassName)}>
+          <article key={item.title} className={joinClasses(cardClassName)} data-reveal="stagger">
             <MediaGalleryImage
               alt={item.alt ?? item.title}
               className={joinClasses(visualClassName)}

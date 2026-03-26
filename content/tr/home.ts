@@ -14,11 +14,12 @@ export const homePageContent = {
     titleLine2: "",
     description:
       `${companyInfo.brandName}, hazır tüvenan ham kaolin arzı sunan ve aynı zamanda rafine, mikronize ve endüstriyel kalite ürünlerini profesyonel şekilde konumlandıran kaolin odaklı bir tedarikçi ve çözüm ortağıdır.`,
-    notice: "Ham kaolin arzı, numune talepleri ve ticari görüşmeler aktiftir.",
+    notice: "Tüvenan kaolin arzı, numune talepleri ve ticari görüşmeler aktiftir.",
     primaryLabel: "Bizimle İletişime Geç",
     secondaryLabel: "Uygulama Alanlarını İncele",
   },
   heroImage: mediaAssets.homeHeroImage,
+  heroSlides: mediaAssets.homeHeroSlides,
   heroAside: {
     kicker: "Tedarik konumu",
     description:
@@ -43,13 +44,13 @@ export const homePageContent = {
   ],
   supply: {
     section: {
-      eyebrow: "Ham Kaolin Arzı",
-      title: "Ticari talep, numune ve iş birliği için hazır tüvenan kaolin arzı.",
+      eyebrow: "",
+      title: "Tüvenan Kaolin Arzı",
       description:
         "Pluto Enerji, ham kaolin arzını görünür bir ticari teklif olarak sunar; bulk tedarik, endüstriyel inceleme, numune talepleri ve B2B iş birlikleri için net bir iletişim yapısı sağlar.",
     },
-    primaryLabel: "Ham kaolin talebi gönder",
-    secondaryLabel: "Ürün portföyünü incele",
+    primaryLabel: "Tüvenan Kaolin Talebi Gönder",
+    secondaryLabel: "Ürün bilgisini incele",
     cards: [
       {
         title: "Hazır Arz",
@@ -75,8 +76,8 @@ export const homePageContent = {
   },
   about: {
     section: {
-      eyebrow: "Hakkımızda",
-      title: "Ticari ve endüstriyel konumu net olan kaolin odaklı bir şirket.",
+      eyebrow: "",
+      title: "Endüstriyel Odaklı Kaolin Şirketi",
       description:
         `${companyInfo.brandName}, hazır ham kaolin arzını görünür kılarken işlenmiş ve endüstriyel kalite ürünleri de disiplinli bir portföy yapısıyla sunar.`,
     },
@@ -90,8 +91,8 @@ export const homePageContent = {
   },
   applications: {
     section: {
-      eyebrow: "Portföy",
-      title: "Endüstriyel müşteriler için aktif kaolin ürün yapısı.",
+      eyebrow: "",
+      title: "Endüstriyel Kaolin Ürün Yapısı",
       description:
         "Ham kaolin arzından işlenmiş ve endüstriyel kalite ürünlere kadar portföy ticari netlikle sunulur.",
     },

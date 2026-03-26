@@ -13,11 +13,12 @@ export const homePageContent = {
     titleLine2: "",
     description:
       `${companyInfo.brandName} is a kaolin-focused supplier and commercial solution partner offering ready tuvenan raw kaolin supply together with refined, micronized and industrial-grade kaolin product pathways.`,
-    notice: "Raw kaolin supply, sample requests and business inquiries are open.",
+    notice: "Raw kaolin supply, sample requests, and commercial discussions are active.",
     primaryLabel: "Contact Us",
     secondaryLabel: "Explore Applications",
   },
   heroImage: mediaAssets.homeHeroImage,
+  heroSlides: mediaAssets.homeHeroSlides,
   heroAside: {
     kicker: "Supply position",
     description:
@@ -42,13 +43,13 @@ export const homePageContent = {
   ],
   supply: {
     section: {
-      eyebrow: "Raw Kaolin Supply",
-      title: "Ready tuvenan kaolin supply for commercial demand, samples and cooperation.",
+      eyebrow: "",
+      title: "Raw Kaolin Supply",
       description:
         "Pluto Enerji presents raw kaolin supply as a visible commercial offer, supporting bulk sourcing, industrial review, sample requests and B2B cooperation from one clear contact structure.",
     },
-    primaryLabel: "Send raw kaolin inquiry",
-    secondaryLabel: "Explore product portfolio",
+    primaryLabel: "Request Raw Kaolin Supply",
+    secondaryLabel: "View Product Details",
     cards: [
       {
         title: "Ready Supply",
@@ -74,8 +75,8 @@ export const homePageContent = {
   },
   about: {
     section: {
-      eyebrow: "About",
-      title: "A kaolin-focused company with a clear commercial and industrial position.",
+      eyebrow: "",
+      title: "Industrial-Focused Kaolin Company",
       description:
         `${companyInfo.brandName} combines ready raw kaolin supply visibility with disciplined product presentation for refined and industrial-grade kaolin buyers.`,
     },
@@ -89,8 +90,8 @@ export const homePageContent = {
   },
   applications: {
     section: {
-      eyebrow: "Portfolio",
-      title: "An active kaolin product structure for industrial customers.",
+      eyebrow: "",
+      title: "Industrial Kaolin Product Structure",
       description:
         "The portfolio is presented with commercial clarity, from raw kaolin supply to refined and industrial-grade product options.",
     },
