@@ -43,7 +43,7 @@ export const contactPageContent = {
   form: {
     title: "发送消息",
     description: "该表单可直接用于发送原矿高岭土供应、样品申请和商务合作信息。",
-    submitLabel: "发送咨询",
+    submitLabel: "发送消息",
     fields: [
       { name: "name", label: "姓名", type: "text", placeholder: "请输入姓名", required: true },
       { name: "company", label: "公司", type: "text", placeholder: "请输入公司名称" },

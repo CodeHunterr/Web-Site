@@ -1,0 +1,55 @@
+Bu proje Next.js (App Router) tabanlı, çok dilli (TR / EN / RU / ZH) kurumsal bir web sitesidir. Proje Pluto Enerji adlı bir kaolin (endüstriyel mineral) şirketi için geliştirilmiştir.
+
+AMAÇ:
+Kurumsal, premium görünümlü, B2B müşteri odaklı bir site. Satışa ve güven oluşturmaya yönelik bir dijital vitrin.
+
+GENEL YAPI:
+- Next.js (App Router - app/ klasörü kullanılıyor)
+- Component bazlı yapı
+- Çok dilli içerik sistemi mevcut
+- Vercel üzerinde deploy ediliyor
+- SMTP ile çalışan iletişim formu var
+
+TASARIM ANLAYIŞI:
+- Premium ve modern görünüm (basit / ucuz görünüm istemiyorum)
+- Arka planlarda görsel + zoom animasyonu (video hissi)
+- Hero alanları güçlü ve geniş
+- Yarı şeffaf overlay’ler kullanılıyor (ama gereksiz kart görünümü istenmiyor)
+- Minimal ama etkileyici UI
+- Beyaz yazı + görsel arka plan kombinasyonu sık kullanılıyor
+
+ÖNEMLİ TASARIM KURALLARI:
+- Mevcut layout yapısını bozma
+- Sadece istenen alanı değiştir
+- Gereksiz yeni component oluşturma
+- Kart görünümü istenmiyorsa kaldır (flat text tercih edilir)
+- Arka plan görsellerini kapatacak beyaz/blur katmanlardan kaçın
+- Responsive yapıyı bozma
+
+SAYFA YAPISI:
+- Ana Sayfa (hero + ürün yapısı + CTA alanları)
+- Hakkımızda
+- Kaolin
+- Uygulamalar (Applications)
+- Medya (Media)
+- İletişim (Contact)
+
+ÖZEL DETAYLAR:
+- Hero alanlarında slider + zoom efekti kullanılıyor
+- Bazı bölümlerde full-width arka plan görseller var
+- Sosyal medya ikonları kullanılıyor (LinkedIn, Instagram)
+- Yazılar genelde overlay üzerinde okunabilir olacak şekilde konumlandırılıyor
+
+BEKLENTİ:
+- Yapılacak değişiklikler mevcut tasarımı daha premium hale getirmeli
+- Kod sade, temiz ve sürdürülebilir olmalı
+- Gereksiz complexity eklenmemeli
+
+ÇOK ÖNEMLİ:
+- Önce mevcut kodu analiz et
+- Sonra sadece istenen değişikliği yap
+- Tüm sayfayı yeniden yazma
+
+Her işlem sonunda kısa bir özet ver:
+- hangi dosyayı değiştirdin
+- ne yaptın

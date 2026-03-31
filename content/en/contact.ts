@@ -55,10 +55,10 @@ export const contactPageContent = {
     ],
   },
   form: {
-    title: "Send a raw kaolin or product inquiry",
+    title: "Send Message",
     description:
       "Use this form to send raw kaolin supply requests, sample inquiries and business messages directly to Pluto Enerji.",
-    submitLabel: "Send inquiry",
+    submitLabel: "Send Message",
     fields: [
       { name: "name", label: "Full Name", type: "text", placeholder: "Enter full name", required: true },
       { name: "company", label: "Company", type: "text", placeholder: "Enter company name" },

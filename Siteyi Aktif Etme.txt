@@ -1,0 +1,9 @@
+middleware.ts
+
+dosyasını sil. Sonra 
+
+git add .
+git commit -m "remove maintenance mode"
+git push
+
+komutlarını çalıştır. Site açılsın.

@@ -43,7 +43,7 @@ export const contactPageContent = {
   form: {
     title: "Отправить сообщение",
     description: "Эта форма отправляет запросы по поставке сырого каолина, образцам и деловому сотрудничеству напрямую команде Pluto Enerji.",
-    submitLabel: "Отправить запрос",
+    submitLabel: "Отправить сообщение",
     fields: [
       { name: "name", label: "Полное имя", type: "text", placeholder: "Введите имя", required: true },
       { name: "company", label: "Компания", type: "text", placeholder: "Введите название компании" },

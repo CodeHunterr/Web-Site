@@ -41,9 +41,9 @@ export const contactPageContent = {
     ],
   },
   form: {
-    title: "Mesaj gönder",
+    title: "Mesaj Gönder",
     description: "Bu form, tüvenan kaolin arzı, numune talebi ve ticari iş birliği mesajlarını doğrudan Pluto Enerji ekibine iletmek için kullanılabilir.",
-    submitLabel: "Talep gönder",
+    submitLabel: "Mesaj Gönder",
     fields: [
       { name: "name", label: "Ad Soyad", type: "text", placeholder: "Ad soyad girin", required: true },
       { name: "company", label: "Şirket", type: "text", placeholder: "Şirket adı girin" },
