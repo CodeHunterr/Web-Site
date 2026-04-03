@@ -267,10 +267,22 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+  align-items: stretch;
+  align-self: end;
+}
+
+.innerSplit > .infoGrid {
+  width: min(100%, 340px);
+  grid-template-columns: 1fr;
 }
 
 .infoCard {
-  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 100%;
+  min-height: 168px;
   padding: 20px 22px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 24px;
@@ -287,7 +299,7 @@
 }
 
 .infoDescription {
-  margin: 10px 0 0;
+  margin: 0;
   color: rgba(244, 247, 251, 0.8);
   font-size: 14px;
   line-height: 1.72;
@@ -323,6 +335,10 @@
 @media (max-width: 1100px) {
   .innerSplit {
     grid-template-columns: 1fr;
+  }
+
+  .innerSplit > .infoGrid {
+    width: min(100%, 420px);
   }
 
   .title {
@@ -368,6 +384,10 @@
 
   .socialLink {
     grid-column: 2;
+  }
+
+  .innerSplit > .infoGrid {
+    width: 100%;
   }
 
   .infoGrid {

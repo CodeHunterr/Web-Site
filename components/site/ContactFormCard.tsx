@@ -51,6 +51,16 @@ function joinClasses(...classNames: Array<string | undefined>) {
   return classNames.filter(Boolean).join(" ");
 }
 
+function normalizePhoneInput(value: string) {
+  const digitsOnly = value.replace(/\D/g, "");
+
+  if (value.startsWith("+")) {
+    return `+${digitsOnly}`;
+  }
+
+  return digitsOnly;
+}
+
 function getAutoComplete(
   name: string,
   type: FormFieldConfig["type"],
@@ -140,9 +150,12 @@ export function ContactFormCard({
       return;
     }
 
+    const nextValue =
+      name === "phone" ? normalizePhoneInput(value) : value;
+
     setFormValues((currentValues) => ({
       ...currentValues,
-      [name]: value,
+      [name]: nextValue,
     }));
 
     setFieldErrors((currentErrors) => {
@@ -263,8 +276,10 @@ export function ContactFormCard({
                   aria-invalid={fieldErrors[field.name] ? "true" : undefined}
                   className={joinClasses(inputClassName)}
                   id={field.name}
+                  inputMode={field.name === "phone" ? "numeric" : undefined}
                   name={field.name}
-                  type={field.type}
+                  pattern={field.name === "phone" ? "^[0-9+]*$" : undefined}
+                  type={field.name === "phone" ? "tel" : field.type}
                   placeholder=" "
                   required={field.required}
                   value={formValues[field.name]}

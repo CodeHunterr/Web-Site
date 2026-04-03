@@ -5,7 +5,7 @@ export const siteContent = {
   siteDescription: "面向 B2B 买家的原矿高岭土供应、加工级高岭土组合与工业矿物解决方案。",
   brandTagline: "原矿与加工高岭土供应",
   companySummary:
-    "Pluto Enerji 面向大宗需求提供原矿高岭土，并以专业 B2B 方式呈现水洗高岭土（Washed Kaolin）、精选高岭土（Refined Kaolin）、微粉化高岭土（Micronized Kaolin）和工业级产品（Industrial Grades）。",
+    "Pluto Enerji 依托现有业务结构，能够以快速、可靠且具备商业灵活性的方式为大宗需求提供原矿高岭土供应，同时也在建设适用于未来选矿与加工产品流程的基础能力。",
   navigation: {
     primary: [
       { label: "首页", path: "" },

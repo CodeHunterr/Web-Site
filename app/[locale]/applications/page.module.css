@@ -59,12 +59,12 @@
 }
 
 .stageTitle {
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
 }
 
 .stageDescription {
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
 }
 

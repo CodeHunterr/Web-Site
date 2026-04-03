@@ -90,35 +90,35 @@ function escapeHtml(value: string) {
 export async function sendContactFormEmail(payload: ContactFormPayload) {
   const config = readMailConfig();
   const activeTransporter = getTransporter(config);
-  const mailSubject = `New Contact Form Submission - ${payload.subject}`;
+  const mailSubject = `Yeni \u0130leti\u015fim Formu G\u00f6nderimi - ${payload.subject}`;
 
   const lines = [
-    "New Contact Form Submission",
+    "Yeni \u0130leti\u015fim Formu G\u00f6nderimi",
     "",
-    `Full Name: ${payload.name}`,
-    `Company: ${payload.company || "-"}`,
-    `Email: ${payload.email}`,
-    `Phone: ${payload.phone || "-"}`,
-    `Subject: ${payload.subject}`,
+    `Tam Ad\u0131: ${payload.name}`,
+    `\u015eirket: ${payload.company || "-"}`,
+    `E-posta: ${payload.email}`,
+    `Telefon: ${payload.phone || "-"}`,
+    `Konu: ${payload.subject}`,
     "",
-    "Message:",
+    "Mesaj:",
     payload.message,
   ];
 
   const html = `
     <div style="font-family: Arial, sans-serif; color: #0f172a; line-height: 1.7;">
-      <h2 style="margin: 0 0 16px; font-size: 22px;">New Contact Form Submission</h2>
+      <h2 style="margin: 0 0 16px; font-size: 22px;">Yeni \u0130leti\u015fim Formu G\u00f6nderimi</h2>
       <table style="width: 100%; border-collapse: collapse;">
         <tbody>
-          <tr><td style="padding: 8px 0; font-weight: 700;">Full Name:</td><td style="padding: 8px 0;">${escapeHtml(payload.name)}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: 700;">Company:</td><td style="padding: 8px 0;">${escapeHtml(payload.company || "-")}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: 700;">Email:</td><td style="padding: 8px 0;">${escapeHtml(payload.email)}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: 700;">Phone:</td><td style="padding: 8px 0;">${escapeHtml(payload.phone || "-")}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: 700;">Subject:</td><td style="padding: 8px 0;">${escapeHtml(payload.subject)}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: 700;">Tam Ad\u0131:</td><td style="padding: 8px 0;">${escapeHtml(payload.name)}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: 700;">\u015eirket:</td><td style="padding: 8px 0;">${escapeHtml(payload.company || "-")}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: 700;">E-posta:</td><td style="padding: 8px 0;">${escapeHtml(payload.email)}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: 700;">Telefon:</td><td style="padding: 8px 0;">${escapeHtml(payload.phone || "-")}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: 700;">Konu:</td><td style="padding: 8px 0;">${escapeHtml(payload.subject)}</td></tr>
         </tbody>
       </table>
       <div style="margin-top: 20px;">
-        <p style="margin: 0 0 8px; font-weight: 700;">Message:</p>
+        <p style="margin: 0 0 8px; font-weight: 700;">Mesaj:</p>
         <div style="padding: 16px; border: 1px solid #d9e2ec; border-radius: 12px; background: #f8fafc; white-space: pre-wrap;">${escapeHtml(payload.message)}</div>
       </div>
     </div>

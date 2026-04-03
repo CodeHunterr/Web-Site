@@ -222,7 +222,6 @@ export function HomeHeroSlider({
                 <article
                   key={item.title}
                   className={joinClasses(styles.infoCard, infoCardClassName)}
-                  data-reveal="stagger"
                 >
                   <h2 className={styles.infoTitle}>{item.title}</h2>
                   <p className={styles.infoDescription}>{item.description}</p>

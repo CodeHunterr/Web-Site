@@ -19,13 +19,11 @@
 }
 
 .heroInfoGrid {
-  width: min(100%, 340px);
-  grid-template-columns: 1fr;
   gap: 14px;
-  align-self: end;
 }
 
 .heroInfoCard {
+  min-height: 168px;
   padding: 18px 20px;
   border-color: rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.07);
@@ -132,9 +130,6 @@
     max-width: 13ch;
   }
 
-  .heroInfoGrid {
-    width: min(100%, 420px);
-  }
 }
 
 @media (max-width: 768px) {
@@ -149,10 +144,6 @@
   .heroSocialBlock {
     padding: 20px 22px;
     border-radius: 26px;
-  }
-
-  .heroInfoGrid {
-    width: 100%;
   }
 
   .galleryGrid {
