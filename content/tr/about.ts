@@ -12,7 +12,7 @@ export const aboutPageContent = {
     titleLine1: "Kaolin Tedariğinde Güvenilir Ortak",
     titleLine2: "",
     description:
-      `${companyInfo.brandName}, hazır tüvenan ham kaolin arzı, disiplinli ticari iletişim ve profesyonel işlenmiş ürün portföyü etrafında konumlanan kaolin odaklı bir şirkettir.`,
+      `${companyInfo.brandName}, hazır ham kaolin arzı, disiplinli ticari iletişim ve profesyonel işlenmiş ürün portföyü etrafında konumlanan kaolin odaklı bir şirkettir.`,
     notice: "Ham kaolin talepleri ve iş ortaklığı görüşmeleri açıktır.",
     primaryLabel: "Bizimle İletişime Geç",
     secondaryLabel: "Uygulama Alanlarını İncele",
@@ -44,7 +44,7 @@ export const aboutPageContent = {
     narrative:
       "Şirket yaklaşımı doğrudan iletişim, güvenilir geri dönüş ve endüstriyel alıcıların ham kaolin, rafine ürünler ve iş birliği yollarını hızlıca anlayabileceği bir portföy dili üzerine kuruludur.",
     points: [
-      "Tüvenan ham kaolin, tedarik ve ticari talep için ilk sırada konumlandırılır.",
+      "Ham kaolin, tedarik ve ticari talep için ilk sırada konumlandırılır.",
       "İşlenmiş kaolin dili; yıkanmış kaolin (Washed Kaolin), rafine kaolin (Refined Kaolin), mikronize kaolin (Micronized Kaolin) ve endüstriyel kaliteleri (Industrial Grades) destekler.",
       "İletişim yapısı talep, numune ve uzun vadeli iş birliği fırsatları için düzenlenmiştir.",
     ],
@@ -60,7 +60,7 @@ export const aboutPageContent = {
       {
         title: "Ham Kaolin Arzı",
         description:
-          "Bulk tedarik, endüstriyel uygunluk ve ticari iş ortaklığı görüşmeleri için hazır tüvenan kaolin.",
+          "Bulk tedarik, endüstriyel uygunluk ve ticari iş ortaklığı görüşmeleri için hazır ham kaolin.",
       },
       {
         title: "İşlenmiş Ürünler",
@@ -81,7 +81,7 @@ export const aboutPageContent = {
       description:
         "Pluto Enerji, tedarik talepleri, numune koordinasyonu ve B2B iş birliklerine net bir ticari iletişim noktasıyla yanıt verir.",
     },
-    primaryLabel: "info@plutoenerji.com adresine yaz",
+    primaryLabel: "contact@plutoenerji.com adresine yaz",
     secondaryLabel: "İletişim sayfasına git",
     cards: [
       { title: "Ana E-posta", description: companyInfo.email },

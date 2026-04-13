@@ -18,6 +18,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  animation: heroDrift 10s ease-in-out infinite;
 }
 
 .hero::before {
@@ -173,6 +174,20 @@
   min-height: 132px;
 }
 
+@keyframes heroDrift {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 1100px) {
   .sectionGrid {
     grid-template-columns: 1fr;
@@ -196,5 +211,11 @@
 
   .topicCard {
     min-height: 220px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroImage {
+    animation: none;
   }
 }

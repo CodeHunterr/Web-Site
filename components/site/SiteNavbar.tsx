@@ -54,22 +54,22 @@ export function SiteNavbar({ locale, siteContent }: SiteNavbarProps) {
     <header className={styles.header}>
       <SiteShell className={styles.shell}>
         <div className={styles.inner}>
-          <Link className={styles.brand} href={getLocaleHref(locale)}>
+          <Link
+            aria-label={companyInfo.brandName}
+            className={styles.brand}
+            href={getLocaleHref(locale)}
+          >
             <span aria-hidden="true" className={styles.brandMark}>
               {hasLogoError ? (
                 <span className={styles.brandFallback}>P</span>
               ) : (
                 <img
-                  alt=""
+                  alt={companyInfo.logoAlt}
                   className={styles.brandImage}
                   onError={() => setHasLogoError(true)}
                   src={companyInfo.logoSrc}
                 />
               )}
-            </span>
-            <span className={styles.brandCopy}>
-              <strong className={styles.brandName}>{companyInfo.brandName}</strong>
-              <span className={styles.brandTagline}>{siteContent.brandTagline}</span>
             </span>
           </Link>
 

@@ -11,7 +11,7 @@ export const contactPageContent = {
     titleLine1: "",
     titleLine2: companyInfo.brandName,
     description: "Технические запросы, запросы образцов и деловые предложения можно направить через каналы связи ниже.",
-    notice: "Вы можете использовать форму ниже или написать напрямую на info@plutoenerji.com.",
+    notice: "Вы можете использовать форму ниже или написать напрямую на contact@plutoenerji.com.",
     primaryLabel: "Отправить сообщение",
     secondaryLabel: "Смотреть данные компании",
   },
@@ -42,7 +42,7 @@ export const contactPageContent = {
   },
   form: {
     title: "Отправить сообщение",
-    description: "Эта форма отправляет запросы по поставке сырого каолина, образцам и деловому сотрудничеству напрямую команде Pluto Enerji.",
+    description: "",
     submitLabel: "Отправить сообщение",
     fields: [
       { name: "name", label: "Полное имя", type: "text", placeholder: "Введите имя", required: true },
@@ -62,7 +62,7 @@ export const contactPageContent = {
     ],
     messages: {
       success: "Ваш запрос успешно отправлен. Наша команда свяжется с вами в ближайшее время.",
-      error: "Не удалось отправить запрос. Попробуйте еще раз или напишите на info@plutoenerji.com.",
+      error: "Не удалось отправить запрос. Попробуйте еще раз или напишите на contact@plutoenerji.com.",
       sending: "Отправка...",
       validationRequired: "Пожалуйста, заполните обязательные поля.",
       validationEmail: "Пожалуйста, укажите корректный email.",

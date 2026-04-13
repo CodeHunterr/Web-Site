@@ -36,7 +36,7 @@ export const kaolinPageContent = {
       id: "islenmesi",
       title: "İşlenmesi",
       body:
-        "Kaolin, doğal haliyle (tüvenan) kullanılabildiği gibi, farklı zenginleştirme ve rafinasyon süreçlerinden geçirilerek endüstriyel standartlara uygun hale getirilebilir.\n\nBaşlıca işlem adımları şunlardır:\n\n- Kırma ve eleme\n- Yıkama ve sınıflandırma\n- Demir ve yabancı mineral giderme\n- Yoğunlaştırma\n- Kurutma ve mikronize etme\n\nBu süreçler sayesinde kaolinin beyazlığı artırılır, tane boyutu kontrol altına alınır ve farklı endüstriyel uygulamalara uygun ürünler elde edilir.",
+        "Kaolin, doğal haliyle ham kaolin olarak kullanılabildiği gibi, farklı zenginleştirme ve rafinasyon süreçlerinden geçirilerek endüstriyel standartlara uygun hale getirilebilir.\n\nBaşlıca işlem adımları şunlardır:\n\n- Kırma ve eleme\n- Yıkama ve sınıflandırma\n- Demir ve yabancı mineral giderme\n- Yoğunlaştırma\n- Kurutma ve mikronize etme\n\nBu süreçler sayesinde kaolinin beyazlığı artırılır, tane boyutu kontrol altına alınır ve farklı endüstriyel uygulamalara uygun ürünler elde edilir.",
     },
     {
       id: "kullanim-alanlari",
@@ -48,7 +48,7 @@ export const kaolinPageContent = {
       id: "pluto-yaklasimi",
       title: "Pluto Enerji yaklaşımı",
       body:
-        "Pluto Enerji olarak kaolini yalnızca bir hammadde olarak değil, endüstriyel üretimin performansını doğrudan etkileyen stratejik bir bileşen olarak değerlendiriyoruz.\n\nMevcut yapımızda tüvenan kaolin tedariğini hızlı, güvenilir ve ticari olarak esnek bir şekilde sunarken, aynı zamanda gelecekteki zenginleştirme ve işlenmiş ürün süreçlerine uygun bir altyapı oluşturuyoruz.\n\nBu yaklaşım sayesinde hem bugünkü taleplere hızlı cevap verebilen hem de gelişmiş endüstriyel ihtiyaçlara uyum sağlayabilecek sürdürülebilir bir çözüm sunmayı hedefliyoruz.",
+        "Pluto Enerji olarak kaolini yalnızca bir hammadde olarak değil, endüstriyel üretimin performansını doğrudan etkileyen stratejik bir bileşen olarak değerlendiriyoruz.\n\nMevcut yapımızda ham kaolin tedariğini hızlı, güvenilir ve ticari olarak esnek bir şekilde sunarken, aynı zamanda gelecekteki zenginleştirme ve işlenmiş ürün süreçlerine uygun bir altyapı oluşturuyoruz.\n\nBu yaklaşım sayesinde hem bugünkü taleplere hızlı cevap verebilen hem de gelişmiş endüstriyel ihtiyaçlara uyum sağlayabilecek sürdürülebilir bir çözüm sunmayı hedefliyoruz.",
     },
   ],
 } satisfies KaolinPageContent;

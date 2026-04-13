@@ -47,8 +47,8 @@ export const applicationsPageContent = {
         "Stabil mineral davranışı, kontrollü pişirim ve güvenilir beyazlık isteyen seramik sistemleri için tasarlanmış kaolin çözümleri.",
       features: [
         "Tutarlı hamur hazırlığı için kontrollü tane dağılımı",
-        "Daha temiz pişmiş görünüm için beyazlık geliştirme yolu",
-        "Daha stabil termal davranış için düşük empürite odağı",
+        "Temiz pişmiş görünüm için beyazlık geliştirme yolu",
+        "Stabil termal davranış için düşük empürite odağı",
         "Üretim sürekliliğine uyumlu proses tasarımı",
       ],
     },
@@ -57,7 +57,7 @@ export const applicationsPageContent = {
       description:
         "Plastisite, döküm davranışı ve görsel kalite dengesinin kritik olduğu vitrifiye uygulamaları için hedefli hammadde geliştirme.",
       features: [
-        "Daha iyi şekillendirme tutarlılığı için rafine mineral profil",
+        "Yüksek şekillendirme tutarlılığı için rafine mineral profil",
         "Premium yüzeyler için beyazlık odaklı iyileştirme",
         "Renk riskini azaltan demir yönetimi",
         "Tekrarlı endüstriyel üretim için stabil besleme stratejisi",
@@ -66,11 +66,11 @@ export const applicationsPageContent = {
     {
       title: "Porselen",
       description:
-        "Daha temiz kimya, premium görünüm ve daha sıkı ürün kontrolü isteyen porselen segmentleri için kaolin geliştirme.",
+        "Temiz kimya, premium görünüm ve sıkı ürün kontrolü isteyen porselen segmentleri için kaolin geliştirme.",
       features: [
-        "Daha zorlu reçeteler için yüksek saflık yönü",
+        "Zorlu reçeteler için yüksek saflık yönü",
         "Beyazlık odaklı rafinasyon ile optik kalite artışı",
-        "Daha temiz görsel çıktı için düşük demir yolu",
+        "Temiz görsel çıktı için düşük demir yolu",
         "Premium konumlandırma için spesifikasyon odaklı kalite planı",
       ],
     },
@@ -79,8 +79,8 @@ export const applicationsPageContent = {
       description:
         "Ticari değeri etkileyen takviye davranışı, dispersiyon ve proses uyumu için mineral optimizasyonu.",
       features: [
-        "Daha iyi dispersiyon için tane ayarı",
-        "Daha kontrollü compound davranışı için temiz mineral tabanı",
+        "Yüksek dispersiyon için tane ayarı",
+        "Kontrollü compound davranışı için temiz mineral tabanı",
         "Endüstriyel formül istikrarı için tutarlı besleme kalitesi",
         "Farklılaşmış dolgu sınıfları için ürün geliştirme yönü",
       ],
@@ -90,9 +90,9 @@ export const applicationsPageContent = {
       description:
         "Yüzey kalitesi, kontrollü incelik ve parti tutarlılığı gerektiren PVC kaplama uygulamaları için kaolin çözümleri.",
       features: [
-        "Daha düzgün kaplama tepkisi için ince tane hedefi",
-        "Daha temiz görünüm için parlaklık yönü",
-        "Daha kontrollü görünüm için empürite azaltma",
+        "Düzgün kaplama tepkisi için ince tane hedefi",
+        "Temiz görünüm için parlaklık yönü",
+        "Kontrollü görünüm için empürite azaltma",
         "Endüstriyel kaplama performansına uyumlu proses yolu",
       ],
     },
@@ -101,9 +101,9 @@ export const applicationsPageContent = {
       description:
         "Beyazlık, tane kontrolü ve stabil mineral katkısına bağlı kaplama sistemleri için uygulama odaklı kaolin geliştirme.",
       features: [
-        "Daha yüksek görsel kalite için beyazlık potansiyeli",
-        "Daha iyi süspansiyon davranışı için tane boyutu kontrolü",
-        "Premium ürün konumu için daha temiz kimya yönü",
+        "Yüksek görsel kalite için beyazlık potansiyeli",
+        "Stabil süspansiyon davranışı için tane boyutu kontrolü",
+        "Premium ürün konumu için temiz kimya yönü",
         "Endüstriyel sistemler için tutarlı mineral performansı",
       ],
     },
@@ -111,12 +111,12 @@ export const applicationsPageContent = {
   supplyHighlight: {
     section: {
       eyebrow: "Ticari Tedarik",
-      title: "Tüvenan Kaolin Tedariği",
+      title: "Ham Kaolin Tedariği",
       description:
         "Ocak çıkışlı ham kaolin arzını endüstriyel alıcılar için doğrudan ve ticari olarak güçlü bir modelle sunuyoruz.",
     },
     intro:
-      "Pluto Enerji, ocak operasyonlarından doğrudan tüvenan (ham) kaolin tedariği sağlayarak endüstriyel alıcılar için esnek ve ticari olarak güçlü bir tedarik modeli sunar.",
+      "Pluto Enerji, ocak operasyonlarından doğrudan ham kaolin tedariği sağlayarak endüstriyel alıcılar için esnek ve ticari olarak güçlü bir tedarik modeli sunar.",
     supportLead: "Bu yapı şunları sağlar:",
     supports: [
       "büyük hacimli hammadde erişimi",
@@ -125,7 +125,7 @@ export const applicationsPageContent = {
       "numune ve tedarik taleplerinde doğrudan ticari koordinasyon",
     ],
     closing:
-      "Tüvenan kaolin tedarikimiz, yüksek hacimli mineral girdisine ihtiyaç duyan veya kendi zenginleştirme süreçlerini yönetmek isteyen firmalar için güçlü bir çözümdür.",
+      "Ham kaolin tedarikimiz, yüksek hacimli mineral girdisine ihtiyaç duyan veya kendi zenginleştirme süreçlerini yönetmek isteyen firmalar için güçlü bir çözümdür.",
     ctaLabel: "Tedarik Talebi Gönder",
   },
 } satisfies ApplicationsPageContent;

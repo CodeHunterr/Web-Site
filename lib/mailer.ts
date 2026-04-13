@@ -49,7 +49,10 @@ function readMailConfig(): MailConfig {
     secure: process.env.SMTP_SECURE === "true",
     user: getRequiredEnv("SMTP_USER"),
     pass: getRequiredEnv("SMTP_PASS"),
-    to: process.env.MAIL_TO ?? getRequiredEnv("SMTP_USER"),
+    to:
+      process.env.CONTACT_EMAIL
+      ?? process.env.MAIL_TO
+      ?? getRequiredEnv("SMTP_USER"),
     tlsServername: process.env.SMTP_TLS_SERVERNAME,
     tlsRejectUnauthorized:
       process.env.SMTP_TLS_REJECT_UNAUTHORIZED !== "false",

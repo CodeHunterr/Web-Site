@@ -6,7 +6,7 @@ export const siteContent = {
     "B2B alıcılar için ham kaolin arzı, işlenmiş kaolin portföyü ve endüstriyel mineral çözümleri.",
   brandTagline: "Ham ve İşlenmiş Kaolin Tedariki",
   companySummary:
-    "Pluto Enerji, mevcut yapımızda bulk talep için tüvenan ham kaolin tedariğini hızlı, güvenilir ve ticari olarak esnek bir şekilde sunarken, aynı zamanda gelecekteki zenginleştirme ve işlenmiş ürün süreçlerine uygun bir altyapı oluşturuyoruz.",
+    "Pluto Enerji, mevcut yapımızda bulk talep için ham kaolin tedariğini hızlı, güvenilir ve ticari olarak esnek bir şekilde sunarken, aynı zamanda gelecekteki zenginleştirme ve işlenmiş ürün süreçlerine uygun bir altyapı oluşturuyoruz.",
   navigation: {
     primary: [
       { label: "Ana Sayfa", path: "" },

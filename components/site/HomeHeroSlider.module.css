@@ -43,8 +43,8 @@
 .overlay {
   z-index: 1;
   background:
-    linear-gradient(90deg, rgba(4, 12, 25, 0.84) 0%, rgba(4, 12, 25, 0.66) 38%, rgba(4, 12, 25, 0.5) 62%, rgba(4, 12, 25, 0.72) 100%),
-    linear-gradient(180deg, rgba(4, 12, 25, 0.22) 0%, rgba(4, 12, 25, 0.48) 100%);
+    linear-gradient(90deg, rgba(4, 12, 25, 0.62) 0%, rgba(4, 12, 25, 0.46) 38%, rgba(4, 12, 25, 0.28) 62%, rgba(4, 12, 25, 0.5) 100%),
+    linear-gradient(180deg, rgba(4, 12, 25, 0.12) 0%, rgba(4, 12, 25, 0.32) 100%);
 }
 
 .overlayGlow {

@@ -13,8 +13,8 @@ export const homePageContent = {
     titleLine1: "Endüstriyel Üretim İçin Kaolin Çözümleri",
     titleLine2: "",
     description:
-      `${companyInfo.brandName}, hazır tüvenan ham kaolin arzı sunan ve aynı zamanda rafine, mikronize ve endüstriyel kalite ürünlerini profesyonel şekilde konumlandıran kaolin odaklı bir tedarikçi ve çözüm ortağıdır.`,
-    notice: "Tüvenan kaolin arzı, numune talepleri ve ticari görüşmeler aktiftir.",
+      `${companyInfo.brandName}, hazır ham kaolin arzı sunan ve aynı zamanda rafine, mikronize ve endüstriyel kalite ürünlerini profesyonel şekilde konumlandıran kaolin odaklı bir tedarikçi ve çözüm ortağıdır.`,
+    notice: "Ham kaolin arzı, numune talepleri ve ticari görüşmeler aktiftir.",
     primaryLabel: "Bizimle İletişime Geç",
     secondaryLabel: "Uygulama Alanlarını İncele",
   },
@@ -27,7 +27,7 @@ export const homePageContent = {
   },
   heroInfoItems: [
     {
-      title: "Tüvenan Ham Kaolin",
+      title: "Ham Kaolin",
       description:
         "Doğrudan talep, bulk satış ve iş ortaklığı görüşmeleri için görünür şekilde konumlandırılmış ham kaolin arzı.",
     },
@@ -45,17 +45,17 @@ export const homePageContent = {
   supply: {
     section: {
       eyebrow: "",
-      title: "Tüvenan Kaolin Arzı",
+      title: "Ham Kaolin Arzı",
       description:
         "Pluto Enerji, ham kaolin arzını görünür bir ticari teklif olarak sunar; bulk tedarik, endüstriyel inceleme, numune talepleri ve B2B iş birlikleri için net bir iletişim yapısı sağlar.",
     },
-    primaryLabel: "Tüvenan Kaolin Talebi Gönder",
+    primaryLabel: "Ham Kaolin Talebi Gönder",
     secondaryLabel: "Ürün bilgisini incele",
     cards: [
       {
         title: "Hazır Arz",
         description:
-          "Tüvenan ham kaolin, aktif müşteri görüşmeleri ve proje değerlendirmeleri için hazır arz konumundadır.",
+          "Ham kaolin, aktif müşteri görüşmeleri ve proje değerlendirmeleri için hazır arz konumundadır.",
       },
       {
         title: "Numune ve İş Birliği",
@@ -100,7 +100,7 @@ export const homePageContent = {
       {
         title: "Ham Kaolin Arzı",
         description:
-          "Tüvenan kaolin, bulk talep, satın alma görüşmeleri ve endüstriyel değerlendirme için konumlandırılmıştır.",
+          "Ham kaolin, bulk talep, satın alma görüşmeleri ve endüstriyel değerlendirme için konumlandırılmıştır.",
       },
       {
         title: "Yıkanmış Kaolin (Washed Kaolin)",
@@ -136,7 +136,7 @@ export const homePageContent = {
       description:
         "Ham kaolin talebi, numune isteği, endüstriyel kalite ihtiyacı veya iş birliği konularını tek bir B2B iletişim kanalı üzerinden paylaşın.",
     },
-    primaryLabel: "info@plutoenerji.com adresine yaz",
+    primaryLabel: "contact@plutoenerji.com adresine yaz",
     secondaryLabel: "Hemen ara",
     cards: [
       { title: "E-posta", description: companyInfo.email },

@@ -12,7 +12,7 @@ export const aboutPageContent = {
     titleLine1: "Trusted Partner in Kaolin Supply",
     titleLine2: "",
     description:
-      `${companyInfo.brandName} is a kaolin-focused company built around ready tuvenan raw kaolin supply, disciplined commercial communication and a professional portfolio structure for processed grades.`,
+      `${companyInfo.brandName} is a kaolin-focused company built around ready raw kaolin supply, disciplined commercial communication and a professional portfolio structure for processed grades.`,
     notice: "Raw kaolin inquiries and partnership discussions are welcome.",
     primaryLabel: "Contact Us",
     secondaryLabel: "Explore Applications",
@@ -44,7 +44,7 @@ export const aboutPageContent = {
     narrative:
       "The company approach is built around direct communication, dependable follow-up and a portfolio language that helps industrial buyers quickly understand available raw kaolin, refined product options and cooperation pathways.",
     points: [
-      "Tuvenan raw kaolin is positioned first for sourcing, evaluation and commercial demand.",
+      "Raw kaolin is positioned first for sourcing, evaluation and commercial demand.",
       "Processed kaolin language supports washed, refined, micronized and industrial-grade product discussions.",
       "Communication is organized around inquiries, samples and long-term cooperation opportunities.",
     ],
@@ -60,7 +60,7 @@ export const aboutPageContent = {
       {
         title: "Raw Kaolin Supply",
         description:
-          "Ready tuvenan kaolin positioned for bulk sourcing, industrial qualification and commercial partnership discussions.",
+          "Ready raw kaolin positioned for bulk sourcing, industrial qualification and commercial partnership discussions.",
       },
       {
         title: "Processed Grades",
@@ -81,7 +81,7 @@ export const aboutPageContent = {
       description:
         "Pluto Enerji is positioned to respond to sourcing requests, sample coordination and B2B cooperation with a clear commercial point of contact.",
     },
-    primaryLabel: "Email info@plutoenerji.com",
+    primaryLabel: "Email contact@plutoenerji.com",
     secondaryLabel: "Visit contact page",
     cards: [
       { title: "Primary Email", description: companyInfo.email },

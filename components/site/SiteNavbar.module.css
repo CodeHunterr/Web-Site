@@ -16,14 +16,14 @@
   display: flex;
   align-items: center;
   gap: clamp(12px, 1.2vw, 18px);
-  min-height: 84px;
+  min-height: 112px;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex: 0 1 252px;
+  gap: 0;
+  flex: 0 0 auto;
   min-width: 0;
   color: inherit;
   text-decoration: none;
@@ -33,9 +33,9 @@
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  width: 56px;
-  height: 56px;
-  overflow: hidden;
+  width: 228px;
+  height: 96px;
+  overflow: visible;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -47,7 +47,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  transform: scale(1.14);
+  transform: translateY(-6px) scale(1.01);
   transform-origin: center;
 }
 
@@ -55,31 +55,6 @@
   color: var(--color-navy);
   font-size: 18px;
   font-weight: 800;
-}
-
-.brandCopy {
-  display: grid;
-  gap: 3px;
-  min-width: 0;
-}
-
-.brandName {
-  color: var(--color-ink);
-  font-size: clamp(16px, 1.1vw, 17px);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-}
-
-.brandTagline {
-  max-width: 180px;
-  overflow: hidden;
-  color: var(--color-soft);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-overflow: ellipsis;
-  text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .menu {
@@ -212,10 +187,6 @@
 }
 
 @media (max-width: 1180px) {
-  .brandTagline {
-    max-width: 138px;
-  }
-
   .navLink,
   .localeLink {
     padding: 0 9px;
@@ -228,18 +199,14 @@
     width: min(1320px, calc(100% - 28px));
   }
 
-  .brandTagline {
-    display: none;
-  }
-
   .navLink,
   .localeLink {
     padding: 0 8px;
   }
 
   .brandMark {
-    width: 52px;
-    height: 52px;
+    width: 208px;
+    height: 88px;
   }
 }
 
@@ -250,7 +217,7 @@
 
   .inner {
     position: relative;
-    min-height: 76px;
+    min-height: 100px;
   }
 
   .brand {
@@ -258,8 +225,8 @@
   }
 
   .brandMark {
-    width: 48px;
-    height: 48px;
+    width: 184px;
+    height: 80px;
   }
 
   .menuToggle {
@@ -318,7 +285,7 @@
   }
 
   .brandMark {
-    width: 44px;
-    height: 44px;
+    width: 156px;
+    height: 68px;
   }
 }

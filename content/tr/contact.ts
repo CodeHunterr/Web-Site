@@ -11,7 +11,7 @@ export const contactPageContent = {
     titleLine1: "",
     titleLine2: companyInfo.brandName,
     description: "Teknik talepler, numune istekleri ve iş birliği görüşmeleri aşağıdaki iletişim kanallarından iletilebilir.",
-    notice: "Aşağıdaki formu kullanabilir veya doğrudan info@plutoenerji.com adresine yazabilirsiniz.",
+    notice: "Aşağıdaki formu kullanabilir veya doğrudan contact@plutoenerji.com adresine yazabilirsiniz.",
     primaryLabel: "Mesaj Gönder",
     secondaryLabel: "Şirket bilgisini gör",
   },
@@ -24,8 +24,7 @@ export const contactPageContent = {
     section: {
       eyebrow: "",
       title: "Şirket Bilgileri",
-      description:
-        `${companyInfo.brandName}, teknik iletişim, numune koordinasyonu ve ticari iş birlikleri için net ve profesyonel bir yanıt yapısı sunar.`,
+      description: "",
     },
     summary: "Ticari tanışma, malzeme görüşmeleri ve proje soruları için ekip bu sayfadaki iletişim kanalları üzerinden ulaşılabilir.",
     details: [
@@ -42,7 +41,7 @@ export const contactPageContent = {
   },
   form: {
     title: "Mesaj Gönder",
-    description: "Bu form, tüvenan kaolin arzı, numune talebi ve ticari iş birliği mesajlarını doğrudan Pluto Enerji ekibine iletmek için kullanılabilir.",
+    description: "",
     submitLabel: "Mesaj Gönder",
     fields: [
       { name: "name", label: "Ad Soyad", type: "text", placeholder: "Ad soyad girin", required: true },
@@ -62,7 +61,7 @@ export const contactPageContent = {
     ],
     messages: {
       success: "Talebiniz başarıyla gönderildi. Ekibimiz kısa süre içinde sizinle iletişime geçecektir.",
-      error: "Talep gönderilemedi. Lütfen tekrar deneyin veya info@plutoenerji.com adresine yazın.",
+      error: "Talep gönderilemedi. Lütfen tekrar deneyin veya contact@plutoenerji.com adresine yazın.",
       sending: "Gönderiliyor...",
       validationRequired: "Lütfen zorunlu alanları doldurun.",
       validationEmail: "Lütfen geçerli bir e-posta adresi girin.",

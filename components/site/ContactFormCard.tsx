@@ -130,6 +130,7 @@ export function ContactFormCard({
   statusErrorClassName,
   fieldHintClassName,
 }: ContactFormCardProps) {
+  const hasDescription = description.trim().length > 0;
   const [formValues, setFormValues] = useState(createEmptyContactFormPayload);
   const [fieldErrors, setFieldErrors] = useState<ContactFieldErrors>({});
   const [status, setStatus] = useState<FormStatus | null>(null);
@@ -239,7 +240,9 @@ export function ContactFormCard({
     <div className={joinClasses(className)} data-reveal="default">
       <div className={joinClasses(headingClassName)}>
         <h2 className={joinClasses(titleClassName)}>{title}</h2>
-        <p className={joinClasses(descriptionClassName)}>{description}</p>
+        {hasDescription ? (
+          <p className={joinClasses(descriptionClassName)}>{description}</p>
+        ) : null}
       </div>
 
       <form className={joinClasses(formClassName)} noValidate onSubmit={handleSubmit}>

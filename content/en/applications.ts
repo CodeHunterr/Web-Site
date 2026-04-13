@@ -116,7 +116,7 @@ export const applicationsPageContent = {
         "We provide quarry-origin raw kaolin supply through a direct and commercially strong model for industrial buyers.",
     },
     intro:
-      "Pluto Enerji offers direct raw kaolin (tüvenan) supply from its quarry operations, providing a flexible sourcing model for industrial buyers.",
+      "Pluto Enerji offers direct raw kaolin supply from its quarry operations, providing a flexible sourcing model for industrial buyers.",
     supportLead: "This supply structure supports:",
     supports: [
       "bulk raw material access",

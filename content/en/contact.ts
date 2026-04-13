@@ -12,7 +12,7 @@ export const contactPageContent = {
     titleLine2: companyInfo.brandName,
     description:
       "Raw kaolin inquiries, sample requests, industrial grade discussions and business collaboration can be directed through the contact channels below.",
-    notice: "Use the form below or email info@plutoenerji.com for direct commercial contact.",
+    notice: "Use the form below or email contact@plutoenerji.com for direct commercial contact.",
     primaryLabel: "Send Message",
     secondaryLabel: "View contact details",
   },
@@ -20,7 +20,7 @@ export const contactPageContent = {
     {
       title: "Raw kaolin inquiries",
       description:
-        "A direct route for tuvenan raw kaolin demand, supply discussions and commercial follow-up.",
+      "A direct route for raw kaolin demand, supply discussions and commercial follow-up.",
     },
     {
       title: "Sample requests",
@@ -41,7 +41,7 @@ export const contactPageContent = {
         `${companyInfo.brandName} supports commercial communication, sample coordination and product discussions through a clear and responsive contact structure.`,
     },
     summary:
-      "For raw kaolin supply, processed grade questions and partnership discussions, info@plutoenerji.com is the primary company contact.",
+      "For raw kaolin supply, processed grade questions and partnership discussions, contact@plutoenerji.com is the primary company contact.",
     details: [
       { label: "Company", value: companyInfo.brandName },
       { label: "Address", value: companyInfo.address },
@@ -56,8 +56,7 @@ export const contactPageContent = {
   },
   form: {
     title: "Send Message",
-    description:
-      "Use this form to send raw kaolin supply requests, sample inquiries and business messages directly to Pluto Enerji.",
+    description: "",
     submitLabel: "Send Message",
     fields: [
       { name: "name", label: "Full Name", type: "text", placeholder: "Enter full name", required: true },
@@ -84,7 +83,7 @@ export const contactPageContent = {
     ],
     messages: {
       success: "Your inquiry has been sent successfully. Our team will contact you shortly.",
-      error: "We could not send your inquiry. Please try again or email info@plutoenerji.com.",
+      error: "We could not send your inquiry. Please try again or email contact@plutoenerji.com.",
       sending: "Sending...",
       validationRequired: "Please complete the required fields.",
       validationEmail: "Please enter a valid email address.",
@@ -94,7 +93,7 @@ export const contactPageContent = {
     {
       title: "Raw Kaolin Inquiry",
       description:
-        "Use this route for tuvenan raw kaolin demand, pricing requests and bulk supply discussions.",
+      "Use this route for raw kaolin demand, pricing requests and bulk supply discussions.",
     },
     {
       title: "Sample Request",

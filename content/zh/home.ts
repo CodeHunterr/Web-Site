@@ -125,7 +125,7 @@ export const homePageContent = {
       description:
         "欢迎通过统一的 B2B 联络渠道提交原矿高岭土需求、样品申请、工业级产品需求或合作意向。",
     },
-    primaryLabel: "发送邮件至 info@plutoenerji.com",
+    primaryLabel: "发送邮件至 contact@plutoenerji.com",
     secondaryLabel: "立即致电",
     cards: [
       { title: "邮箱", description: companyInfo.email },

@@ -81,7 +81,7 @@ export const aboutPageContent = {
       description:
         "Pluto Enerji 以清晰的商务联络方式响应采购请求、样品协调与 B2B 合作。",
     },
-    primaryLabel: "发送邮件至 info@plutoenerji.com",
+    primaryLabel: "发送邮件至 contact@plutoenerji.com",
     secondaryLabel: "访问联系页面",
     cards: [
       { title: "主要邮箱", description: companyInfo.email },

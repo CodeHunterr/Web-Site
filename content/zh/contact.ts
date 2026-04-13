@@ -11,7 +11,7 @@ export const contactPageContent = {
     titleLine1: "",
     titleLine2: companyInfo.brandName,
     description: "技术咨询、样品申请和商务合作，可通过下方联系方式与我们沟通。",
-    notice: "您可以使用下方表单，或直接发送邮件至 info@plutoenerji.com 与我们联系。",
+    notice: "您可以使用下方表单，或直接发送邮件至 contact@plutoenerji.com 与我们联系。",
     primaryLabel: "发送消息",
     secondaryLabel: "查看公司信息",
   },
@@ -42,7 +42,7 @@ export const contactPageContent = {
   },
   form: {
     title: "发送消息",
-    description: "该表单可直接用于发送原矿高岭土供应、样品申请和商务合作信息。",
+    description: "",
     submitLabel: "发送消息",
     fields: [
       { name: "name", label: "姓名", type: "text", placeholder: "请输入姓名", required: true },
@@ -62,7 +62,7 @@ export const contactPageContent = {
     ],
     messages: {
       success: "您的信息已成功发送，我们会尽快与您联系。",
-      error: "发送失败，请重试或直接发送邮件至 info@plutoenerji.com。",
+      error: "发送失败，请重试或直接发送邮件至 contact@plutoenerji.com。",
       sending: "发送中...",
       validationRequired: "请完整填写必填字段。",
       validationEmail: "请输入有效的电子邮箱地址。",

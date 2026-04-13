@@ -12,7 +12,7 @@ export const homePageContent = {
     titleLine1: "Kaolin Solutions for Industrial Production",
     titleLine2: "",
     description:
-      `${companyInfo.brandName} is a kaolin-focused supplier and commercial solution partner offering ready tuvenan raw kaolin supply together with refined, micronized and industrial-grade kaolin product pathways.`,
+      `${companyInfo.brandName} is a kaolin-focused supplier and commercial solution partner offering ready raw kaolin supply together with refined, micronized and industrial-grade kaolin product pathways.`,
     notice: "Raw kaolin supply, sample requests, and commercial discussions are active.",
     primaryLabel: "Contact Us",
     secondaryLabel: "Explore Applications",
@@ -26,7 +26,7 @@ export const homePageContent = {
   },
   heroInfoItems: [
     {
-      title: "Tuvenan Raw Kaolin",
+      title: "Raw Kaolin",
       description:
         "Commercially visible raw kaolin supply positioned for direct inquiry, bulk demand and partner discussions.",
     },
@@ -54,7 +54,7 @@ export const homePageContent = {
       {
         title: "Ready Supply",
         description:
-          "Tuvenan raw kaolin is presented as a ready supply position for active buyer discussions and project evaluations.",
+          "Raw kaolin is presented as a ready supply position for active buyer discussions and project evaluations.",
       },
       {
         title: "Sample & Cooperation",
@@ -98,7 +98,7 @@ export const homePageContent = {
     cards: [
       {
         title: "Raw Kaolin Supply",
-        description: "Tuvenan kaolin positioned for bulk demand, sourcing discussions and industrial evaluation.",
+        description: "Raw kaolin positioned for bulk demand, sourcing discussions and industrial evaluation.",
       },
       {
         title: "Washed Kaolin",
@@ -129,7 +129,7 @@ export const homePageContent = {
       description:
         "Share raw kaolin demand, sample requests, industrial grade needs or cooperation ideas through one direct B2B contact channel.",
     },
-    primaryLabel: "Email info@plutoenerji.com",
+    primaryLabel: "Email contact@plutoenerji.com",
     secondaryLabel: "Call now",
     cards: [
       { title: "Email", description: companyInfo.email },

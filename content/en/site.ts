@@ -5,7 +5,7 @@ export const siteContent = {
   siteDescription: "Raw kaolin supply, refined kaolin portfolio and industrial mineral solutions for B2B buyers.",
   brandTagline: "Raw & Processed Kaolin Supply",
   companySummary:
-    "Pluto Enerji, in its current structure, provides tuvenan raw kaolin supply for bulk demand in a fast, reliable and commercially flexible manner, while also building an infrastructure suited to future beneficiation and processed product workflows.",
+    "Pluto Enerji, in its current structure, provides raw kaolin supply for bulk demand in a fast, reliable and commercially flexible manner, while also building an infrastructure suited to future beneficiation and processed product workflows.",
   navigation: {
     primary: [
       { label: "Home", path: "" },
