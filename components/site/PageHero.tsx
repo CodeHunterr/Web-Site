@@ -29,7 +29,14 @@ type PageHeroProps = {
   frameless?: boolean;
   sectionClassName?: string;
   cardClassName?: string;
+  contentClassName?: string;
+  eyebrowClassName?: string;
   titleClassName?: string;
+  descriptionClassName?: string;
+  actionsClassName?: string;
+  actionPrimaryClassName?: string;
+  actionSecondaryClassName?: string;
+  noticeClassName?: string;
   plainHighlights?: boolean;
   highlightCardClassName?: string;
   highlightTitleClassName?: string;
@@ -55,7 +62,14 @@ export function PageHero({
   frameless = false,
   sectionClassName,
   cardClassName,
+  contentClassName,
+  eyebrowClassName,
   titleClassName,
+  descriptionClassName,
+  actionsClassName,
+  actionPrimaryClassName,
+  actionSecondaryClassName,
+  noticeClassName,
   plainHighlights = false,
   highlightCardClassName,
   highlightTitleClassName,
@@ -124,9 +138,9 @@ export function PageHero({
           )}
         >
           <div className={styles.grid}>
-            <div className={styles.content}>
+            <div className={joinClasses(styles.content, contentClassName)}>
               {hasEyebrow ? (
-                <p className={styles.eyebrow}>{eyebrow}</p>
+                <p className={joinClasses(styles.eyebrow, eyebrowClassName)}>{eyebrow}</p>
               ) : null}
               {hasTitle ? (
                 <h1 className={joinClasses(styles.title, titleClassName)}>
@@ -140,7 +154,7 @@ export function PageHero({
                 </h1>
               ) : null}
               {hasDescription ? (
-                <p className={styles.description}>{description}</p>
+                <p className={joinClasses(styles.description, descriptionClassName)}>{description}</p>
               ) : null}
 
               {hasSocialTitle || hasSocialLinks ? (
@@ -174,7 +188,7 @@ export function PageHero({
               ) : null}
 
               {hasActions ? (
-                <div className={styles.actions}>
+                <div className={joinClasses(styles.actions, actionsClassName)}>
                   {actions.map((action) => (
                     <a
                       key={`${action.label}-${action.href}`}
@@ -183,6 +197,9 @@ export function PageHero({
                         action.variant === "primary"
                           ? styles.actionPrimary
                           : styles.actionSecondary,
+                        action.variant === "primary"
+                          ? actionPrimaryClassName
+                          : actionSecondaryClassName,
                       )}
                       href={action.href}
                     >
@@ -193,7 +210,7 @@ export function PageHero({
               ) : null}
 
               {hasNotice ? (
-                <div className={styles.notice}>{notice}</div>
+                <div className={joinClasses(styles.notice, noticeClassName)}>{notice}</div>
               ) : null}
             </div>
 

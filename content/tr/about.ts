@@ -34,6 +34,31 @@ export const aboutPageContent = {
         "Şirket; talep, numune ve ticari iş birliği için pratik bir iletişim yapısı sunar.",
     },
   ],
+  intro: {
+    items: [
+      {
+        title: "Tarihçe",
+        paragraphs: [
+          "Pluto Enerji, doğal kaynakların verimli ve katma değerli şekilde değerlendirilmesi vizyonuyla 2020 yılında kurulmuştur. Faaliyetlerine tüvenan kaolen üretimi ile başlayan şirketimiz, sektördeki ihtiyaçları yakından takip ederek üretim ve geliştirme süreçlerini sürekli ileri taşımaktadır.",
+          "Kuruluşumuzdan itibaren yalnızca hammadde temini değil, aynı zamanda kaliteyi artırmaya ve farklı kullanım alanları oluşturmaya yönelik çalışmalar yürütmekteyiz. Bu doğrultuda laboratuvar altyapımızı güçlendirerek Ar-Ge odaklı bir yapıya doğru dönüşümümüzü sürdürmekteyiz.",
+        ],
+      },
+      {
+        title: "Misyon",
+        paragraphs: [
+          "Doğal kaolen kaynaklarını en verimli şekilde değerlendirerek; farklı sektörlerin ihtiyaçlarına uygun, sürdürülebilir ve yüksek katma değerli ürünler geliştirmek.",
+          "Bilimsel yaklaşım ve sürekli iyileştirme prensibiyle, müşterilerimize güvenilir ve performans odaklı çözümler sunmak.",
+        ],
+      },
+      {
+        title: "Vizyon",
+        paragraphs: [
+          "Kaolen ve endüstriyel mineraller alanında yalnızca hammadde sağlayan değil; ürün geliştiren, proses tasarlayan ve sektöre yön veren bir teknoloji ve çözüm ortağı olmak.",
+          "Ar-Ge gücü, yenilikçi yaklaşımı ve teknik uzmanlığı ile ulusal ve uluslararası pazarda rekabetçi ve öncü bir marka haline gelmek.",
+        ],
+      },
+    ],
+  },
   overview: {
     section: {
       eyebrow: "",

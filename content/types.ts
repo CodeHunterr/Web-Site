@@ -39,6 +39,11 @@ export type HighlightItem = {
   description: string;
 };
 
+export type TextBlock = {
+  title: string;
+  paragraphs: string[];
+};
+
 export type TextCard = {
   title: string;
   description: string;
@@ -216,6 +221,9 @@ export type ContactPageContent = {
 
 export type AboutPageContent = {
   metadata: PageMetadata;
+  intro: {
+    items: TextBlock[];
+  };
   hero: HeroContent;
   heroHighlights: HighlightItem[];
   overview: {
