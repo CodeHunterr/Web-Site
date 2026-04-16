@@ -94,7 +94,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
         notice={pageContent.hero.notice}
         actions={heroActions}
         highlights={pageContent.heroHighlights}
-        sectionClassName={styles.movedHeroSection}
+        sectionClassName={`${styles.movedHeroSection} ${styles.testDebug}`}
         cardClassName={styles.movedHeroCard}
         contentClassName={styles.movedHeroContent}
         titleClassName={styles.movedHeroTitle}

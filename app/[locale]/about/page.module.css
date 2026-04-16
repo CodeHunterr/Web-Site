@@ -159,6 +159,10 @@
   color: var(--color-muted);
 }
 
+.testDebug {
+  border: 5px solid red !important;
+}
+
 .section {
   padding-top: var(--section-space);
   scroll-margin-top: 112px;
