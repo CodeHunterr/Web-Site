@@ -1,0 +1,15 @@
+
+> minimal-next15-ts@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 21904, using available port 3001 instead.
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3001
+   - Network:      http://10.34.191.56:3001
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1614ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 2.9s (811 modules)
+ GET /tr/about 200 in 3813ms

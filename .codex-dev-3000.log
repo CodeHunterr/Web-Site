@@ -1,0 +1,47 @@
+
+> minimal-next15-ts@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3000
+   - Network:      http://10.34.191.56:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1665ms
+ ○ Compiling / ...
+ ✓ Compiled / in 956ms (721 modules)
+ GET / 307 in 870ms
+ ○ Compiling /[locale] ...
+ GET /tr/about 200 in 2443ms
+ ✓ Compiled /[locale] in 1611ms (752 modules)
+ GET /en 200 in 2391ms
+ ○ Compiling /[locale]/applications ...
+ ✓ Compiled /[locale]/applications in 545ms (766 modules)
+ GET /tr/applications 200 in 1150ms
+ ✓ Compiled /[locale]/media in 331ms (783 modules)
+ GET /tr/media 200 in 858ms
+ ✓ Compiled /[locale] in 148ms (485 modules)
+ GET /favicon.ico 404 in 410ms
+ GET /tr/applications 200 in 70ms
+ ✓ Compiled /[locale]/kaolin in 489ms (782 modules)
+ GET /tr/kaolin 200 in 1075ms
+ GET /tr/about 200 in 57ms
+ GET /tr/kaolin 200 in 47ms
+ GET /tr/about 200 in 46ms
+ GET /tr/kaolin 200 in 51ms
+ GET /tr/about 200 in 42ms
+ ✓ Compiled in 593ms (777 modules)
+ GET /tr/about 200 in 146ms
+ GET /tr/about 200 in 155ms
+ ✓ Compiled in 612ms (777 modules)
+ GET /tr/about 200 in 195ms
+ GET /tr/about 200 in 172ms
+ GET /tr/about 200 in 133ms
+ GET /tr/about 200 in 151ms
+ GET /tr/applications 200 in 310ms
+ GET /tr/about 200 in 47ms
+ ✓ Compiled in 388ms (777 modules)
+ GET /tr/about 200 in 148ms
+ GET /tr/about 200 in 154ms
+ GET /tr/about 200 in 131ms
