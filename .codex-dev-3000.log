@@ -45,3 +45,12 @@
  GET /tr/about 200 in 148ms
  GET /tr/about 200 in 154ms
  GET /tr/about 200 in 131ms
+ GET /tr/about 200 in 139ms
+ ✓ Compiled /[locale] in 408ms (485 modules)
+ GET /favicon.ico 404 in 701ms
+ GET /tr/about 200 in 165ms
+ GET /tr/applications 200 in 65ms
+ GET /tr/about 200 in 45ms
+ ✓ Compiled in 407ms (777 modules)
+ GET /tr/about 200 in 146ms
+^C

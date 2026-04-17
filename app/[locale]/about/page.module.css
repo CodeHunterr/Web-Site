@@ -115,7 +115,7 @@
 .movedHeroTitle {
   max-width: 14ch;
   color: #0f172a !important;
-  font-size: clamp(32px, 4.5vw, 48px);
+  font-size: 48px !important;
   line-height: 1.06;
   letter-spacing: -0.05em;
   overflow-wrap: normal;
@@ -125,7 +125,7 @@
 .movedHeroDescription {
   max-width: 68ch;
   color: #475569 !important;
-  font-size: clamp(16px, 1.5vw, 18px);
+  font-size: 16px !important;
   line-height: 1.86;
 }
 
@@ -134,15 +134,17 @@
 }
 
 .movedHeroActionPrimary {
-  color: #ffffff;
-  background: linear-gradient(180deg, var(--color-navy) 0%, var(--color-navy-800) 100%);
+  color: #ffffff !important;
+  border-color: #0f172a !important;
+  background: #0f172a !important;
   box-shadow: 0 20px 40px rgba(11, 27, 61, 0.16);
 }
 
 .movedHeroActionSecondary {
-  color: var(--color-navy);
-  border-color: rgba(11, 27, 61, 0.12);
-  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a !important;
+  border-color: var(--line-soft) !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: none !important;
 }
 
 .movedHeroNotice {
@@ -162,11 +164,12 @@
 
 .movedHeroHighlightTitle {
   color: #0f172a !important;
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .movedHeroHighlightDescription {
   color: #64748b !important;
+  font-size: 16px !important;
   line-height: 1.74;
 }
 
