@@ -138,14 +138,14 @@ export default async function MediaPage({ params }: MediaPageProps) {
                 />
               </div>
 
-              <div className={styles.videoPortraitWrap}>
+              <div className={styles.videoWideWrap}>
                 <video
-                  className={styles.videoPortrait}
+                  className={styles.videoWide}
                   controls
                   muted
                   playsInline
                   preload="metadata"
-                  src="/videos/lab-video-1.mp4"
+                  src="/videos/lab-video-1_.mp4"
                 />
               </div>
             </div>
