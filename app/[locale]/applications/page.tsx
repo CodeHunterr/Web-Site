@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { AnimatedSectionBackground } from "../../../components/site/AnimatedSectionBackground";
+import { ApplicationSlider } from "../../../components/site/ApplicationSlider";
 import { FeatureListCard } from "../../../components/site/FeatureListCard";
 import { PageHero } from "../../../components/site/PageHero";
 import { SectionHeading } from "../../../components/site/SectionHeading";
@@ -38,6 +38,21 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+const heroImages = [
+  "/images/Application/a-1.jpeg",
+  "/images/Application/a-2.jpeg",
+] as const;
+
+const applicationsImages = [
+  "/images/Application/a-3.jpeg",
+  "/images/Application/a-4.jpeg",
+] as const;
+
+const supplyImages = [
+  "/images/Application/a-5.jpeg",
+  "/images/Application/a-6.jpeg",
+] as const;
+
 export default async function ApplicationsPage({
   params,
 }: ApplicationsPageProps) {
@@ -56,12 +71,13 @@ export default async function ApplicationsPage({
 
   return (
     <main className={styles.page}>
-      <AnimatedSectionBackground
+      <ApplicationSlider
         alt="Pluto Enerji applications hero background"
         className={styles.heroStage}
+        intervalMs={4500}
         overlayClassName={styles.heroOverlay}
+        images={heroImages}
         priority
-        src="/images/Application/app-1.png"
       >
         <PageHero
           eyebrow={pageContent.hero.eyebrow}
@@ -75,15 +91,16 @@ export default async function ApplicationsPage({
           cardClassName={styles.heroSurface}
           titleClassName={styles.heroTitle}
         />
-      </AnimatedSectionBackground>
+      </ApplicationSlider>
 
       <section className={styles.section} id="applications-grid">
-        <AnimatedSectionBackground
+        <ApplicationSlider
           alt="Pluto Enerji applications content background"
           className={styles.applicationsStage}
+          images={applicationsImages}
+          intervalMs={4500}
           overlayClassName={styles.applicationsOverlay}
           sizes="100vw"
-          src="/images/Application/app-2.png"
         >
           <SiteShell>
             <div className={styles.applicationsStageContent}>
@@ -114,16 +131,17 @@ export default async function ApplicationsPage({
               </div>
             </div>
           </SiteShell>
-        </AnimatedSectionBackground>
+        </ApplicationSlider>
       </section>
 
       <section className={styles.section} id="raw-kaolin-supply">
-        <AnimatedSectionBackground
+        <ApplicationSlider
           alt="Pluto Enerji raw kaolin supply background"
           className={styles.supplyStage}
+          images={supplyImages}
+          intervalMs={4500}
           overlayClassName={styles.supplyOverlay}
           sizes="100vw"
-          src="/images/Application/app-3.png"
         >
           <SiteShell>
             <div className={styles.supplyStageContent}>
@@ -168,7 +186,7 @@ export default async function ApplicationsPage({
               </div>
             </div>
           </SiteShell>
-        </AnimatedSectionBackground>
+        </ApplicationSlider>
       </section>
     </main>
   );

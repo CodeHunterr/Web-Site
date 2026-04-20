@@ -187,6 +187,7 @@ export type MediaPageContent = {
   sections: {
     quarry: SectionContent & { galleryImages: GalleryItem[] };
     stock: SectionContent & { galleryImages: GalleryItem[] };
+    laboratory: SectionContent & { galleryImages: GalleryItem[] };
   };
   video: {
     eyebrow: string;

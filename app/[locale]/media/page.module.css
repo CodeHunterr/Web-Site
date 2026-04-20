@@ -116,9 +116,33 @@
   background: linear-gradient(90deg, rgba(11, 27, 61, 0.94), rgba(11, 27, 61, 0.14), transparent);
 }
 
-.videoEmbed {
+.videoStack {
   margin-top: var(--space-6);
-  border-radius: calc(var(--radius-panel) - 6px);
+  display: grid;
+  gap: 24px;
+}
+
+.videoWideWrap {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  background: transparent;
+}
+
+.videoWide,
+.videoPortrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  background: transparent;
+  object-fit: contain;
+}
+
+.videoPortraitWrap {
+  width: min(100%, 400px);
+  margin: 0 auto;
+  background: transparent;
 }
 
 @media (max-width: 1024px) {
@@ -150,8 +174,11 @@
     grid-template-columns: 1fr;
   }
 
-  .videoSection,
-  .videoEmbed {
+  .videoSection {
     border-radius: calc(var(--radius-panel) - 8px);
+  }
+
+  .videoPortraitWrap {
+    width: min(100%, 360px);
   }
 }

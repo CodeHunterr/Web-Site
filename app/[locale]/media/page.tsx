@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 import { HomeHeroSlider } from "../../../components/site/HomeHeroSlider";
 import { MediaGallerySection } from "../../../components/site/MediaGallerySection";
-import { MediaVideoEmbed } from "../../../components/site/MediaVideoEmbed";
 import { SectionHeading } from "../../../components/site/SectionHeading";
 import { SiteShell } from "../../../components/site/SiteShell";
 import { getMediaPageContent } from "../../../content";
@@ -103,6 +102,21 @@ export default async function MediaPage({ params }: MediaPageProps) {
           cardDescriptionClassName={styles.cardDescription}
         />
 
+        <MediaGallerySection
+          id="laboratory"
+          eyebrow={pageContent.sections.laboratory.eyebrow}
+          title={pageContent.sections.laboratory.title}
+          description={pageContent.sections.laboratory.description}
+          items={pageContent.sections.laboratory.galleryImages}
+          sectionClassName={styles.section}
+          headingClassName={styles.sectionHeading}
+          gridClassName={styles.galleryGrid}
+          cardClassName={styles.galleryCard}
+          visualClassName={styles.mediaVisual}
+          cardTitleClassName={styles.cardTitle}
+          cardDescriptionClassName={styles.cardDescription}
+        />
+
         <section className={styles.section} id="video">
           <div className={styles.videoSection}>
             <SectionHeading
@@ -112,12 +126,29 @@ export default async function MediaPage({ params }: MediaPageProps) {
               className={styles.sectionHeading}
             />
 
-            <MediaVideoEmbed
-              className={styles.videoEmbed}
-              fallbackLabel={pageContent.video.embedLabel}
-              src={pageContent.videoUrl}
-              title={pageContent.video.embedLabel}
-            />
+            <div className={styles.videoStack}>
+              <div className={styles.videoWideWrap}>
+                <video
+                  className={styles.videoWide}
+                  controls
+                  muted
+                  playsInline
+                  preload="metadata"
+                  src="/videos/lab-video.mp4"
+                />
+              </div>
+
+              <div className={styles.videoPortraitWrap}>
+                <video
+                  className={styles.videoPortrait}
+                  controls
+                  muted
+                  playsInline
+                  preload="metadata"
+                  src="/videos/lab-video-1.mp4"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </SiteShell>

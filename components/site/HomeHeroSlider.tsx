@@ -124,7 +124,7 @@ export function HomeHeroSlider({
             style={
               {
                 "--slide-delay": `${index * slideDurationSeconds - slideDurationSeconds * 0.2}s`,
-                backgroundImage: `url(${slide.src})`,
+                backgroundImage: `url("${encodeURI(slide.src)}")`,
               } as CSSProperties
             }
           />

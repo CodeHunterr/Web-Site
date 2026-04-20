@@ -1,0 +1,71 @@
+.wrapper {
+  --parallax-offset: 0px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.mediaLayer,
+.overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.mediaLayer {
+  z-index: 0;
+  transform: translate3d(0, calc(var(--parallax-offset) * 0.6), 0);
+  transition: transform 0.18s linear;
+  will-change: transform;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.8s ease;
+  will-change: opacity;
+}
+
+.slideActive {
+  opacity: 1;
+}
+
+.slideInactive {
+  opacity: 0;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  animation: applicationZoom var(--slide-zoom-duration, 7s) ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.overlay {
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes applicationZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide {
+    transition: none;
+  }
+
+  .image {
+    animation: none;
+    transform: scale(1.03);
+  }
+}
