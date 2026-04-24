@@ -134,7 +134,7 @@ export default async function MediaPage({ params }: MediaPageProps) {
                   muted
                   playsInline
                   preload="metadata"
-                  src="/videos/lab-video.mp4"
+                  src="/videos/lab-video-.mp4"
                 />
               </div>
 

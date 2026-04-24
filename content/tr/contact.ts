@@ -35,7 +35,7 @@ export const contactPageContent = {
     ],
     socialTitle: "Sosyal Medya",
     socialLinks: [
-      { label: "LinkedIn", href: "https://www.linkedin.com/company/plutoenerji", platform: "linkedin" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/pluto-enerji", platform: "linkedin" },
       { label: "Instagram", href: "https://www.instagram.com/plutoenerji", platform: "instagram" },
     ],
   },

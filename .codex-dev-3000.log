@@ -18,3 +18,25 @@
  GET /en 200 in 1221ms
  GET /en/media 200 in 68ms
  GET /tr/media 200 in 72ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 2.1s (743 modules)
+ GET /tr/about 200 in 4250ms
+ GET /tr/about 200 in 141ms
+ GET /tr/about 200 in 80ms
+ GET /tr/about 200 in 56ms
+ ✓ Compiled in 2.2s (462 modules)
+ ✓ Compiled in 619ms (462 modules)
+ GET /tr/media 200 in 753ms
+ ✓ Compiled / in 183ms (466 modules)
+ GET / 307 in 429ms
+ ✓ Compiled /[locale] in 359ms (471 modules)
+ GET /en 200 in 649ms
+ GET /en/media 200 in 63ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 1038ms (775 modules)
+ GET /en/contact 200 in 2047ms
+ GET /en 200 in 61ms
+ GET /en/contact 200 in 51ms
+ GET /en/media 200 in 53ms
+ GET /favicon.ico 404 in 201ms
+ GET /en/contact 200 in 45ms

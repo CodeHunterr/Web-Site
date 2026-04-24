@@ -37,7 +37,7 @@ export const mediaPageContent = {
     links: [
       {
         label: "LinkedIn",
-        href: "https://www.linkedin.com/company/plutoenerji",
+        href: "https://www.linkedin.com/in/pluto-enerji",
         platform: "linkedin",
       },
       {
