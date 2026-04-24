@@ -11,6 +11,7 @@ type MediaGalleryImageProps = {
   label?: string;
   className?: string;
   sizes?: string;
+  onClick?: () => void;
 };
 
 function joinClasses(...classNames: Array<string | undefined>) {
@@ -23,6 +24,7 @@ export function MediaGalleryImage({
   label,
   className,
   sizes,
+  onClick,
 }: MediaGalleryImageProps) {
   const [hasError, setHasError] = useState(false);
   const normalizedSrc = src.trim();
@@ -32,7 +34,11 @@ export function MediaGalleryImage({
   }, [normalizedSrc]);
 
   return (
-    <div className={joinClasses(styles.frame, className)}>
+    <button
+      className={joinClasses(styles.frame, className)}
+      onClick={onClick}
+      type="button"
+    >
       {hasError || !normalizedSrc ? (
         <div className={styles.fallback}>{label ?? alt}</div>
       ) : (
@@ -47,6 +53,6 @@ export function MediaGalleryImage({
       )}
 
       {label ? <span className={styles.overlay}>{label}</span> : null}
-    </div>
+    </button>
   );
 }

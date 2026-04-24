@@ -8,35 +8,13 @@
    - Environments: .env.local
 
  ✓ Starting...
- ✓ Ready in 1659ms
- ○ Compiling / ...
- ✓ Compiled / in 2.5s (582 modules)
- GET / 307 in 2900ms
- ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 1349ms (755 modules)
- GET /en 200 in 2161ms
- ✓ Compiled /[locale]/media in 373ms (764 modules)
- GET /tr/media 200 in 1289ms
- GET /tr/media 200 in 401ms
- ✓ Compiled /[locale]/applications in 466ms (774 modules)
- GET /tr/applications 200 in 1035ms
- ✓ Compiled /[locale]/kaolin in 254ms (764 modules)
- GET /tr/kaolin 200 in 794ms
- ✓ Compiled /[locale]/about in 305ms (772 modules)
- GET /tr/about 200 in 857ms
- ✓ Compiled /[locale] in 223ms (479 modules)
- GET /tr 200 in 339ms
- GET /tr/applications 200 in 84ms
- GET /tr/media 200 in 77ms
- ✓ Compiled in 387ms (474 modules)
- GET /tr/media 200 in 202ms
- GET /tr/media 200 in 522ms
- ✓ Compiled in 432ms (474 modules)
- GET /tr/media 200 in 220ms
- GET /tr/media 200 in 254ms
- ✓ Compiled in 530ms (766 modules)
- ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
- GET /tr/media 200 in 262ms
- GET /tr/media 200 in 222ms
- GET /tr/media 200 in 157ms
- GET /favicon.ico 404 in 135ms
+ ✓ Ready in 2.1s
+ ○ Compiling /[locale]/media ...
+ ✓ Compiled /[locale]/media in 1681ms (741 modules)
+ GET /tr/media 200 in 2866ms
+ ✓ Compiled / in 350ms (727 modules)
+ GET / 307 in 545ms
+ ✓ Compiled /[locale] in 367ms (739 modules)
+ GET /en 200 in 1221ms
+ GET /en/media 200 in 68ms
+ GET /tr/media 200 in 72ms

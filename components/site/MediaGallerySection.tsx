@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
+
 import type { GalleryItem } from "../../content/types";
+import { ImageLightbox } from "./ImageLightbox";
 import { MediaGalleryImage } from "./MediaGalleryImage";
 import { SectionHeading } from "./SectionHeading";
 
@@ -41,32 +46,44 @@ export function MediaGallerySection({
   cardTitleClassName,
   cardDescriptionClassName,
 }: MediaGallerySectionProps) {
-  return (
-    <section className={joinClasses(sectionClassName)} id={id}>
-      <SectionHeading
-        eyebrow={eyebrow}
-        title={title}
-        description={description}
-        className={joinClasses(headingClassName)}
-        eyebrowClassName={joinClasses(eyebrowClassName)}
-        titleClassName={joinClasses(titleClassName)}
-        descriptionClassName={joinClasses(descriptionClassName)}
-      />
+  const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null);
 
-      <div className={joinClasses(gridClassName)}>
-        {items.map((item) => (
-          <article key={item.title} className={joinClasses(cardClassName)} data-reveal="stagger">
-            <MediaGalleryImage
-              alt={item.alt ?? item.title}
-              className={joinClasses(visualClassName)}
-              label={item.title}
-              src={item.src}
-            />
-            <h3 className={joinClasses(cardTitleClassName)}>{item.title}</h3>
-            <p className={joinClasses(cardDescriptionClassName)}>{item.description}</p>
-          </article>
-        ))}
-      </div>
-    </section>
+  return (
+    <>
+      <section className={joinClasses(sectionClassName)} id={id}>
+        <SectionHeading
+          eyebrow={eyebrow}
+          title={title}
+          description={description}
+          className={joinClasses(headingClassName)}
+          eyebrowClassName={joinClasses(eyebrowClassName)}
+          titleClassName={joinClasses(titleClassName)}
+          descriptionClassName={joinClasses(descriptionClassName)}
+        />
+
+        <div className={joinClasses(gridClassName)}>
+          {items.map((item) => (
+            <article key={item.title} className={joinClasses(cardClassName)} data-reveal="stagger">
+              <MediaGalleryImage
+                alt={item.alt ?? item.title}
+                className={joinClasses(visualClassName)}
+                label={item.title}
+                onClick={() => setSelectedImage(item)}
+                src={item.src}
+              />
+              <h3 className={joinClasses(cardTitleClassName)}>{item.title}</h3>
+              <p className={joinClasses(cardDescriptionClassName)}>{item.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <ImageLightbox
+        alt={selectedImage?.alt ?? selectedImage?.title ?? ""}
+        isOpen={Boolean(selectedImage)}
+        onClose={() => setSelectedImage(null)}
+        src={selectedImage?.src ?? ""}
+      />
+    </>
   );
 }
