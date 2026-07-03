@@ -94,6 +94,21 @@
   gap: 22px;
 }
 
+.cementCardSlot {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+}
+
+.cementCard {
+  width: min(100%, calc((100% - 22px) / 2));
+  min-height: clamp(380px, 28vw, 430px);
+}
+
+.cementCardButton {
+  align-self: flex-start;
+}
+
 .supplyStage {
   background: #08162e;
   min-height: 100vh;
@@ -313,6 +328,11 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .cementCard {
+    width: min(100%, 560px);
+    min-height: 400px;
+  }
+
   .supplyBlock {
     grid-template-columns: 1fr;
   }
@@ -343,6 +363,11 @@
 
   .cardGrid {
     grid-template-columns: 1fr;
+  }
+
+  .cementCard {
+    width: 100%;
+    min-height: auto;
   }
 
   .supplyBlock {

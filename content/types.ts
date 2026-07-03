@@ -16,7 +16,7 @@ export type HeroAction = {
 export type HeroSocialLink = {
   label: string;
   href: string;
-  platform: "linkedin" | "instagram";
+  platform: "linkedin";
 };
 
 export type PageMetadata = {
@@ -53,6 +53,9 @@ export type FeatureCard = {
   title: string;
   description: string;
   features: string[];
+  cardDescription?: string;
+  detailsCtaLabel?: string;
+  detailsCollapseLabel?: string;
 };
 
 export type GalleryItem = {
@@ -220,6 +223,12 @@ export type ContactPageContent = {
   supportCards: TextCard[];
 };
 
+export type NarrativeCard = {
+  title: string;
+  paragraphs: string[];
+  points?: string[];
+};
+
 export type AboutPageContent = {
   metadata: PageMetadata;
   intro: {
@@ -241,5 +250,29 @@ export type AboutPageContent = {
     primaryLabel: string;
     secondaryLabel: string;
     cards: TextCard[];
+  };
+};
+
+export type SustainabilityPageContent = {
+  metadata: PageMetadata;
+  hero: HeroContent;
+  heroHighlights: HighlightItem[];
+  overview: {
+    section: SectionContent;
+    paragraphs: string[];
+  };
+  responsibility: {
+    section: SectionContent;
+    prioritiesLead: string;
+    priorities: string[];
+    closing: string;
+  };
+  pillars: {
+    section: SectionContent;
+    cards: NarrativeCard[];
+  };
+  future: {
+    section: SectionContent;
+    paragraphs: string[];
   };
 };

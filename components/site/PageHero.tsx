@@ -85,26 +85,7 @@ export function PageHero({
   const hasSocialTitle = socialTitle?.trim().length;
   const hasSocialLinks = socialLinks.length > 0;
 
-  const renderSocialIcon = (platform: HeroSocialLink["platform"]) => {
-    if (platform === "linkedin") {
-      return (
-        <svg
-          aria-hidden="true"
-          className={styles.socialIcon}
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M7 9.5V17M7 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm4 10V9.5m0 0v1.1c.6-.8 1.5-1.3 2.7-1.3 2 0 3.3 1.3 3.3 4V17m-6-7.5h6"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="1.8"
-          />
-        </svg>
-      );
-    }
-
+  const renderSocialIcon = (_platform: HeroSocialLink["platform"]) => {
     return (
       <svg
         aria-hidden="true"
@@ -112,17 +93,13 @@ export function PageHero({
         fill="none"
         viewBox="0 0 24 24"
       >
-        <rect
-          height="13"
-          rx="4"
+        <path
+          d="M7 9.5V17M7 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm4 10V9.5m0 0v1.1c.6-.8 1.5-1.3 2.7-1.3 2 0 3.3 1.3 3.3 4V17m-6-7.5h6"
           stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           strokeWidth="1.8"
-          width="13"
-          x="5.5"
-          y="5.5"
         />
-        <circle cx="12" cy="12" r="3.2" stroke="currentColor" strokeWidth="1.8" />
-        <circle cx="16.6" cy="7.4" fill="currentColor" r="1" />
       </svg>
     );
   };

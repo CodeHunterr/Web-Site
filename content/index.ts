@@ -7,6 +7,7 @@ import { homePageContent as enHomePageContent } from "./en/home";
 import { kaolinPageContent as enKaolinPageContent } from "./en/kaolin";
 import { mediaPageContent as enMediaPageContent } from "./en/media";
 import { siteContent as enSiteContent } from "./en/site";
+import { sustainabilityPageContent as enSustainabilityPageContent } from "./en/sustainability";
 import { applicationsPageContent as ruApplicationsPageContent } from "./ru/applications";
 import { aboutPageContent as ruAboutPageContent } from "./ru/about";
 import { contactPageContent as ruContactPageContent } from "./ru/contact";
@@ -14,6 +15,7 @@ import { homePageContent as ruHomePageContent } from "./ru/home";
 import { kaolinPageContent as ruKaolinPageContent } from "./ru/kaolin";
 import { mediaPageContent as ruMediaPageContent } from "./ru/media";
 import { siteContent as ruSiteContent } from "./ru/site";
+import { sustainabilityPageContent as ruSustainabilityPageContent } from "./ru/sustainability";
 import { applicationsPageContent as trApplicationsPageContent } from "./tr/applications";
 import { aboutPageContent as trAboutPageContent } from "./tr/about";
 import { contactPageContent as trContactPageContent } from "./tr/contact";
@@ -21,6 +23,7 @@ import { homePageContent as trHomePageContent } from "./tr/home";
 import { kaolinPageContent as trKaolinPageContent } from "./tr/kaolin";
 import { mediaPageContent as trMediaPageContent } from "./tr/media";
 import { siteContent as trSiteContent } from "./tr/site";
+import { sustainabilityPageContent as trSustainabilityPageContent } from "./tr/sustainability";
 import { applicationsPageContent as zhApplicationsPageContent } from "./zh/applications";
 import { aboutPageContent as zhAboutPageContent } from "./zh/about";
 import { contactPageContent as zhContactPageContent } from "./zh/contact";
@@ -28,6 +31,7 @@ import { homePageContent as zhHomePageContent } from "./zh/home";
 import { kaolinPageContent as zhKaolinPageContent } from "./zh/kaolin";
 import { mediaPageContent as zhMediaPageContent } from "./zh/media";
 import { siteContent as zhSiteContent } from "./zh/site";
+import { sustainabilityPageContent as zhSustainabilityPageContent } from "./zh/sustainability";
 
 const siteContentMap = {
   en: enSiteContent,
@@ -78,6 +82,13 @@ const contactContentMap = {
   ru: ruContactPageContent,
 };
 
+const sustainabilityContentMap = {
+  en: enSustainabilityPageContent,
+  zh: zhSustainabilityPageContent,
+  tr: trSustainabilityPageContent,
+  ru: ruSustainabilityPageContent,
+};
+
 export function getSiteContent(locale: Locale) {
   return siteContentMap[locale];
 }
@@ -104,6 +115,10 @@ export function getMediaPageContent(locale: Locale) {
 
 export function getContactPageContent(locale: Locale) {
   return contactContentMap[locale];
+}
+
+export function getSustainabilityPageContent(locale: Locale) {
+  return sustainabilityContentMap[locale];
 }
 
 export const defaultSiteContent = enSiteContent;

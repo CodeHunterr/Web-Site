@@ -40,3 +40,4 @@
  GET /en/media 200 in 53ms
  GET /favicon.ico 404 in 201ms
  GET /en/contact 200 in 45ms
+^C^C

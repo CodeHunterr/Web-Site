@@ -107,6 +107,25 @@ export const applicationsPageContent = {
         "Endüstriyel sistemler için tutarlı mineral performansı",
       ],
     },
+    {
+      title: "Çimento",
+      cardDescription:
+        "Çimento sektörünün değişen hammadde ihtiyaçlarına yönelik geliştirilen güvenilir doğal kaolin çözümleri. Pluto Enerji; düzenli üretim altyapısı, güvenilir hammadde arzı ve uzun vadeli iş ortaklığı anlayışıyla çimento üreticileri için sürdürülebilir çözümler sunmayı hedeflemektedir.",
+      description:
+        "Çimento sektörünün değişen hammadde ihtiyaçlarına yönelik geliştirilen güvenilir doğal kaolin çözümleri. Maden sahamızdan üretilen doğal kaolin, çimento sektörünün kalite, süreklilik ve güvenilir tedarik beklentilerini karşılamaya yönelik olarak değerlendirilmektedir. Pluto Enerji, düzenli üretim altyapısı, istikrarlı hammadde arzı ve uzun vadeli iş ortaklığı anlayışıyla çimento üreticilerine güvenilir bir tedarikçi olmayı hedeflemektedir.",
+      features: [
+        "Çimento üretim süreçlerine uygun doğal kaolin tedariki",
+        "Tutarlı kimyasal yapı ve homojen mineral karakterine yönelik kalite yaklaşımı",
+        "Düzenli üretim ile sürdürülebilir ve güvenilir hammadde arzı",
+        "Farklı proses gereksinimlerine uygun teknik değerlendirme ve ürün geliştirme yaklaşımı",
+        "Yüksek alümina potansiyeline sahip mineral yapı, düşük demir içeriğine yönelik kalite geliştirme yaklaşımı",
+        "Düşük karbonlu çimento teknolojileri ve SCM uygulamalarına yönelik gelişmeleri destekleyen ürün geliştirme vizyonu",
+        "Uzun vadeli iş ortaklıklarını destekleyen tedarik modeli",
+        "Değişen sektör ihtiyaçlarına uyum sağlayan Ar-Ge ve sürekli iyileştirme anlayışı",
+      ],
+      detailsCtaLabel: "Detayları Gör",
+      detailsCollapseLabel: "Detayları Kapat",
+    },
   ],
   supplyHighlight: {
     section: {

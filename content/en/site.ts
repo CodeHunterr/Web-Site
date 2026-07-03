@@ -2,7 +2,8 @@ import type { SiteContent } from "../types";
 
 export const siteContent = {
   metadataTitle: "Pluto Enerji",
-  siteDescription: "Raw kaolin supply, refined kaolin portfolio and industrial mineral solutions for B2B buyers.",
+  siteDescription:
+    "Raw kaolin supply, refined kaolin portfolio and industrial mineral solutions for B2B buyers.",
   brandTagline: "Raw & Processed Kaolin Supply",
   companySummary:
     "Pluto Enerji, in its current structure, provides raw kaolin supply for bulk demand in a fast, reliable and commercially flexible manner, while also building an infrastructure suited to future beneficiation and processed product workflows.",
@@ -11,6 +12,7 @@ export const siteContent = {
       { label: "Home", path: "" },
       { label: "About", path: "about" },
       { label: "Kaolin", path: "kaolin" },
+      { label: "Sustainability", path: "sustainability" },
       { label: "Applications", path: "applications" },
       { label: "Media", path: "media" },
       { label: "Contact", path: "contact" },

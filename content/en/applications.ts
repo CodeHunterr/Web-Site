@@ -107,6 +107,25 @@ export const applicationsPageContent = {
         "Consistent industrial supply narrative for B2B buyers",
       ],
     },
+    {
+      title: "Cement",
+      cardDescription:
+        "Reliable natural kaolin solutions developed for the evolving raw material needs of the cement industry. Pluto Enerji aims to provide sustainable solutions for cement producers through disciplined production infrastructure, dependable raw material supply and a long-term partnership approach.",
+      description:
+        "Reliable natural kaolin solutions developed for the evolving raw material requirements of the cement industry. Natural kaolin produced from our mining field is evaluated to meet the cement sector's expectations for quality, continuity and dependable supply. Pluto Enerji aims to be a reliable supplier to cement producers through disciplined production infrastructure, stable raw material availability and a long-term partnership approach.",
+      features: [
+        "Natural kaolin supply aligned with cement production processes",
+        "Quality approach focused on consistent chemistry and homogeneous mineral character",
+        "Sustainable and reliable raw material supply supported by regular production",
+        "Technical evaluation and product development aligned with different process requirements",
+        "Mineral structure with high alumina potential, supported by a quality development approach targeting lower iron content",
+        "Product development vision supporting low-carbon cement technologies and SCM applications",
+        "Supply model designed to support long-term business partnerships",
+        "R&D and continuous improvement approach aligned with evolving sector needs",
+      ],
+      detailsCtaLabel: "View Details",
+      detailsCollapseLabel: "Hide Details",
+    },
   ],
   supplyHighlight: {
     section: {

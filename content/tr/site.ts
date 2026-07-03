@@ -12,6 +12,7 @@ export const siteContent = {
       { label: "Ana Sayfa", path: "" },
       { label: "Hakkımızda", path: "about" },
       { label: "Kaolin", path: "kaolin" },
+      { label: "Sürdürülebilirlik", path: "sustainability" },
       { label: "Uygulamalar", path: "applications" },
       { label: "Medya", path: "media" },
       { label: "İletişim", path: "contact" },

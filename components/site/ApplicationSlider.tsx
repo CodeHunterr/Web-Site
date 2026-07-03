@@ -10,6 +10,7 @@ type ApplicationSliderProps = {
   images: readonly string[];
   alt: string;
   children: ReactNode;
+  baseImage?: string;
   className?: string;
   contentClassName?: string;
   overlayClassName?: string;
@@ -26,6 +27,7 @@ export function ApplicationSlider({
   images,
   alt,
   children,
+  baseImage,
   className,
   contentClassName,
   overlayClassName,
@@ -51,6 +53,19 @@ export function ApplicationSlider({
   return (
     <div className={joinClasses(styles.wrapper, className)} data-parallax>
       <div aria-hidden="true" className={styles.mediaLayer}>
+        {baseImage ? (
+          <div className={styles.baseSlide}>
+            <Image
+              alt={alt}
+              className={styles.baseImage}
+              fill
+              priority={priority}
+              sizes={sizes}
+              src={baseImage}
+            />
+          </div>
+        ) : null}
+
         {safeImages.map((src, index) => (
           <div
             key={`${src}-${index}`}

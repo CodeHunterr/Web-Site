@@ -37,7 +37,7 @@ SAYFA YAPISI:
 ÖZEL DETAYLAR:
 - Hero alanlarında slider + zoom efekti kullanılıyor
 - Bazı bölümlerde full-width arka plan görseller var
-- Sosyal medya ikonları kullanılıyor (LinkedIn, Instagram)
+- Sosyal medya ikonları kullanılıyor (LinkedIn)
 - Yazılar genelde overlay üzerinde okunabilir olacak şekilde konumlandırılıyor
 
 BEKLENTİ:

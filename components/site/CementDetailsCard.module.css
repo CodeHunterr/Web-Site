@@ -1,0 +1,105 @@
+.cardRoot {
+  min-height: 100%;
+}
+
+.cardExpanded {
+  min-height: auto;
+}
+
+.cardFooter {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.detailButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--color-navy-900);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.detailButton:hover {
+  color: var(--color-navy);
+  opacity: 0.86;
+}
+
+.detailButton:active {
+  transform: translateY(0);
+}
+
+.detailCaret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1;
+  transition: transform 0.22s ease;
+}
+
+.detailCaretOpen {
+  transform: rotate(180deg);
+}
+
+.expandedWrap {
+  display: grid;
+  transition:
+    grid-template-rows 0.28s ease,
+    opacity 0.28s ease,
+    margin-top 0.28s ease;
+}
+
+.expandedWrapClosed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+  margin-top: 0;
+}
+
+.expandedWrapOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: 14px;
+}
+
+.expandedInner {
+  overflow: hidden;
+}
+
+.expandedList {
+  margin: 0;
+  padding: 2px 0 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.expandedItem {
+  position: relative;
+  padding-left: 18px;
+  color: var(--color-ink-soft);
+  font-size: 15px;
+  line-height: 1.72;
+}
+
+.expandedItem::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--color-navy) 0%, var(--color-navy-700) 100%);
+}

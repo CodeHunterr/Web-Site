@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { ApplicationSlider } from "../../../components/site/ApplicationSlider";
+import { CementDetailsCard } from "../../../components/site/CementDetailsCard";
 import { FeatureListCard } from "../../../components/site/FeatureListCard";
 import { PageHero } from "../../../components/site/PageHero";
 import { SectionHeading } from "../../../components/site/SectionHeading";
@@ -115,19 +116,47 @@ export default async function ApplicationsPage({
               />
 
               <div className={styles.cardGrid}>
-                {pageContent.sectors.map((item) => (
-                  <FeatureListCard
-                    key={item.title}
-                    title={item.title}
-                    description={item.description}
-                    features={item.features}
-                    className={styles.applicationCard}
-                    titleClassName={styles.cardTitle}
-                    descriptionClassName={styles.cardDescription}
-                    listClassName={styles.featureList}
-                    itemClassName={styles.featureItem}
-                  />
-                ))}
+                {pageContent.sectors.map((item) => {
+                  if (typeof item.detailsCtaLabel === "string") {
+                    const cementItem = item as typeof item & {
+                      cardDescription?: string;
+                      detailsCtaLabel: string;
+                      detailsCollapseLabel?: string;
+                    };
+
+                    return (
+                      <div key={item.title} className={styles.cementCardSlot}>
+                        <CementDetailsCard
+                          title={cementItem.title}
+                          description={cementItem.description}
+                          features={cementItem.features}
+                          detailLabel={cementItem.detailsCtaLabel}
+                          collapseLabel={
+                            cementItem.detailsCollapseLabel ?? cementItem.detailsCtaLabel
+                          }
+                          className={`${styles.applicationCard} ${styles.cementCard}`}
+                          titleClassName={styles.cardTitle}
+                          descriptionClassName={styles.cardDescription}
+                          buttonClassName={styles.cementCardButton}
+                        />
+                      </div>
+                    );
+                  }
+
+                  return (
+                    <FeatureListCard
+                      key={item.title}
+                      title={item.title}
+                      description={item.description}
+                      features={item.features}
+                      className={styles.applicationCard}
+                      titleClassName={styles.cardTitle}
+                      descriptionClassName={styles.cardDescription}
+                      listClassName={styles.featureList}
+                      itemClassName={styles.featureItem}
+                    />
+                  );
+                })}
               </div>
             </div>
           </SiteShell>

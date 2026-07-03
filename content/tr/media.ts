@@ -40,11 +40,6 @@ export const mediaPageContent = {
         href: "https://www.linkedin.com/in/pluto-enerji",
         platform: "linkedin",
       },
-      {
-        label: "Instagram",
-        href: "https://www.instagram.com/plutoenerji",
-        platform: "instagram",
-      },
     ],
   },
   sections: {

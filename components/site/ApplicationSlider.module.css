@@ -18,9 +18,13 @@
   will-change: transform;
 }
 
+.baseSlide,
 .slide {
   position: absolute;
   inset: 0;
+}
+
+.slide {
   transition: opacity 0.8s ease;
   will-change: opacity;
 }
@@ -37,6 +41,13 @@
   object-fit: cover;
   object-position: center;
   animation: applicationZoom var(--slide-zoom-duration, 7s) ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.baseImage {
+  object-fit: cover;
+  object-position: center;
+  animation: applicationZoom 9s ease-in-out infinite alternate;
   will-change: transform;
 }
 

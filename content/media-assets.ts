@@ -51,6 +51,50 @@ export const mediaAssets = {
     src: "/images/Contact/Contact-1.png",
     alt: "Pluto Enerji contact hero background",
   } satisfies GalleryItem,
+  sustainabilityHeroSlides: [
+    {
+      title: "Sustainability Hero 1",
+      description: "Sustainability hero background image for environmental stewardship.",
+      src: "/images/Sustainability/Cevresel-1.jpg",
+      alt: "Pluto Enerji sustainability hero image 1",
+    },
+    {
+      title: "Sustainability Hero 2",
+      description: "Sustainability hero background image for ESG presentation.",
+      src: "/images/Sustainability/Cevresel-2.png",
+      alt: "Pluto Enerji sustainability hero image 2",
+    },
+    {
+      title: "Sustainability Hero 3",
+      description: "Sustainability hero background image for environmental stewardship.",
+      src: "/images/Sustainability/cevresel-3.png",
+      alt: "Pluto Enerji sustainability hero image 3",
+    },
+  ] satisfies GalleryItem[],
+  sustainabilityResponsibilityImage: {
+    title: "Environmental Responsibility",
+    description: "Sustainability image for environmental responsibility section.",
+    src: "/images/Sustainability/Cevresel-2.png",
+    alt: "Pluto Enerji environmental responsibility visual",
+  } satisfies GalleryItem,
+  sustainabilityOverviewImage: {
+    title: "Responsible Mining",
+    description: "Sustainability image for long-term value and responsible mining section.",
+    src: "/images/Sustainability/Maden-.jpg",
+    alt: "Pluto Enerji responsible mining visual",
+  } satisfies GalleryItem,
+  sustainabilityPillarsImage: {
+    title: "ESG Pillars",
+    description: "Sustainability image for ESG pillars section.",
+    src: "/images/Sustainability/cevresel-3.png",
+    alt: "Pluto Enerji ESG pillars visual",
+  } satisfies GalleryItem,
+  sustainabilityFutureImage: {
+    title: "Future Outlook",
+    description: "Sustainability image for future outlook section.",
+    src: "/images/Sustainability/Cevresel-1.jpg",
+    alt: "Pluto Enerji future outlook visual",
+  } satisfies GalleryItem,
   mediaHeroSlides: [
     {
       title: "Media Hero 1",
